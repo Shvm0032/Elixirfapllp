@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { ChevronLeft, ChevronRight, ShoppingCart } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ArrowBigRight} from 'lucide-react';
+import Divider from '../Divider';
 
 export default function ProductsCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -9,46 +10,67 @@ export default function ProductsCarousel() {
   const products = [
     {
       id: 1,
-      name: 'Premium Solution A',
-      image: 'https://images.pexels.com/photos/4065876/pexels-photo-4065876.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-      price: '$299',
-      description: 'High-quality solution designed for professional use.'
+      name: 'Allopathic drug',
+      image: '/Assets/product-img/Allopathic.jpeg',
+      // price: '$299',
+      description: 'Effective modern medicines providing fast relief and trusted healthcare solutions.'
     },
     {
       id: 2,
-      name: 'Advanced System B',
-      image: 'https://images.pexels.com/photos/3861943/pexels-photo-3861943.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-      price: '$499',
-      description: 'Advanced system with cutting-edge technology.'
+      name: 'Cosmetics',
+      image: '/Assets/product-img/Cosmetics.jpeg',
+      // price: '$499',
+      description: 'Enhancing beauty with safe, dermatologically tested cosmetic healthcare products.'
     },
     {
       id: 3,
-      name: 'Professional Kit C',
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-      price: '$399',
-      description: 'Complete professional kit for all your needs.'
+      name: 'Food Supplements',
+      image: '/Assets/product-img/Food.jpeg',
+      // price: '$399',
+      description: 'Nutrient-rich supplements supporting health, vitality, and overall well-being naturally.'
     },
     {
       id: 4,
-      name: 'Enterprise Package D',
-      image: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-      price: '$799',
-      description: 'Comprehensive enterprise solution for large teams.'
+      name: 'Surgical Items',
+      image: '/Assets/product-img/surgical.jpeg',
+      // price: '$799',
+      description: 'High-quality surgical instruments ensuring precision, safety, and reliable performance.'
     },
     {
       id: 5,
-      name: 'Starter Bundle E',
-      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-      price: '$199',
-      description: 'Perfect starter bundle for small businesses.'
+      name: 'Nutraceuticals',
+      image: '/Assets/product-img/nutra.jpeg',
+      // price: '$199',
+      description: 'Science-backed nutraceuticals promoting health, immunity, and overall well-being naturally.'
     },
     {
       id: 6,
-      name: 'Pro Edition F',
-      image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-      price: '$599',
-      description: 'Professional edition with enhanced features.'
-    }
+      name: 'Veterinary',
+      image: '/Assets/product-img/veterinary.jpeg',
+      // price: '$599',
+      description: 'Trusted veterinary solutions ensuring health, care, and well-being for animals.'
+    },
+    {
+      id: 7,
+      name: 'Medical Devices',
+      image: '/Assets/product-img/medical-devices.jpeg',
+      // price: '$599',
+      description: 'Advanced medical devices designed for accurate diagnosis and effective patient care.'
+    },
+    {
+      id: 8,
+      name: 'Herbal Products',
+      image: '/Assets/product-img/herbal-products.jpeg',
+      // price: '$599',
+      description: 'Natural herbal products promoting wellness, immunity, and holistic health care.'
+    },
+    {
+      id: 9,
+      name: 'APIs',
+      image: '/Assets/product-img/Apis.jpeg',
+      // price: '$599',
+      description: 'High-quality APIs ensuring purity, efficacy, and consistency for medicine production.'
+    },
   ];
 
   const nextSlide = () => {
@@ -70,16 +92,14 @@ export default function ProductsCarousel() {
   };
 
   return (
-    <section id="products" className="py-20 bg-white">
+    <section id="products" className="py-20 bg-[#EDF4FA]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
             Our Products
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Discover our comprehensive range of high-quality products designed 
-            to meet your specific needs and exceed your expectations.
-          </p>
+          <Divider/>
+          
         </div>
 
         <div className="relative">
@@ -96,7 +116,7 @@ export default function ProductsCarousel() {
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-opacity duration-300" />
                 </div>
@@ -108,12 +128,13 @@ export default function ProductsCarousel() {
                     {product.description}
                   </p>
                   <div className="flex items-center justify-between">
-                    <span className="text-2xl font-bold text-blue-600">
+                    {/* <span className="text-2xl font-bold text-blue-600">
                       {product.price}
-                    </span>
-                    <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center space-x-2 transition-colors duration-300">
-                      <ShoppingCart size={18} />
-                      <span>Add to Cart</span>
+                    </span> */}
+                    <button className="bg-[#009136] hover:bg-[#B3CB02] text-white px-4 py-2 rounded-lg flex items-center space-x-2 transition-colors duration-300">
+                     
+                      <span>View More</span>
+                       <ArrowBigRight  size={18} />
                     </button>
                   </div>
                 </div>
@@ -143,7 +164,7 @@ export default function ProductsCarousel() {
               key={index}
               onClick={() => setCurrentIndex(index)}
               className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                index === currentIndex ? 'bg-blue-600' : 'bg-gray-300'
+                index === currentIndex ? 'bg-[#009136]' : 'bg-gray-300'
               }`}
             />
           ))}

@@ -1,44 +1,77 @@
-import { Phone, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import {
+  Phone,
+  Mail,
+  MapPin,
+  Facebook,
+  Youtube,
+  Instagram,
+} from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
   const usefulLinks = [
-    { name: 'About Us', href: '#about' },
-    { name: 'Products', href: '#products' },
-    { name: 'Services', href: '#services' },
-    { name: 'Contact', href: '#contact' },
-    { name: 'Blog', href: '#blog' },
-    { name: 'Careers', href: '#careers' },
-    { name: 'Privacy Policy', href: '#privacy' },
-    { name: 'Terms of Service', href: '#terms' }
+    { name: "About Us", href: "#about" },
+    { name: "Products", href: "#products" },
+    { name: "Services", href: "#services" },
   ];
 
   return (
-    <footer id="contact" className="bg-gray-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+    <footer id="contact" className="bg-white text-gray-700 border-t-2 relative">
+      {/* Background Overlay Image */}
+      <div
+        className="absolute bottom-10 right-0 w-40 h-40 bg-no-repeat bg-contain opacity-20 pointer-events-none"
+        style={{ backgroundImage: "url('/Assets/logos/elixir-logo-main.png')" }}
+      ></div>
+
+      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center text-center md:text-left">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-blue-400">YourCompany</h3>
-            <p className="text-gray-300 leading-relaxed">
-              We are dedicated to providing exceptional products and services 
-              that exceed our customers' expectations. Our commitment to innovation 
-              and quality has made us a trusted partner for businesses worldwide.
+            <div className="flex-shrink-0">
+              <Link href="/">
+                <img
+                  src="/Assets/logos/elixir-logo-main.png"
+                  alt="Logo"
+                  className="h-[100px] w-auto cursor-pointer mx-auto md:mx-0"
+                />
+              </Link>
+            </div>
+            <p className="text-gray-700 leading-relaxed text-sm text-justify">
+              Elixir Far LLP offers trusted medical solutions ensuring health,
+              safety, and care.
             </p>
-            <p className="text-gray-300">
-              Join thousands of satisfied customers who have chosen us as their 
-              preferred solution provider.
-            </p>
+            {/* Social Icons */}
+            <div className="flex justify-center md:justify-start space-x-3">
+              <a
+                href="#"
+                className="bg-[#0AA0DD] text-white p-2 rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200"
+              >
+                <Facebook size={16} />
+              </a>
+              <a
+                href="#"
+                className="bg-[#009136] text-white p-2 rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200"
+              >
+                <Instagram size={16} />
+              </a>
+              <a
+                href="#"
+                className="bg-[#B3CB02] text-white p-2 rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200"
+              >
+                <Youtube size={16} />
+              </a>
+            </div>
           </div>
 
           {/* Useful Links */}
           <div className="space-y-4">
-            <h4 className="text-xl font-semibold">Useful Links</h4>
-            <div className="grid grid-cols-2 gap-2">
+            <h4 className="text-2xl font-semibold">Useful Links</h4>
+            <div className="grid grid-cols-1 gap-3">
               {usefulLinks.map((link, index) => (
                 <a
                   key={index}
                   href={link.href}
-                  className="text-gray-300 hover:text-blue-400 transition-colors duration-200"
+                  className="text-gray-700 hover:text-[#0AA0DD] transition-colors duration-200"
                 >
                   {link.name}
                 </a>
@@ -48,41 +81,23 @@ export default function Footer() {
 
           {/* Contact Information */}
           <div className="space-y-4">
-            <h4 className="text-xl font-semibold">Contact Information</h4>
-            <div className="space-y-3">
-              <div className="flex items-center space-x-3">
-                <Phone size={18} className="text-blue-400" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+            <h4 className="text-2xl font-semibold">Contact Information</h4>
+            <div className="space-y-2">
+              <div className="flex items-center justify-center md:justify-start space-x-3">
+                <Phone size={18} className="text-[#009136]" />
+                <span className="text-gray-700">+1 (555) 123-4567</span>
               </div>
-              <div className="flex items-center space-x-3">
-                <Mail size={18} className="text-blue-400" />
-                <span className="text-gray-300">info@yourcompany.com</span>
+              <div className="flex items-center justify-center md:justify-start space-x-3">
+                <Mail size={18} className="text-[#009136]" />
+                <span className="text-gray-700">info@yourcompany.com</span>
               </div>
-              <div className="flex items-center space-x-3">
-                <MapPin size={18} className="text-blue-400" />
-                <span className="text-gray-300">
-                  123 Business Street, Suite 100<br />
+              <div className="flex items-center justify-center md:justify-start space-x-3">
+                <MapPin size={18} className="text-[#009136]" />
+                <span className="text-gray-700">
+                  123 Business Street, Suite 100
+                  <br />
                   City, State 12345
                 </span>
-              </div>
-            </div>
-            
-            {/* Social Icons */}
-            <div className="pt-4">
-              <h5 className="text-lg font-medium mb-3">Follow Us</h5>
-              <div className="flex space-x-4">
-                <a href="#" className="text-gray-300 hover:text-blue-400 transition-colors duration-200">
-                  <Facebook size={24} />
-                </a>
-                <a href="#" className="text-gray-300 hover:text-blue-400 transition-colors duration-200">
-                  <Twitter size={24} />
-                </a>
-                <a href="#" className="text-gray-300 hover:text-pink-400 transition-colors duration-200">
-                  <Instagram size={24} />
-                </a>
-                <a href="#" className="text-gray-300 hover:text-blue-600 transition-colors duration-200">
-                  <Linkedin size={24} />
-                </a>
               </div>
             </div>
           </div>
@@ -90,14 +105,12 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">
-              © 2025 YourCompany. All rights reserved.
-            </p>
-            <p className="text-gray-400 text-sm mt-2 md:mt-0">
-              Designed with ❤️ for excellence
+      <div className="bg-[#0AA0DD] mt-3">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <div className="flex justify-center items-center">
+            <p className="text-white text-sm text-center">
+              © 2025 Elixir Far LLP. All Rights Reserved. | Designed & Developed
+              by Rank Mantra
             </p>
           </div>
         </div>

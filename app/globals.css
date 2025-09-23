@@ -7,6 +7,13 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+body, p, span, a, li, div {
+  font-family: var(--font-poppins), sans-serif;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
