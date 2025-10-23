@@ -15,7 +15,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Your Company - Quality Products & Services",
+  title: "elixirfarllp",
   description:
     "Leading provider of quality products and exceptional services. Discover our range of solutions designed to meet your needs.",
     icons: {
