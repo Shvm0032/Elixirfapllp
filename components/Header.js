@@ -188,7 +188,7 @@ export default function Header() {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden bg-white border-t shadow-lg">
-            <nav className="px-4 py-4 space-y-2 flex flex-col items-center">
+            <nav className="px-4 py-4 space-y-2 flex flex-col items-left">
               {navigation.map((item) =>
                 item.name === "Products" ? (
                   <div key={item.name} className="w-full text-center">

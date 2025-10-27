@@ -16,7 +16,7 @@ export default function FeatureSection() {
       button: "View >",
       bg: "bg-[#009136]",
       buttonBg: "bg-[#0AA0DD]",
-      link: "products?category=medical-devices",
+      link: "/products?category=medical-devices",
     },
     {
       title: "Surgical Products",
@@ -35,51 +35,50 @@ export default function FeatureSection() {
   ];
 
   return (
-    <section className="relative">
+    <section className="relative w-full">
       {/* Background Image Section */}
-      <div className="w-full h-[500px] relative flex flex-col justify-center items-center text-center px-4">
+      <div className="relative w-full h-[70vh] md:h-[500px] flex flex-col justify-center items-center text-center px-4 md:px-8 overflow-hidden">
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/Assets/home-img/elixir-1.jpg')" }}
         ></div>
 
-        {/* Black Overlay */}
+        {/* Overlay */}
         <div className="absolute inset-0 bg-black opacity-40"></div>
 
         {/* Text Content */}
-        <div className="relative z-10">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-2">
+        <div className="relative z-10 max-w-3xl">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white mb-3 leading-tight">
             Trusted Medical Solutions for a Healthier Tomorrow
           </h2>
-          <h3 className="text-xl md:text-2xl text-white mb-4">
+          <h3 className="text-lg sm:text-xl md:text-2xl text-white mb-4">
             Quality Medicines Delivered with Care and Reliability
           </h3>
-          <p className="text-white">
-            At Elixir Far LLP, we are committed to providing safe and effective
-            medical solutions. Our wide range of pharmaceutical products ensures
-            the health and well-being of every individual. Experience trusted
-            service, timely delivery, and exceptional care with us.
-          </p>
+          
         </div>
       </div>
 
-      {/* Overlay Cards Section */}
-      <div className="relative w-full max-w-5xl mx-auto px-4 -mt-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 p-0 rounded-lg">
+      {/* Cards Section */}
+      <div
+        className="
+          relative w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 
+          mt-6 sm:mt-10 md:-mt-20  /* only overlap on medium+ screens */
+        "
+      >
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 rounded-lg">
           {cards.map((card, index) => (
             <div
               key={index}
-              className={`flex flex-col justify-between items-center p-5 hover:shadow-xl transition-shadow duration-300 ${card.bg}`}
+              className={`flex flex-col justify-between items-center p-6 sm:p-5 md:p-6 rounded-lg text-center ${card.bg} hover:shadow-xl transition-all duration-300`}
             >
-              <h4 className="text-xl text-white font-semibold mb-4 text-center">
+              <h4 className="text-lg sm:text-xl md:text-2xl text-white font-semibold mb-4">
                 {card.title}
               </h4>
 
-              {/* Button with Link */}
               <Link href={card.link}>
                 <button
-                  className={`px-4 py-2 rounded-full mt-10 text-white ${card.buttonBg} hover:scale-95 transition-transform duration-200`}
+                  className={`px-4 py-2 rounded-full text-white text-sm sm:text-base ${card.buttonBg} hover:scale-95 transition-transform duration-200`}
                 >
                   {card.button}
                 </button>

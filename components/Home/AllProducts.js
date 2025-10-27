@@ -1,53 +1,16 @@
 "use client";
-import Link from "next/link";
-import Slider from "react-slick";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
 import Image from "next/image";
+import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Divider from "../Divider";
 import { products } from "@/data/products";
 
-function NextArrow({ onClick }) {
-  return (
-    <div
-      className="absolute top-1/2 -translate-y-1/2 right-[-50px] z-50 cursor-pointer w-12 h-12 bg-[#B3CB02] text-white rounded-full flex items-center justify-center shadow-lg hover:bg-[#009136] transition"
-      onClick={onClick}
-    >
-      <ChevronRight size={24} />
-    </div>
-  );
-}
-
-function PrevArrow({ onClick }) {
-  return (
-    <div
-      className="absolute top-1/2 -translate-y-1/2 left-[-50px] z-50 cursor-pointer w-12 h-12 bg-[#B3CB02] text-white rounded-full flex items-center justify-center shadow-lg hover:bg-[#009136] transition"
-      onClick={onClick}
-    >
-      <ChevronLeft size={24} />
-    </div>
-  );
-}
-
 export default function AllProducts() {
-  const settings = {
-    infinite: true,
-    speed: 800,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2500,
-    pauseOnHover: true,
-    cssEase: "ease-in-out",
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-    responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 2, slidesToScroll: 1 } },
-      { breakpoint: 640, settings: { slidesToShow: 1, slidesToScroll: 1 } },
-    ],
-  };
-
   return (
     <section className="py-16 px-4 bg-[#EFF5FA] relative">
       <div className="max-w-6xl mx-auto text-center mb-8">
@@ -55,13 +18,44 @@ export default function AllProducts() {
         <Divider />
       </div>
 
-      <div className="max-w-5xl mx-auto relative px-2">
-        <Slider {...settings}>
+      <div className="max-w-6xl mx-auto relative">
+        {/* Custom Navigation Buttons */}
+        <div className="absolute top-1/2 -translate-y-1/2 left-2 z-20">
+          <button className="swiper-button-prev-custom bg-[#B3CB02] text-white p-3 rounded-full hover:bg-[#009136] transition">
+            <ChevronLeft size={22} />
+          </button>
+        </div>
+
+        <div className="absolute top-1/2 -translate-y-1/2 right-2 z-20">
+          <button className="swiper-button-next-custom bg-[#B3CB02] text-white p-3 rounded-full hover:bg-[#009136] transition">
+            <ChevronRight size={22} />
+          </button>
+        </div>
+
+        {/* Swiper Slider */}
+        <Swiper
+          modules={[Navigation, Autoplay]}
+          navigation={{
+            nextEl: ".swiper-button-next-custom",
+            prevEl: ".swiper-button-prev-custom",
+          }}
+          autoplay={{ delay: 2500, disableOnInteraction: false }}
+          loop={true}
+          speed={800}
+          spaceBetween={24}
+          breakpoints={{
+            0: { slidesPerView: 1 },
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
+          className="px-6"
+        >
           {products.map((product) => (
-            <div key={product.id} className="px-3">
+            <SwiperSlide key={product.id}>
               <div className="bg-white rounded-lg shadow-xl overflow-hidden hover:shadow-2xl transition duration-300">
                 {/* Image */}
-                <div className="relative w-full h-48 overflow-hidden rounded cursor-pointer">
+                <div className="relative w-full h-48 overflow-hidden cursor-pointer">
                   <Link
                     href={`/products/${product.category}/${product.slug}`}
                     className="block w-full h-full"
@@ -76,7 +70,7 @@ export default function AllProducts() {
                 </div>
 
                 {/* Details */}
-                <div className="p-4">
+                <div className="p-4 text-center sm:text-left">
                   <Link
                     href={`/products/${product.category}/${product.slug}`}
                     className="block"
@@ -91,6 +85,7 @@ export default function AllProducts() {
                       ? product.description.substring(0, 60) + "..."
                       : product.description}
                   </p>
+
                   <p className="text-sm text-[#B3CB02] mb-4">
                     {product.category === "ayurvedic"
                       ? "Ayurvedic & Herbal Products"
@@ -108,9 +103,9 @@ export default function AllProducts() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </SwiperSlide>
           ))}
-        </Slider>
+        </Swiper>
       </div>
 
       {/* Explore More Button */}

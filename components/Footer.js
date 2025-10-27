@@ -37,24 +37,24 @@ export default function Footer() {
       ></div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center text-center md:text-left">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
-          <div className="space-y-4">
+          <div className="space-y-4 text-left">
             <div className="flex-shrink-0">
               <Link href="/">
                 <img
                   src="/Assets/logos/elixir-logo-main.png"
                   alt="Logo"
-                  className="h-[100px] w-auto cursor-pointer mx-auto md:mx-0"
+                  className="h-[100px] w-auto cursor-pointer"
                 />
               </Link>
             </div>
-            <p className="text-gray-700 leading-relaxed text-sm text-justify">
+            <p className="text-gray-700 leading-relaxed text-sm text-justify sm:text-left">
               Elixir Far LLP offers trusted medical solutions ensuring health,
               safety, and care.
             </p>
             {/* Social Icons */}
-            <div className="flex justify-center md:justify-start space-x-3">
+            <div className="flex space-x-3">
               <a
                 href="#"
                 className="bg-[#0AA0DD] text-white p-2 rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200"
@@ -77,7 +77,7 @@ export default function Footer() {
           </div>
 
           {/* Useful Links */}
-          <div className="space-y-4">
+          <div className="space-y-4 text-left">
             <h4 className="text-2xl font-semibold">Useful Links</h4>
             <div className="grid grid-cols-1 gap-3">
               {usefulLinks.map((link, index) =>
@@ -85,7 +85,7 @@ export default function Footer() {
                   <div key={index} className="relative">
                     <button
                       onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                      className="flex items-center justify-center md:justify-start w-full text-gray-700 hover:text-[#0AA0DD] transition-colors duration-200"
+                      className="flex items-center text-gray-700 hover:text-[#0AA0DD] transition-colors duration-200"
                     >
                       {link.name}
                       <ChevronDown
@@ -125,23 +125,23 @@ export default function Footer() {
           </div>
 
           {/* Contact Information */}
-          <div className="space-y-4">
+          <div className="space-y-4 text-left">
             <h4 className="text-2xl font-semibold">Contact Information</h4>
             <div className="space-y-2">
-              <div className="flex items-center justify-center md:justify-start space-x-3">
+              <div className="flex items-center space-x-3">
                 <Phone size={18} className="text-[#009136]" />
                 <span className="text-gray-700">+1 (555) 123-4567</span>
               </div>
-              <div className="flex items-center justify-center md:justify-start space-x-3">
+              <div className="flex items-center space-x-3">
                 <Mail size={18} className="text-[#009136]" />
                 <span className="text-gray-700">info@elixirllp.com</span>
               </div>
-              <div className="flex items-center justify-center md:justify-start space-x-3">
-                <MapPin size={18} className="text-[#009136]" />
+              <div className="flex items-start space-x-3">
+                <MapPin size={18} className="text-[#009136] mt-1" />
                 <span className="text-gray-700">
                   Address
                   <br />
-                  
+                  123 Business Avenue, Mumbai, India
                 </span>
               </div>
             </div>
@@ -152,12 +152,10 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="bg-[#0AA0DD] mt-3">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex justify-center items-center">
-            <p className="text-white text-sm text-center">
-              © 2025 Elixir Far LLP. All Rights Reserved. | Designed & Developed
-              by Rank Mantra
-            </p>
-          </div>
+          <p className="text-white text-sm text-center">
+            © 2025 Elixir Far LLP. All Rights Reserved. | Designed & Developed by
+            Rank Mantra
+          </p>
         </div>
       </div>
     </footer>
