@@ -26,10 +26,19 @@ export default function Header() {
   }, []);
 
   const navigation = [
-    { name: "Home", href: "/" },
-    { name: "About Us", href: "#about" },
-    { name: "Products", href: "/products" }, // Will have dropdown
-    { name: "Contact Us", href: "#contact" },
+    // { name: "Home", href: "/" },
+    { name: "About", href: "#about" },
+    // { name: "Products", href: "/products" },
+    {
+      name: "Ayurvedic & Herbal Products",
+      href: "/products?category=ayurvedic",
+    },
+    {
+      name: "Medical Devices & Other Product",
+      href: "/products?category=medical-devices",
+    },
+    { name: "Surgical Products", href: "/products?category=surgical" },
+    { name: "Test Cards & Test Strips", href: "/products?category=test-card" },
   ];
 
   return (
@@ -73,10 +82,12 @@ export default function Header() {
       {/* Main Header */}
       <header
         className={`w-full transition-all duration-300 z-50 ${
-          isSticky ? "fixed top-0 bg-white shadow-lg" : "bg-white border shadow-lg"
+          isSticky
+            ? "fixed top-0 bg-white shadow-lg"
+            : "bg-white border shadow-lg"
         }`}
       >
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-auto">
             {/* Left: Logo */}
             <div className="flex-shrink-0">
@@ -90,7 +101,7 @@ export default function Header() {
             </div>
 
             {/* Center: Navigation */}
-            <nav className="hidden md:flex space-x-8 mx-auto relative">
+            <nav className="hidden md:flex gap-[4px] mx-auto relative">
               {navigation.map((item) =>
                 item.name === "Products" ? (
                   <div
@@ -123,13 +134,13 @@ export default function Header() {
                           Medical Devices & Other Product
                         </Link>
                         <Link
-                          href="#"
+                          href="/products?category=surgical"
                           className="block text-sm px-2 py-2 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
                           Surgical Products
                         </Link>
                         <Link
-                          href="#"
+                          href="/products?category=test-card"
                           className="block text-sm px-2 py-2 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
                           Test Cards & Test Strips
@@ -151,13 +162,15 @@ export default function Header() {
 
             {/* Right: Button + Hamburger */}
             <div className="flex items-center space-x-4">
-              <button
-                className="bg-[#B3CB02] text-white px-4 py-2 rounded-md 
-                transform transition-transform duration-300 ease-in-out 
-                hover:scale-90 hover:bg-[#009136] mt-2"
-              >
-                Enquiry Now
-              </button>
+              <Link href="/contact">
+                <button
+                  className="bg-[#B3CB02] text-white px-4 py-2 rounded-md 
+        transform transition-transform duration-300 ease-in-out 
+        hover:scale-90 hover:bg-[#009136] mt-2"
+                >
+                  Enquiry Now
+                </button>
+              </Link>
 
               {/* Mobile Hamburger */}
               <div className="md:hidden ml-2">
@@ -222,13 +235,15 @@ export default function Header() {
                 )
               )}
 
-              <button
-                className="bg-[#B3CB02] text-white px-4 py-2 rounded-md 
-                transform transition-transform duration-300 ease-in-out 
-                hover:scale-90 hover:bg-[#009136] mt-2"
-              >
-                Enquiry Now
-              </button>
+              <Link href="/contact">
+                <button
+                  className="bg-[#B3CB02] text-white px-4 py-2 rounded-md 
+        transform transition-transform duration-300 ease-in-out 
+        hover:scale-90 hover:bg-[#009136] mt-2"
+                >
+                  Enquiry Now
+                </button>
+              </Link>
             </nav>
           </div>
         )}

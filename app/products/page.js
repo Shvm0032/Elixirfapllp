@@ -2,24 +2,46 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useSearchParams } from "next/navigation"; 
+import { useSearchParams } from "next/navigation";
+import { useState, useEffect } from "react";
 import { products } from "@/data/products";
 import Divider from "@/components/Divider";
 
 export default function ProductsPage() {
   const searchParams = useSearchParams();
-  const category = searchParams.get("category"); 
+  const category = searchParams.get("category");
 
   // Filter products by category if one is selected
   const filteredProducts = category
     ? products.filter((p) => p.category === category)
     : products;
 
-  // Dynamic title based on category
+  // Pagination setup
+  const [currentPage, setCurrentPage] = useState(1);
+  const productsPerPage = 12;
+  const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
+
+  // Reset to page 1 when category changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [category]);
+
+  // Get products for current page
+  const startIndex = (currentPage - 1) * productsPerPage;
+  const endIndex = startIndex + productsPerPage;
+  const currentProducts = filteredProducts.slice(startIndex, endIndex);
+
+  // Dynamic title
   const title = category
     ? category === "ayurvedic"
       ? "Ayurvedic & Herbal Products"
-      : "Medical Devices & Other Products"
+      : category === "medical-devices"
+      ? "Medical Devices & Other Products"
+      : category === "test-card"
+      ? "Test Cards And Test Strips"
+      : category === "surgical"
+      ? "Surgical Products"
+      : "All Products"
     : "All Products";
 
   return (
@@ -27,14 +49,13 @@ export default function ProductsPage() {
       {/* Title */}
       <div className="max-w-6xl mx-auto text-center mb-8">
         <h2 className="text-3xl font-bold mb-2">{title}</h2>
-        <Divider/>
-      
+        <Divider />
       </div>
 
       {/* Products Grid */}
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredProducts.length > 0 ? (
-          filteredProducts.map((product) => (
+        {currentProducts.length > 0 ? (
+          currentProducts.map((product) => (
             <div
               key={product.id}
               className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition"
@@ -68,8 +89,6 @@ export default function ProductsPage() {
                       ? product.description.substring(0, 60) + "..."
                       : product.description}
                   </p>
-                   
-                  {/* <p className="text-lg font-semibold">₹ {product.price}</p> */}
                 </div>
 
                 {/* View Product Button */}
@@ -88,6 +107,25 @@ export default function ProductsPage() {
           </p>
         )}
       </div>
+
+      {/* Pagination */}
+      {totalPages > 1 && (
+        <div className="flex justify-center mt-10 space-x-2">
+          {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+            <button
+              key={page}
+              onClick={() => setCurrentPage(page)}
+              className={`px-4 py-2 rounded ${
+                currentPage === page
+                  ? "bg-[#009136] text-white"
+                  : "bg-white text-[#009136] border border-[#009136]"
+              } hover:bg-[#B3CB02] hover:text-white transition`}
+            >
+              {page}
+            </button>
+          ))}
+        </div>
+      )}
     </section>
   );
 }

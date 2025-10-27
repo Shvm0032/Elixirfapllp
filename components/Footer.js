@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import {
   Phone,
   Mail,
@@ -5,14 +8,24 @@ import {
   Facebook,
   Youtube,
   Instagram,
+  ChevronDown,
 } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
   const usefulLinks = [
-    { name: "About Us", href: "#about" },
-    { name: "Products", href: "#products" },
-    { name: "Services", href: "#services" },
+    { name: "About", href: "#" },
+    { name: "Contact", href: "contact" },
+    { name: "Product Category", href: "#" },
+  ];
+
+  const categories = [
+    { name: "Ayurvedic & Herbal Products", href: "/products?category=ayurvedic" },
+    { name: "Medical Devices & Other Product", href: "/products?category=medical-devices" },
+    { name: "Surgical Products", href: "/products?category=surgical" },
+    { name: "Test Cards & Test Strips", href: "/products?category=test-card" },
   ];
 
   return (
@@ -23,7 +36,7 @@ export default function Footer() {
         style={{ backgroundImage: "url('/Assets/logos/elixir-logo-main.png')" }}
       ></div>
 
-      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center text-center md:text-left">
           {/* Company Info */}
           <div className="space-y-4">
@@ -67,15 +80,47 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="text-2xl font-semibold">Useful Links</h4>
             <div className="grid grid-cols-1 gap-3">
-              {usefulLinks.map((link, index) => (
-                <a
-                  key={index}
-                  href={link.href}
-                  className="text-gray-700 hover:text-[#0AA0DD] transition-colors duration-200"
-                >
-                  {link.name}
-                </a>
-              ))}
+              {usefulLinks.map((link, index) =>
+                link.name === "Product Category" ? (
+                  <div key={index} className="relative">
+                    <button
+                      onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                      className="flex items-center justify-center md:justify-start w-full text-gray-700 hover:text-[#0AA0DD] transition-colors duration-200"
+                    >
+                      {link.name}
+                      <ChevronDown
+                        size={16}
+                        className={`ml-1 transition-transform ${
+                          isDropdownOpen ? "rotate-180" : "rotate-0"
+                        }`}
+                      />
+                    </button>
+
+                    {/* Dropdown */}
+                    {isDropdownOpen && (
+                      <div className="ml-4 mt-2 space-y-2">
+                        {categories.map((cat, i) => (
+                          <Link
+                            key={i}
+                            href={cat.href}
+                            className="block text-sm text-gray-600 hover:text-[#0AA0DD] transition-colors duration-200"
+                          >
+                            {cat.name}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <a
+                    key={index}
+                    href={link.href}
+                    className="text-gray-700 hover:text-[#0AA0DD] transition-colors duration-200"
+                  >
+                    {link.name}
+                  </a>
+                )
+              )}
             </div>
           </div>
 
@@ -89,14 +134,14 @@ export default function Footer() {
               </div>
               <div className="flex items-center justify-center md:justify-start space-x-3">
                 <Mail size={18} className="text-[#009136]" />
-                <span className="text-gray-700">info@yourcompany.com</span>
+                <span className="text-gray-700">info@elixirllp.com</span>
               </div>
               <div className="flex items-center justify-center md:justify-start space-x-3">
                 <MapPin size={18} className="text-[#009136]" />
                 <span className="text-gray-700">
-                  123 Business Street, Suite 100
+                  Address
                   <br />
-                  City, State 12345
+                  
                 </span>
               </div>
             </div>

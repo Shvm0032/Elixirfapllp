@@ -23,14 +23,14 @@ export default function FeatureSection() {
       button: "View >",
       bg: "bg-[#B3CB02]",
       buttonBg: "bg-[#009136]",
-      link: "#",
+      link: "/products?category=surgical",
     },
     {
       title: "Test Cards & Test Strips",
       button: "View >",
       bg: "bg-[#009136]",
       buttonBg: "bg-[#0AA0DD]",
-      link: "#",
+      link: "/products?category=test-card",
     },
   ];
 

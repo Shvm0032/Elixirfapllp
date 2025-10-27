@@ -7,6 +7,8 @@ import Image from "next/image";
 // Import both slider components
 import AyurvedicProducts from "@/components/Home/AyurvedicProducts";
 import MedicalProducts from "@/components/Home/MedicalDevices";
+import SurgicalProducts from "@/components/Home/SurgicalProducts";
+import TestCardsProducts from "@/components/Home/TestCardsProducts";
 
 export default function ProductDetails({ product }) {
   const [mainImage, setMainImage] = useState(product.images[0]);
@@ -54,13 +56,13 @@ export default function ProductDetails({ product }) {
         <div className="md:w-1/2 mt-6 md:mt-0 flex flex-col justify-between">
           <div>
             <p className="text-sm text-[#009136] mb-4">
-                    {product.category === "ayurvedic"
-                      ? "Ayurvedic & Herbal Products"
-                      : product.category === "medical-devices"
-                      ? "Medical Devices & Other Products"
-                      : product.category.charAt(0).toUpperCase() +
-                        product.category.slice(1)}
-                  </p>
+              {product.category === "ayurvedic"
+                ? "Ayurvedic & Herbal Products"
+                : product.category === "medical-devices"
+                ? "Medical Devices & Other Products"
+                : product.category.charAt(0).toUpperCase() +
+                  product.category.slice(1)}
+            </p>
             <h1 className="text-2xl font-bold mb-2">{product.title}</h1>
             <p className="text-md text-gray-600 mb-4">{shortDescription}</p>
 
@@ -101,13 +103,18 @@ export default function ProductDetails({ product }) {
         </div>
       </div>
 
-      {/* 👇 Category-based sliders at the bottom */}
       {/* Show slider based on category */}
       <div className="mt-10">
         {product.category === "ayurvedic" ? (
           <AyurvedicProducts />
-        ) : (
+        ) : product.category === "medical-devices" ? (
           <MedicalProducts />
+        ) : product.category === "test-card" ? (
+          <TestCardsProducts />
+        ) : product.category === "surgical" ? (
+          <SurgicalProducts />
+        ) : (
+          <AllProducts />
         )}
       </div>
     </div>
