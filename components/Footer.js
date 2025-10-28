@@ -16,8 +16,8 @@ export default function Footer() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const usefulLinks = [
-    { name: "About", href: "#" },
-    { name: "Contact", href: "contact" },
+    { name: "About", href: "/about" },
+    { name: "Contact", href: "/contact" },
     { name: "Product Category", href: "#" },
   ];
 
