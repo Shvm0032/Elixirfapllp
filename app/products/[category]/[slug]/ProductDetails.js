@@ -82,7 +82,7 @@ export default function ProductDetails({ product }) {
 
             {/* Buttons */}
             <div className="flex flex-wrap gap-4 mt-4">
-              <Link href="/booking">
+              <Link href="#">
                 <button className="px-6 py-3 bg-[#B3CB02] text-white font-semibold rounded transform transition hover:scale-95 hover:bg-[#007a29]">
                   Book Now
                 </button>

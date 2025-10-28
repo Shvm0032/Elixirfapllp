@@ -2,6 +2,7 @@
 
 import { CheckCircle } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function AboutSection() {
   const features = [
@@ -63,9 +64,11 @@ export default function AboutSection() {
             </div>
 
             {/* Button */}
+            <Link href="/about">
             <button className="mt-8 bg-[#009136] hover:bg-[#007d2c] text-white px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold text-sm sm:text-base transition-all duration-300">
               Read More About Us
             </button>
+            </Link>
           </div>
 
           {/* ✅ Image Section (mobile pe neeche, desktop pe right) */}
