@@ -41,6 +41,18 @@ export default function ProductsPage() {
       ? "Test Cards And Test Strips"
       : category === "surgical"
       ? "Surgical Products"
+      : category === "antibiotics"
+      ? "Antibiotics"
+      : category === "antidiabetic"
+      ? "Anti Diabetic"
+      : category === "cardiovascular"
+      ? "Cardio Vascular"
+      : category === "analgesics"
+      ? "Analgesics"
+      : category === "eye-ear-and-nasal-drops"
+      ? "EYE/EAR & NASAL DROPS"
+      : category === "injectable-antibiotic"
+      ? "INJECTABLE (ANTIBIOTIC)"
       : "All Products"
     : "All Products";
 

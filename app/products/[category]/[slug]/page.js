@@ -1,7 +1,7 @@
 import { products } from "@/data/products";
 import ProductDetails from "./ProductDetails";
 
-// ✅ Add this function so Next.js can pre-generate all product pages
+//Add this function so Next.js can pre-generate all product pages
 export async function generateStaticParams() {
   return products.map((product) => ({
     category: product.category,

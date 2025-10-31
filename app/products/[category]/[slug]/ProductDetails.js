@@ -9,11 +9,17 @@ import AyurvedicProducts from "@/components/Home/AyurvedicProducts";
 import MedicalProducts from "@/components/Home/MedicalDevices";
 import SurgicalProducts from "@/components/Home/SurgicalProducts";
 import TestCardsProducts from "@/components/Home/TestCardsProducts";
+import Antibiotics from "@/components/Home/Antibiotics";
+import Antidiabetic from "@/components/Home/Antidiabetic";
+import Cardiovascular from "@/components/Home/Cardiovascular";
+import Analgesics from "@/components/Home/Analgesics";
+import EyeEarNasal from "@/components/Home/EyeEarNasal";
+import InjectableAntibiotic from "@/components/Home/InjectableAntibiotic";
 
 export default function ProductDetails({ product }) {
   const [mainImage, setMainImage] = useState(product.images[0]);
-  const shortDescription =
-    product.description.split(" ").slice(0, 20).join(" ") + "...";
+  // const shortDescription =
+  //   product.description.split(" ").slice(0, 20).join(" ") + "...";
 
   return (
     <div className="max-w-6xl mx-auto py-16 px-4">
@@ -64,7 +70,7 @@ export default function ProductDetails({ product }) {
                   product.category.slice(1)}
             </p>
             <h1 className="text-2xl font-bold mb-2">{product.title}</h1>
-            <p className="text-md text-gray-600 mb-4">{shortDescription}</p>
+            <p className="text-md text-gray-600 mb-4">{product.description}</p>
 
             {/* Ingredients — only for Ayurvedic */}
             {product.category === "ayurvedic" && (
@@ -113,6 +119,18 @@ export default function ProductDetails({ product }) {
           <TestCardsProducts />
         ) : product.category === "surgical" ? (
           <SurgicalProducts />
+        ) : product.category === "antibiotics" ? (
+          <Antibiotics/>
+        ) : product.category === "antidiabetic" ? (
+          <Antidiabetic/>
+        ) : product.category === "cardiovascular" ? (
+          <Cardiovascular/>
+        ) : product.category === "analgesics" ? (
+          <Analgesics/>
+        ) : product.category === "eye-ear-and-nasal-drops" ? (
+          <EyeEarNasal/>
+        ) : product.category === "injectable-antibiotic" ? (
+          <InjectableAntibiotic/>
         ) : (
           <AllProducts />
         )}

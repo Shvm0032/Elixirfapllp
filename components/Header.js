@@ -18,12 +18,24 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  
+
 
   useEffect(() => {
     const handleScroll = () => setIsSticky(window.scrollY > 100);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const medicines = [
+  { name: "Antibiotics", href: "/products?category=antibiotics" },
+  { name: "Antidiabetics", href: "/products?category=antidiabetic" },
+  { name: "Cardio-Vascular", href: "/products?category=cardiovascular" },
+  { name: "Analgesics", href: "/products?category=analgesics" },
+  { name: "EYE/EAR & NASAL DROPS", href: "/products?category=eye-ear-and-nasal-drops" },
+  { name: "INJECTABLE (ANTIBIOTIC)", href: "/products?category=injectable-antibiotic" },
+];
+
 
   const navigation = [
     // { name: "Home", href: "/" },
@@ -34,11 +46,12 @@ export default function Header() {
       href: "/products?category=ayurvedic",
     },
     {
-      name: "Medical Devices & Other Product",
+      name: "Medical & Other Product",
       href: "/products?category=medical-devices",
     },
     { name: "Surgical Products", href: "/products?category=surgical" },
     { name: "Test Cards & Test Strips", href: "/products?category=test-card" },
+    { name: "Medicines", href: "#" },
   ];
 
   return (
@@ -103,7 +116,7 @@ export default function Header() {
             {/* Center: Navigation */}
             <nav className="hidden md:flex gap-[4px] mx-auto relative">
               {navigation.map((item) =>
-                item.name === "Products" ? (
+                item.name === "Medicines" ? (
                   <div
                     key={item.name}
                     className="relative group"
@@ -122,28 +135,40 @@ export default function Header() {
                     {isDropdownOpen && (
                       <div className="absolute left-0 mt-0 py-5 px-3 w-48 bg-white shadow-lg border rounded-md z-50">
                         <Link
-                          href="/products?category=ayurvedic"
+                          href="/products?category=antibiotics"
                           className="block text-sm px-2 py-2 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
-                          Ayurvedic & Herbal Products
+                          Antibiotics
                         </Link>
                         <Link
-                          href="/products?category=medical-devices"
+                          href="/products?category=antidiabetic"
                           className="block text-sm px-2 py-2 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
-                          Medical Devices & Other Product
+                          Antidiabatics
                         </Link>
                         <Link
-                          href="/products?category=surgical"
+                          href="/products?category=cardiovascular"
                           className="block text-sm px-2 py-2 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
-                          Surgical Products
+                          Cardio-Vascular
                         </Link>
                         <Link
-                          href="/products?category=test-card"
+                          href="/products?category=analgesics"
                           className="block text-sm px-2 py-2 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
-                          Test Cards & Test Strips
+                          Analgesics
+                        </Link>
+                        <Link
+                          href="/products?category=eye-ear-and-nasal-drops"
+                          className="block text-sm px-2 py-2 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                        >
+                          EYE/EAR & NASAL DROPS
+                        </Link>
+                        <Link
+                          href="/products?category=injectable-antibiotic"
+                          className="block text-sm px-2 py-2 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                        >
+                          INJECTABLE (ANTIBIOTIC)
                         </Link>
                       </div>
                     )}
