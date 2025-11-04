@@ -90,9 +90,28 @@ export default function ProductsPage() {
                       ? "Ayurvedic & Herbal Products"
                       : product.category === "medical-devices"
                       ? "Medical Devices & Other Products"
+                      : product.category === "surgical"
+                      ? "Surgical Products"
+                      : product.category === "test-card"
+                      ? "Test Cards And Test Strips"
+                      : product.category === "eye-ear-and-nasal-drops"
+                      ? "EYE/EAR & NASAL DROPS"
+                      : product.category === "injectable-antibiotic"
+                      ? "INJECTABLE (ANTIBIOTIC)"
+                      : product.category === "tablets"
+                      ? "TABLETS"
+                      : product.category === "antacid"
+                      ? "ANTACID"
+                      : product.category === "antimalarial"
+                      ? "ANTIMALARIAL"
+                      : product.category === "liquid-dry-syp"
+                      ? "LIQUID/DRY SYP"
+                      : product.category === "ointment"
+                      ? "OINTMENT"
                       : product.category.charAt(0).toUpperCase() +
                         product.category.slice(1)}
                   </p>
+
                   <h3 className="text-xl font-semibold mb-2">
                     {product.title}
                   </h3>

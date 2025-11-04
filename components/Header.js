@@ -34,6 +34,11 @@ export default function Header() {
   { name: "Analgesics", href: "/products?category=analgesics" },
   { name: "EYE/EAR & NASAL DROPS", href: "/products?category=eye-ear-and-nasal-drops" },
   { name: "INJECTABLE (ANTIBIOTIC)", href: "/products?category=injectable-antibiotic" },
+  { name: "TABLETS", href: "/products?category=tablets" },
+  { name: "ANTACID", href: "/products?category=antacid" },
+  { name: "ANTIMALARIAL", href: "/products?category=antimalarial" },
+  { name: "LIQUID/DRY SYP.", href: "/products?category=liquid-dry-syp" },
+  { name: "OINTMENT", href: "/products?category=ointment" },
 ];
 
 
@@ -133,42 +138,78 @@ export default function Header() {
 
                     {/* Dropdown */}
                     {isDropdownOpen && (
-                      <div className="absolute left-0 mt-0 py-5 px-3 w-48 bg-white shadow-lg border rounded-md z-50">
+                      <div className="absolute left-0 mt-0 py-5 px-3 w-52 bg-white shadow-lg border rounded-md z-50">
                         <Link
                           href="/products?category=antibiotics"
-                          className="block text-sm px-2 py-2 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
                           Antibiotics
                         </Link>
                         <Link
                           href="/products?category=antidiabetic"
-                          className="block text-sm px-2 py-2 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
                           Antidiabatics
                         </Link>
                         <Link
                           href="/products?category=cardiovascular"
-                          className="block text-sm px-2 py-2 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
                           Cardio-Vascular
                         </Link>
                         <Link
                           href="/products?category=analgesics"
-                          className="block text-sm px-2 py-2 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
                           Analgesics
                         </Link>
                         <Link
                           href="/products?category=eye-ear-and-nasal-drops"
-                          className="block text-sm px-2 py-2 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
-                          EYE/EAR & NASAL DROPS
+                          Eye/Ear & Nasal Drops
                         </Link>
                         <Link
                           href="/products?category=injectable-antibiotic"
-                          className="block text-sm px-2 py-2 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
-                          INJECTABLE (ANTIBIOTIC)
+                          Injectable(Antibiotic)
+                        </Link>
+                        <Link
+                          href="/products?category=injectable"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                        >
+                         Injectable
+                        </Link>
+                        <Link
+                          href="/products?category=tablets"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                        >
+                          Tablets
+                        </Link>
+                        <Link
+                          href="/products?category=antacid"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                        >
+                         Antacid
+                        </Link>
+                        <Link
+                          href="/products?category=antimalarial"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                        >
+                         Antimalarial
+                        </Link>
+                        <Link
+                          href="/products?category=liquid-dry-syp"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                        >
+                         Liquid/Dry Syp.
+                        </Link>
+                        <Link
+                          href="/products?category=ointment"
+                          className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
+                        >
+                         Ointment
                         </Link>
                       </div>
                     )}

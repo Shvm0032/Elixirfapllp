@@ -15,6 +15,9 @@ import Cardiovascular from "@/components/Home/Cardiovascular";
 import Analgesics from "@/components/Home/Analgesics";
 import EyeEarNasal from "@/components/Home/EyeEarNasal";
 import InjectableAntibiotic from "@/components/Home/InjectableAntibiotic";
+import Antacid from "@/components/Sliders/Antacid";
+import Injectable from "@/components/Sliders/Injectable";
+import Antimalarial from "@/components/Sliders/Antimalarial";
 
 export default function ProductDetails({ product }) {
   const [mainImage, setMainImage] = useState(product.images[0]);
@@ -61,11 +64,29 @@ export default function ProductDetails({ product }) {
         {/* Right Side: Details */}
         <div className="md:w-1/2 mt-6 md:mt-0 flex flex-col justify-between">
           <div>
-            <p className="text-sm text-[#009136] mb-4">
+            <p className="text-sm text-[#B3CB02] mb-4">
               {product.category === "ayurvedic"
                 ? "Ayurvedic & Herbal Products"
                 : product.category === "medical-devices"
                 ? "Medical Devices & Other Products"
+                : product.category === "surgical"
+                ? "Surgical Products"
+                : product.category === "test-card"
+                ? "Test Cards And Test Strips"
+                : product.category === "eye-ear-and-nasal-drops"
+                ? "EYE/EAR & NASAL DROPS"
+                : product.category === "injectable-antibiotic"
+                ? "INJECTABLE (ANTIBIOTIC)"
+                : product.category === "tablets"
+                ? "TABLETS"
+                : product.category === "antacid"
+                ? "ANTACID"
+                : product.category === "antimalarial"
+                ? "ANTIMALARIAL"
+                : product.category === "liquid-dry-syp"
+                ? "LIQUID/DRY SYP"
+                : product.category === "ointment"
+                ? "OINTMENT"
                 : product.category.charAt(0).toUpperCase() +
                   product.category.slice(1)}
             </p>
@@ -120,17 +141,23 @@ export default function ProductDetails({ product }) {
         ) : product.category === "surgical" ? (
           <SurgicalProducts />
         ) : product.category === "antibiotics" ? (
-          <Antibiotics/>
+          <Antibiotics />
         ) : product.category === "antidiabetic" ? (
-          <Antidiabetic/>
+          <Antidiabetic />
         ) : product.category === "cardiovascular" ? (
-          <Cardiovascular/>
+          <Cardiovascular />
         ) : product.category === "analgesics" ? (
-          <Analgesics/>
+          <Analgesics />
         ) : product.category === "eye-ear-and-nasal-drops" ? (
-          <EyeEarNasal/>
+          <EyeEarNasal />
         ) : product.category === "injectable-antibiotic" ? (
-          <InjectableAntibiotic/>
+          <InjectableAntibiotic />
+        ) : product.category === "injectable" ? (
+          <Injectable />
+        ) : product.category === "antacid" ? (
+          <Antacid />
+        ) : product.category === "antimalarial" ? (
+          <Antimalarial />
         ) : (
           <AllProducts />
         )}

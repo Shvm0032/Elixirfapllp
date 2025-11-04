@@ -381,6 +381,7 @@ export const products = [
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
+  //---------------------------------------- Test Cards And Test Strips--------------------------- //
   {
     id: "39",
     title: "PREGNANCY TEST STRIP (50 PCS/ BOX)",
@@ -681,6 +682,7 @@ export const products = [
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
+  //--------------------------------------------- Surgical Products------------------------------------- //
   {
     id: "69",
     title: "NEBULIZER MASK CHILD (PER PCS)",
@@ -1778,36 +1780,386 @@ export const products = [
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
+  {
+    id: "173",
+    title: "GENTAFAR EYE/EAR DROP",
+    slug: "gentafar-eye-ear-drop",
+    category: "eye-ear-and-nasal-drops",
+    description:
+      "10 ML  WITH BOX & INSERT ",
+    ingredient: "Gentamicin Sulphate B.P.  0.3%w/v, Benzalkonium Chloride  Solution  B.P.  0.02%w/v",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "174",
+    title: "GENTAFAR-D EYE/EAR DRO",
+    slug: "gentafar-d-eye-ear-drop",
+    category: "eye-ear-and-nasal-drops",
+    description:
+      "10 ML  WITH BOX & INSERT ",
+    ingredient: "Gentamicin Sulphate B.P.  0.3%w/v, Dexamethasone Sodium Phosphate  B.P. 0.01%w/v, Benzalkonium Chloride Solution  B.P.  0.02%w/v",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "175",
+    title: "XYLOFAR NASAL DROP",
+    slug: "xylofar-nasal-drop",
+    category: "eye-ear-and-nasal-drops",
+    description:
+      "10 ML  WITH BOX & INSERT ",
+    ingredient: "Composition :Xylometazoline HCl  B.P.  0.05%w/v, Benzalkonium Chloride  B.P. 0.011%w/v, (As preservative)",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "176",
+    title: "DORZOFAR EYE DROP",
+    slug: "dorzofar-eye-drop",
+    category: "eye-ear-and-nasal-drops",
+    description:
+      "10 ML  WITH BOX & INSERT ",
+    ingredient: "Composition :                                                                  Dorzolamide Hydrochloride BP Eq. to Dorzolamide  B.P.   2%w/v, Benzalkonium Chloride USP  B.P.  0002%wv, (As Preservative)Sterile Aqueous buffered vehicle  q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "177",
+    title: "CIPROFAR-D EYE/EAR DROP",
+    slug: "ciprofar-d-eye-ear-drop",
+    category: "eye-ear-and-nasal-drops",
+    description:
+      "10 ML  WITH BOX & INSERT ",
+    ingredient: "Composition :Ciprofloxacin B.P. 0.3%w/v, Dexamethasone Sodium 0.1%w/v",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
   //------------------------------------------------ INJECTABLE ANTIBIOTICS---------------------------- //
   {
-    id: "145",
-    title: "VILDAFAR-M TAB.",
-    slug: "vildafar-m-tab",
+    id: "178",
+    title: "CEFTRIFAR 1GM INJ.",
+    slug: "ceftrifar-1gm-inj",
     category: "injectable-antibiotic",
     description:
-      "10X1X10 BLISTER POUCH PACK + INSERT ",
-    ingredient: "Each hard gelatin capsule contain:Ampicillin Trihydrate  B.PE.g. to Ampicillin 250 mg Cloxacillin Sodium  B.Pe.q. to Cloxacillin 250 mg",
+      "10ml Vial + WFI with Insert (TRAY PACK)",
+    ingredient: "Each vial contains:Sterile Ceftriaxone Sodium B.P. Eq. to Anhydrous Ceftriaxone 1000mg",
     images: ["/Assets/no-img.jpg"],
-    price: 39.99,
+    price: 0,
   },
-  //-------------------------------------------------------- INJECTABLE------------------------------- //
   {
-    id: "145",
-    title: "VILDAFAR-M TAB.",
-    slug: "vildafar-m-tab",
+    id: "179",
+    title: "CEFUFAR 750 INJ.",
+    slug: "cefufar-750-inj",
     category: "injectable-antibiotic",
     description:
-      "10X1X10 BLISTER POUCH PACK + INSERT ",
-    ingredient: "Each hard gelatin capsule contain:Ampicillin Trihydrate  B.PE.g. to Ampicillin 250 mg Cloxacillin Sodium  B.Pe.q. to Cloxacillin 250 mg",
+      "10ml Vial + WFI with Insert(TRAY PACK)",
+    ingredient: "Each vial contains:Cefuroxime sodium B.P. Eq. to Cefuroxime 750Mg.",
     images: ["/Assets/no-img.jpg"],
-    price: 39.99,
+    price: 0,
   },
-  //---------------------------------------------------- TABLETS-------------------------------------- //
+  {
+    id: "180",
+    title: "VANCOFAR 500 INJ.",
+    slug: "vancofar-500-inj",
+    category: "injectable-antibiotic",
+    description:
+      "10ml Vial + WFI with Insert(TRAY PACK)",
+    ingredient: "Each vial contains:Sterile Vancomycin Hydrochloride B.P. Eq. to Vancomycin 500Mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "181",
+    title: "PIPERAFAR TZ 4.5GM INJ.",
+    slug: "piperafar-tz-4.5gm-inj",
+    category: "injectable-antibiotic",
+    description:
+      "20ml Vial. + WFIwith Insert(TRAY PACK)",
+    ingredient: "Each vial contains:Sterile Piperacillin Sodium B.P. Eq.to Piperacillin  4000mg., Sterile Tazobactam Sodium B.P.Eq.to Anhydrous Tazobactam  500mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "182",
+    title: "MOXIFAR-CV 1.2 INJ.",
+    slug: "moxifar-cv-1.2-inj",
+    category: "injectable-antibiotic",
+    description:
+      "10ml Vial. + WFIwith Insert(TRAY PACK)",
+    ingredient: "Each vial contains:Amoxycillin Sodium (Sterile) B.P. Eq. to Amoxycillin Sodium  1000Mg., Potassium  Clavulanate  (Sterile)  B.P. Eq. to Clavulanic Acid   200Mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "183",
+    title: "MEROFAR 1GM INJ.",
+    slug: "merofar-1gm-inj",
+    category: "injectable-antibiotic",
+    description:
+      "10ml Vial. + WFIwith Insert(TRAY PACK)",
+    ingredient: "Each vial contains:Meropenem Trihydrate B.P. Eq to Anhydrous Meropenem 1000Mg. ",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "184",
+    title: "CEFOFAR-S INJ.",
+    slug: "cefofar-s-inj",
+    category: "injectable-antibiotic",
+    description:
+      "1.5GM (VIAL+WFI +TRAY)",
+    ingredient: "Each vial contains:Cefoperazone Sodium	BP	1000mg., Sulbactam Sosium	BP	500mg. ",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  //------------------------------------------------ INJECTABLE--------------------------------------- //
+  {
+    id: "185",
+    title: "PREDNIFAR 80 INJ.",
+    slug: "prednifar-80-inj",
+    category: "injectable",
+    description:
+      "10x2ml Amp. with Insert",
+    ingredient: "Each vial contains: Methylprednisolone Sodium Succinate B.P. eq. to Methylprednisolone 80mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "186",
+    title: "ONDAFAR INJ.",
+    slug: "ondafar-inj",
+    category: "injectable",
+    description:
+      "10x2ml Amp.with Insert(TRAY PACK)",
+    ingredient: "Each ml contains:Ondansetron Hydrochloride B.P. Eq.to Ondansetron  2mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "187",
+    title: "PANTAFAR 40 INJ.",
+    slug: "pantafar-40-inj",
+    category: "injectable",
+    description:
+      "10ml Vial. + WFIwith Insert(TRAY PACK)",
+    ingredient: "Each vial contains:Sterile Pantoprazole sodium B.P. e.q. Pantoprazole 40mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "188",
+    title: "PARAFAR INJ.",
+    slug: "parafar-inj",
+    category: "injectable",
+    description:
+      "10x2ml Amp.with Insert(TRAY PACK)",
+    ingredient: "Each ml contains:Paracetamol B.P. 150mg., Benzyl Alcohol B.P. 2%v/v",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "189",
+    title: "NEUROFAR INJ.",
+    slug: "neurofar-inj",
+    category: "injectable",
+    description:
+      "10x3ml Amp.with Insert(TRAY PACK)",
+    ingredient: "Each ml contains: Thiamine Hydrochloride  B.P. 33.3mg., Pyridoxine  Hydrochloride  B.P.  33.3mg.,  Cyanaocobalamin  B.P.  333 mcg.Dexpanthenol B.P. 5mg., Nicotinamide B.P. 20mg., Benzyl Alcohol B.P. 2% v/v, Water for Injection B.P.  q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "190",
+    title: "OMIFAR 40 INJ.",
+    slug: "omifar-40-inj",
+    category: "injectable",
+    description:
+      "10ml Amp. + WFI with Insert",
+    ingredient: "Each vial contains:Sterile Omeprazole Sodium B.P. Eq. to Anhydrous Omeprazole 40mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "191",
+    title: "DIZOFAR INJ.",
+    slug: "dizofar-inj",
+    category: "injectable",
+    description:
+      "10x3ml Amp. with Insert",
+    ingredient: "Each ml contains:Diclofenac Sodium B.P. 25Mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "192",
+    title: "QUINIFAR INJ.",
+    slug: "quinifar-inj",
+    category: "injectable",
+    description:
+      "10x2ml Amp. with Insert",
+    ingredient: "Each ml contains:Quinine Dihydrochloride B.P. 300mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "193",
+    title: "METHYLFAR INJ.",
+    slug: "methylfar-inj",
+    category: "injectable",
+    description:
+      "2 ML",
+    ingredient: "Each 2 ml contains:Methylcobalamin	BP	1500 mcg., Benzyl Alcohol BP 2% v/v (as preservative)Water for injection BP Q.S",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "194",
+    title: "CITIFAR INJ.",
+    slug: "citifar-inj",
+    category: "injectable",
+    description:
+      "10x2ml Amp. with Insert",
+    ingredient: "Each ml contains: Citicolin Sodium B.P. Eq. to Citicolin 250 mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "195",
+    title: "OCUFAR INJ.",
+    slug: "ocufar-inj",
+    category: "injectable",
+    description:
+      "5X5ml Amp. With insert",
+    ingredient: "Iron Sucrose Injection B.P. 20 mg/ml",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "196",
+    title: "LUMEFAR-A INJ.",
+    slug: "lumefar-a-inj",
+    category: "injectable",
+    description:
+      "2 ML",
+    ingredient: "Each 2 ml ampoule contains:α-β Arteether	BP 150 mg. Oily base	q.s",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  //-------------------------------------------------- TABLETS(17)-------------------------------------- //
 
   //----------------------------------------------------- ANTACID-------------------------------------- //
-
+  {
+    id: "214",
+    title: "ESOFAR-40 TAB.",
+    slug: "esofar-40-tab",
+    category: "antacid",
+    description:
+      "10X1X10 ALU-ALU + INSERT",
+    ingredient: "Each Enteric coated tablet Contains:Esomeprazole Magnesium Trihydrate BP 40mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "215",
+    title: "PANTAFAR-40 TAB.",
+    slug: "pantafar-40-tab",
+    category: "antacid",
+    description:
+      "10X10 ALU-ALU + INSERT",
+    ingredient: "Each uncoated tablet contains :Pantoprazole Sodium BP 40mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "216",
+    title: "DOMIFAR TAB.",
+    slug: "domifar-tab",
+    category: "antacid",
+    description:
+      "10X10 ALU-ALU + INSERT",
+    ingredient: "Each mouth dissolving tablet contains :Domperidone B.P 10mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "217",
+    title: "ESOFAR-DSR CAP.",
+    slug: "esofar-dsr-cap",
+    category: "antacid",
+    description:
+      "1x10 ALU-ALU + INSERT",
+    ingredient: "Each hard gelatin capsule contains: Esomeprazole Magnesium Trihydrate BP 40mg (As enteric coated pellets)Domperidone BP	30 mg (As sustained release pellets)",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "218",
+    title: "OMIFAR-20 CAP.",
+    slug: "omifar-20-cap",
+    category: "antacid",
+    description:
+      "20X10 BLISTER  + INSERT",
+    ingredient: "Each hard gelatin capsule contains:Omeprazole	B.P.	20 mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "219",
+    title: "ROZFAR –DSR CAP.",
+    slug: "rozfar-dsr-cap",
+    category: "antacid",
+    description:
+      "10X1X10 ALU-ALU + INSERT",
+    ingredient: "Each hard Gelatin capsule contains: Rabeprazole Sodium BP	20 mg., Domperidone BP	30 mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "220",
+    title: "PANTAFAR-LSR CAP.",
+    slug: "pantafar-lsr-cap",
+    category: "antacid",
+    description:
+      "10X1X10 ALU-ALU + INSERT",
+    ingredient: "Pantoprazole Sodium (As Sesquihydrate) Eq.to Pantoprazole	BP	40mg. (As enteric coated pellets)Levosulpride	BP	75mg. (As Sustained release pellets)",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "221",
+    title: "PANTAFAR-D TAB.",
+    slug: "pantafar-d-tab",
+    category: "antacid",
+    description:
+      "10X1X10 ALU-ALU + INSERT",
+    ingredient: "Each enteric coated Tablet contains: Pantoprazole Sodium Eq. to Pantoprazole BP	40mg., Domperidone	BP	10mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
   //------------------------------------------- ANTIMALARIAL------------------------------------------- //
-
+  {
+    id: "222",
+    title: "LUMEFAR TAB.",
+    slug: "lumefar-tab",
+    category: "antimalarial",
+    description:
+      "4X6 ALU-ALU + INSERT",
+    ingredient: "Each uncoated tablet contains :Artemether BP 20mg, Lumefantrine BP 120 mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "223",
+    title: " LUMEFAR PLUS TAB.",
+    slug: "lumefar-plus-tab",
+    category: "antimalarial",
+    description:
+      "10X1X6  ALU-ALU + INSERT",
+    ingredient: "Each uncoated tablet contains :Artemether BP 80 mg, Lumefantrine BP 480 mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
   //--------------------------------------------- LIQUID/DRY SYP.------------------------------------- //
 
   //----------------------------------------------- OINTMENT------------------------------------------ //
