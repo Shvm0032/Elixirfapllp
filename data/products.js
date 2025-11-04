@@ -1288,6 +1288,7 @@ export const products = [
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
+  //------------------------------------- ANTIBIOTICS------------------------------------------- //
   {
     id: "129",
     title: "CEF-FAR 200 TAB.",
@@ -1420,50 +1421,364 @@ export const products = [
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
+  //--------------------------------------------- ANTIDIABETICS-------------------------------------- //
   {
     id: "141",
     title: "VILDAFAR-M TAB.",
     slug: "vildafar-m-tab",
     category: "antidiabetic",
     description:
-      "10X1X10 BLISTER POUCH PACK + INSERT ",
-    ingredient: "Each hard gelatin capsule contain:Ampicillin Trihydrate  B.PE.g. to Ampicillin 250 mg Cloxacillin Sodium  B.Pe.q. to Cloxacillin 250 mg",
+      "3X10 ALU-ALU + INSERT",
+    ingredient: "Each film coated Tablet Contains:Vildagliptin  BP 50 mg, Metformin Hydrochloride BP   1000 mg",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
   {
     id: "142",
-    title: "VILDAFAR-M TAB.",
-    slug: "vildafar-m-tab",
-    category: "cardiovascular",
+    title: "SITAFAR-M FORTE TAB.",
+    slug: "sitafar-m-forte-tab",
+    category: "antidiabetic",
     description:
-      "10X1X10 BLISTER POUCH PACK + INSERT ",
-    ingredient: "Each hard gelatin capsule contain:Ampicillin Trihydrate  B.PE.g. to Ampicillin 250 mg Cloxacillin Sodium  B.Pe.q. to Cloxacillin 250 mg",
+      "3X10 ALU-ALU + INSERT",
+    ingredient: "Each Uncoated  Tablet Contains:Metformin Hydrochloride BP  1000mg, Sitagliptin Phosphate BP 50mg",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
   {
     id: "143",
-    title: "VILDAFAR-M TAB.",
-    slug: "vildafar-m-tab",
-    category: "analgesics",
+    title: "SITAFAR-M TAB.",
+    slug: "sitafar-m-tab",
+    category: "antidiabetic",
     description:
-      "10X1X10 BLISTER POUCH PACK + INSERT ",
-    ingredient: "Each hard gelatin capsule contain:Ampicillin Trihydrate  B.PE.g. to Ampicillin 250 mg Cloxacillin Sodium  B.Pe.q. to Cloxacillin 250 mg",
+      "3X10 ALU-ALU + INSERT",
+    ingredient: "Sitagliptin Phosphate Monohydrate, eq. to Sitagliptin BP 50mg Metformin HCL  BP  500mg.",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
+  //--------------------------------------- CARDIOVASCULAR---------------------------------- //
   {
     id: "144",
-    title: "VILDAFAR-M TAB.",
-    slug: "vildafar-m-tab",
+    title: "LOSARFAR TAB.",
+    slug: "losarfar-tab",
+    category: "cardiovascular",
+    description:
+      "3X10 ALU-ALU + INSERT",
+    ingredient: "Each film coated tablet contains:Losartan Potassium	BP",
+    images: ["/Assets/no-img.jpg"],
+    price: 39.99,
+  },
+  {
+    id: "145",
+    title: "LOSARFAR-H TAB.",
+    slug: "losarfar-h-tab",
+    category: "cardiovascular",
+    description:
+      "3X10  ALU-ALU + INSERT",
+    ingredient: "Each film coated tablet contains: Losartan Potassium	BP, Hydrochlorothiazide	BP",
+    images: ["/Assets/no-img.jpg"],
+    price: 39.99,
+  },
+  {
+    id: "146",
+    title: "AMLOFAR-5 TAB.",
+    slug: "amlofar-5-tab",
+    category: "cardiovascular",
+    description:
+      "3X10  ALU-ALU + INSERT",
+    ingredient: "Each uncoated tablet contains: Amlodipine Besylate	BP",
+    images: ["/Assets/no-img.jpg"],
+    price: 39.99,
+  },
+  {
+    id: "147",
+    title: "AMLOFAR-10 TAB.",
+    slug: "amlofar-10-tab",
+    category: "cardiovascular",
+    description:
+      "3X10  ALU-ALU + INSERT",
+    ingredient: "Each uncoated tablet contains: Amlodipine Besylate	BP",
+    images: ["/Assets/no-img.jpg"],
+    price: 39.99,
+  },
+  {
+    id: "148",
+    title: "RAMIFAR-5 TAB.",
+    slug: "ramifar-5-tab",
+    category: "cardiovascular",
+    description:
+      "3X10  ALU-ALU + INSERT",
+    ingredient: "Each uncoated tablet contains: Ramipril 	BP",
+    images: ["/Assets/no-img.jpg"],
+    price: 39.99,
+  },
+  {
+    id: "149",
+    title: "TELMIFAR-40 TAB.",
+    slug: "telmifar-40-tab",
+    category: "cardiovascular",
+    description:
+      "3X10  ALU-ALU + INSERT",
+    ingredient: "Telmisartan	BP",
+    images: ["/Assets/no-img.jpg"],
+    price: 39.99,
+  },
+  {
+    id: "150",
+    title: "TELMIFAR-H TAB.",
+    slug: "telmifar-h-tab",
+    category: "cardiovascular",
+    description:
+      "3X10  ALU-ALU + INSERT",
+    ingredient: "Telmisartan	BP, Hydrochlorothiazide  BP",
+    images: ["/Assets/no-img.jpg"],
+    price: 39.99,
+  },
+  {
+    id: "151",
+    title: "TELMIFAR-AM TAB.",
+    slug: "telmifar-am-tab",
+    category: "cardiovascular",
+    description:
+      "3X10  ALU-ALU + INSERT",
+    ingredient: "Amlodipin	BP 5mg., Telmisartan BP 40mg.	",
+    images: ["/Assets/no-img.jpg"],
+    price: 39.99,
+  },
+  {
+    id: "152",
+    title: "NIF-FAR 20 TAB.",
+    slug: "nif-far-20-tab",
+    category: "cardiovascular",
+    description:
+      "3X10  ALU-ALU + INSERT",
+    ingredient: "Each Uncoated Tablet Contains :Nifedipine	BP	20 mg	",
+    images: ["/Assets/no-img.jpg"],
+    price: 39.99,
+  },
+  {
+    id: "153",
+    title: "TOCARDFAR-20 TAB.",
+    slug: "tocardfar-20-tab",
+    category: "cardiovascular",
+    description:
+      "3X10  ALU-ALU + INSERT",
+    ingredient: "Each film coated tablet contains: Atorvastatin Calcium BP 20 mg. Eq. to Atorvastatin",
+    images: ["/Assets/no-img.jpg"],
+    price: 39.99,
+  },
+  {
+    id: "154",
+    title: "ROSUFAR-20 TAB.",
+    slug: "rosufar-20-tab",
+    category: "cardiovascular",
+    description:
+      "3X10  ALU-ALU + INSERT",
+    ingredient: "Each film coated tablet contains:Rosuvastatin Calcium BP 20mg. Eq. to Rosuvastatin",
+    images: ["/Assets/no-img.jpg"],
+    price: 39.99,
+  },
+
+  //------------------------------------ ANALGESICS--------------------------------------------- //
+  {
+    id: "155",
+    title: "A&A TAB.",
+    slug: "a-&-a-tab",
+    category: "analgesics",
+    description:
+      "10x1X10 ALU-ALU + INSERT",
+    ingredient: "Each film coated tablet contains: Aceclofenac	BP	100mg., Parcetamol	BP	325mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "156",
+    title: "ACECLOFAR TAB.",
+    slug: "aceclofar-tab",
+    category: "analgesics",
+    description:
+      "10x1X10 ALU-ALU + INSERT ",
+    ingredient: "Each film coated tablet contains:Aceclofenac BP 100mg..",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "157",
+    title: "PREGABAFAR-75 CAP.",
+    slug: "pregabafar-75-cap",
+    category: "analgesics",
+    description:
+      "10x1X10 ALU-ALU + INSERT ",
+    ingredient: "Each hard gelatin capsule contains: Pregabalin	BP	75mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "158",
+    title: "CELEFAR-200 CAP.",
+    slug: "celefar-200-cap",
+    category: "analgesics",
+    description:
+      "2x10 ALU-ALU + INSERT",
+    ingredient: "Each hard gelatin capsule contains:Celecoxib	BP	200mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "159",
+    title: "ELIXIR’S DR. RAPIDEX TAB. FOR RAPID RELIEF",
+    slug: "elixir-dr-rapidex-tab",
+    category: "analgesics",
+    description:
+      "50X1X10 BLISTER + INSERT ",
+    ingredient: "Each uncoated tablet contains :Diclofenac Sodium  BP   50mg., Paracetamol BP 500mg., Chlorpheniramine Maleate BP 4mg., Magnesium Trisilicate  BP  100mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "160",
+    title: "TRAMOLFAR-P TAB.",
+    slug: "tramolfar-p-tab",
+    category: "analgesics",
+    description:
+      "10x1x10 BLISTER + INSERT",
+    ingredient: "Each tablet contains:Tramadol Hydrochloride  BP	37.5mg., Paracetamol	BP	325mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "161",
+    title: "DIZOFAR TAB.",
+    slug: "dizofar-tab",
+    category: "analgesics",
+    description:
+      "1X10 BLISTER WITH OUTER + INSERT",
+    ingredient: "Each tablet contains:Diclofenac Potassium BP	50mg, Paracetamol BP 325mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "162",
+    title: "DIZOFAR-MR TAB.",
+    slug: "dizofar-mr-tab",
+    category: "analgesics",
+    description:
+      "10X1X10 BLISTER  + INSERT",
+    ingredient: "Each uncoated tablet contains: Diclofenac Potassium	BP 50mg, Paracetamol	BP 325mg, Chlorzoxazone BP	250mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "163",
+    title: "DIZOFAR-MR PLUS TAB.",
+    slug: "dizofar-mr-plus-tab",
+    category: "analgesics",
+    description:
+      "10X1X10 BLISTER + INSERT",
+    ingredient: "Each uncoated tablet contains: Diclofenac Potassium	BP	50mg, Paracetamol	BP 325mg, Chlorzoxazone	BP 500mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "164",
+    title: "ACICLOFAR-MR TAB.",
+    slug: "aciclofar-mr-tab",
+    category: "analgesics",
+    description:
+      "10X1X10 ALU-ALU + INSERT",
+    ingredient: "Each film coated tablet contains:Aceclofenac B.P 100 mg, Paracetamol  BP  325 mg, Chlorzoxazone B.P 250 mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "165",
+    title: "IBUFAR-400 TAB",
+    slug: "ibufar-400-tab",
+    category: "analgesics",
+    description:
+    "10X10 BLISTER + INSERT ",
+    ingredient: "Each film coated tablet contains:Ibuprofen	BP	400mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "166",
+    title: "IBUFAR-P TAB.",
+    slug: "ibufar-p-tab",
+    category: "analgesics",
+    description:
+    "10X10 BLISTER + INSERT ",
+    ingredient: "Each film coated tablet contains: Ibuprofen	BP	400mg., Paracetamol	 BP	325mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "167",
+    title: "PARAFAR-500 TAB",
+    slug: "parafar-500-tab",
+    category: "analgesics",
+    description:
+    "10X10 BLISTER + INSERT ",
+    ingredient: "Each tablet contains : Paracetamol	BP	500 mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  //------------------------------------------- EYE EAR AND NASAL DROPS----------------------------//
+  {
+    id: "168",
+    title: "CARBOFAR EYE DROP",
+    slug: "carbofar-eye-drop",
     category: "eye-ear-and-nasal-drops",
     description:
-      "10X1X10 BLISTER POUCH PACK + INSERT ",
-    ingredient: "Each hard gelatin capsule contain:Ampicillin Trihydrate  B.PE.g. to Ampicillin 250 mg Cloxacillin Sodium  B.Pe.q. to Cloxacillin 250 mg",
+      "10 ML  WITH BOX & INSERT ",
+    ingredient: "Each ml contains :Carboxymethylcellulose Sodium B.P. 10 mg, Stabilized Oxychloro Complex B.P. 0.075mg, Aqueous Buffered Vehicle  q.s.",
     images: ["/Assets/no-img.jpg"],
-    price: 39.99,
+    price: 0,
   },
+  {
+    id: "169",
+    title: "CIPROFAR EYE DROP",
+    slug: "ciprofar-eye-drop",
+    category: "eye-ear-and-nasal-drops",
+    description:
+      "10 ML  WITH BOX & INSERT ",
+    ingredient: "Composition :Ciprofloxacin HCl Eq. to Ciprofloxacin  B.P.  0.3%w/v, Benzalkonium Chloride Solution B.P.  0.02%w/v (As preservative) Sterile Aqueous base  q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "170",
+    title: "MOXIFAR EYE DROP",
+    slug: "moxifar-eye-drop",
+    category: "eye-ear-and-nasal-drops",
+    description:
+      "10 ML  WITH BOX & INSERT ",
+    ingredient: "Each ml Contains:Moxifloxacin Hydrochloride Eq. to Moxifloxacin  B.P.  0.5%w/v, Benzalkonium Chloride Solution  B.P. 0.01%w/v (as preservative) Sterile aqueous base  q.s.   ",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "171",
+    title: "TIMOFAR EYE DROP",
+    slug: "timofar-eye-drop",
+    category: "eye-ear-and-nasal-drops",
+    description:
+      "10 ML  WITH BOX & INSERT ",
+    ingredient: "Composition:Each ml contains :Timolol Maleate Eq.to Timolol  B.P. 5 mg, Benzalkonium Chloride  B.P.  0.01%w/v (as Preservative)",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "172",
+    title: "PREDNIFAR EYE DROP",
+    slug: "prednifar-eye-drop",
+    category: "eye-ear-and-nasal-drops",
+    description:
+      "10 ML  WITH BOX & INSERT ",
+    ingredient: "Composition :Prednisolone acetate  B.P.  1.0%w/v, Benzalkonium Chloride B.P.  0.02%wv,   (As preservative) Sterile Aqueous base   q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  //------------------------------------------------ INJECTABLE ANTIBIOTICS---------------------------- //
   {
     id: "145",
     title: "VILDAFAR-M TAB.",
@@ -1475,6 +1790,7 @@ export const products = [
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
+  //-------------------------------------------------------- INJECTABLE------------------------------- //
   {
     id: "145",
     title: "VILDAFAR-M TAB.",
@@ -1486,4 +1802,14 @@ export const products = [
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
+  //---------------------------------------------------- TABLETS-------------------------------------- //
+
+  //----------------------------------------------------- ANTACID-------------------------------------- //
+
+  //------------------------------------------- ANTIMALARIAL------------------------------------------- //
+
+  //--------------------------------------------- LIQUID/DRY SYP.------------------------------------- //
+
+  //----------------------------------------------- OINTMENT------------------------------------------ //
+
 ];
