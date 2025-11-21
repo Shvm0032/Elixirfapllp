@@ -18,6 +18,10 @@ import InjectableAntibiotic from "@/components/Home/InjectableAntibiotic";
 import Antacid from "@/components/Sliders/Antacid";
 import Injectable from "@/components/Sliders/Injectable";
 import Antimalarial from "@/components/Sliders/Antimalarial";
+import Tablets from "@/components/Sliders/Tablets";
+import LiquidDrySyp from "@/components/Sliders/LiquidDrySyp";
+import Ointment from "@/components/Sliders/Ointment";
+
 
 export default function ProductDetails({ product }) {
   const [mainImage, setMainImage] = useState(product.images[0]);
@@ -158,6 +162,12 @@ export default function ProductDetails({ product }) {
           <Antacid />
         ) : product.category === "antimalarial" ? (
           <Antimalarial />
+        ) : product.category === "tablets" ? (
+          <Tablets />
+        ) : product.category === "liquid-dry-syp" ? (
+          <LiquidDrySyp />
+        ) : product.category === "ointment" ? (
+          <Ointment />
         ) : (
           <AllProducts />
         )}

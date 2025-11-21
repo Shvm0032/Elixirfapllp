@@ -18,8 +18,6 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  
-
 
   useEffect(() => {
     const handleScroll = () => setIsSticky(window.scrollY > 100);
@@ -28,19 +26,24 @@ export default function Header() {
   }, []);
 
   const medicines = [
-  { name: "Antibiotics", href: "/products?category=antibiotics" },
-  { name: "Antidiabetics", href: "/products?category=antidiabetic" },
-  { name: "Cardio-Vascular", href: "/products?category=cardiovascular" },
-  { name: "Analgesics", href: "/products?category=analgesics" },
-  { name: "EYE/EAR & NASAL DROPS", href: "/products?category=eye-ear-and-nasal-drops" },
-  { name: "INJECTABLE (ANTIBIOTIC)", href: "/products?category=injectable-antibiotic" },
-  { name: "TABLETS", href: "/products?category=tablets" },
-  { name: "ANTACID", href: "/products?category=antacid" },
-  { name: "ANTIMALARIAL", href: "/products?category=antimalarial" },
-  { name: "LIQUID/DRY SYP.", href: "/products?category=liquid-dry-syp" },
-  { name: "OINTMENT", href: "/products?category=ointment" },
-];
-
+    { name: "Antibiotics", href: "/products?category=antibiotics" },
+    { name: "Antidiabetics", href: "/products?category=antidiabetic" },
+    { name: "Cardio-Vascular", href: "/products?category=cardiovascular" },
+    { name: "Analgesics", href: "/products?category=analgesics" },
+    {
+      name: "EYE/EAR & NASAL DROPS",
+      href: "/products?category=eye-ear-and-nasal-drops",
+    },
+    {
+      name: "INJECTABLE (ANTIBIOTIC)",
+      href: "/products?category=injectable-antibiotic",
+    },
+    { name: "TABLETS", href: "/products?category=tablets" },
+    { name: "ANTACID", href: "/products?category=antacid" },
+    { name: "ANTIMALARIAL", href: "/products?category=antimalarial" },
+    { name: "LIQUID/DRY SYP.", href: "/products?category=liquid-dry-syp" },
+    { name: "OINTMENT", href: "/products?category=ointment" },
+  ];
 
   const navigation = [
     // { name: "Home", href: "/" },
@@ -179,7 +182,7 @@ export default function Header() {
                           href="/products?category=injectable"
                           className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
-                         Injectable
+                          Injectable
                         </Link>
                         <Link
                           href="/products?category=tablets"
@@ -191,25 +194,25 @@ export default function Header() {
                           href="/products?category=antacid"
                           className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
-                         Antacid
+                          Antacid
                         </Link>
                         <Link
                           href="/products?category=antimalarial"
                           className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
-                         Antimalarial
+                          Antimalarial
                         </Link>
                         <Link
                           href="/products?category=liquid-dry-syp"
                           className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
-                         Liquid/Dry Syp.
+                          Liquid/Dry Syp.
                         </Link>
                         <Link
                           href="/products?category=ointment"
                           className="block text-sm px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-[#0AA0DD]"
                         >
-                         Ointment
+                          Ointment
                         </Link>
                       </div>
                     )}
@@ -252,40 +255,39 @@ export default function Header() {
         </div>
 
         {/* Mobile Navigation */}
+        {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden bg-white border-t shadow-lg">
             <nav className="px-4 py-4 space-y-2 flex flex-col items-left">
               {navigation.map((item) =>
-                item.name === "Products" ? (
-                  <div key={item.name} className="w-full text-center">
+                item.name === "Medicines" ? (
+                  <div key={item.name} className="w-full">
                     <button
                       onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                      className="w-full text-gray-700 hover:text-[#0AA0DD] py-2 text-base font-medium flex justify-center items-center"
+                      className="w-full text-left text-gray-700 hover:text-[#0AA0DD] py-2 text-base font-medium flex justify-between items-center"
                     >
                       {item.name}
                       <ChevronDown
                         size={18}
-                        className={`ml-2 transition-transform ${
+                        className={`transition-transform ${
                           isDropdownOpen ? "rotate-180" : ""
                         }`}
                       />
                     </button>
+
+                    {/* Mobile Dropdown List */}
                     {isDropdownOpen && (
-                      <div className="flex flex-col space-y-2 mt-1">
-                        <Link
-                          href="/products/ayurvedic"
-                          className="block text-gray-600 hover:text-[#0AA0DD] py-1"
-                          onClick={() => setIsMenuOpen(false)}
-                        >
-                          Ayurvedic Products
-                        </Link>
-                        <Link
-                          href="/products/medical-devices"
-                          className="block text-gray-600 hover:text-[#0AA0DD] py-1"
-                          onClick={() => setIsMenuOpen(false)}
-                        >
-                          Medical Devices
-                        </Link>
+                      <div className="flex flex-col pl-4 space-y-1 mt-1">
+                        {medicines.map((med) => (
+                          <Link
+                            key={med.name}
+                            href={med.href}
+                            className="text-gray-600 hover:text-[#0AA0DD] py-1 text-sm"
+                            onClick={() => setIsMenuOpen(false)}
+                          >
+                            {med.name}
+                          </Link>
+                        ))}
                       </div>
                     )}
                   </div>
@@ -293,7 +295,7 @@ export default function Header() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="block text-gray-700 hover:text-[#0AA0DD] py-2 text-base font-medium transition-colors duration-200"
+                    className="block text-gray-700 hover:text-[#0AA0DD] py-2 text-base font-medium"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {item.name}
@@ -304,8 +306,8 @@ export default function Header() {
               <Link href="/contact">
                 <button
                   className="bg-[#B3CB02] text-white px-4 py-2 rounded-md 
-        transform transition-transform duration-300 ease-in-out 
-        hover:scale-90 hover:bg-[#009136] mt-2"
+          transform transition-transform duration-300 ease-in-out 
+          hover:scale-90 hover:bg-[#009136] mt-2"
                 >
                   Enquiry Now
                 </button>

@@ -2047,6 +2047,194 @@ export const products = [
     price: 0,
   },
   //-------------------------------------------------- TABLETS(17)-------------------------------------- //
+  {
+    id: "197",
+    title: "NOT-WANTED-72TAB.",
+    slug: "not-wanted-72tab",
+    category: "tablets",
+    description:
+      "10X1X1 BLISTER (MONO CARTON 1X1) + INSERT IN EVERY MONO + OUTER",
+    ingredient: "Each film coated tablet contains: Levonorgestrel	BP	1.5 mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "198",
+    title: "MISOFAR-200 TAB.",
+    slug: "misofar-200-tab",
+    category: "tablets",
+    description:
+      "10X1X4 BLISTER (MONO CARTON 1X4) + INSERT IN EVERY MONO + OUTER",
+    ingredient: "Each  Uncoated tablet contains:Misoprostol BP 200mcg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "199",
+    title: "TADALAFAR-20",
+    slug: "tadalafar-20",
+    category: "tablets",
+    description:
+      "10X1X4 BLISTER WITH OUTER",
+    ingredient: "Each film coated tablet contains:Tadalafil	BP	20 mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "200",
+    title: "NIGHT BULL-100 TAB.",
+    slug: "night-bull-100-tab",
+    category: "tablets",
+    description:
+      "10X1X4 BLISTER (MONO CARTON 1X4) + INSERT IN EVERY MONO + OUTER",
+    ingredient: "Each film coated tablet contains:Sildenafil Citrate	BP	100 mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "201",
+    title: "NIGHT BULL-150 TAB.",
+    slug: "night-bull-150-tab",
+    category: "tablets",
+    description:
+      "10X1X4 BLISTER (MONO CARTON 1X4) + INSERT IN EVERY MONO + OUTER",
+    ingredient: "Each film coated tablet contains:Sildenafil Citrate	BP	150 mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "202",
+    title: "NIGHT BULL + TAB.",
+    slug: "night-bull-tab",
+    category: "tablets",
+    description:
+      "10X1X4 BLISTER (MONO CARTON 1X4) + INSERT IN EVERY MONO + OUTER",
+    ingredient: "Each film coated tablet contains:Sildenafil Citrate	BP	100 mg.Dapoxetine	BP	60mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "203",
+    title: "NEUROFAR TAB.",
+    slug: "neurofar-tab",
+    category: "tablets",
+    description:
+      "3X10 BLISTER + INSERT",
+    ingredient: "Each sugar coated tablet contains:Vitamin B1(Thiamine Mononitrate) B.P. 100 mg, Vitamin B6(Pyridoxine Hydrochloride) B.P.	200 mg, Vitamin B12(Cyanocobalamin) B.P.	200 mcg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "204",
+    title: "BRONCOFAR TAB.",
+    slug: "broncofar-tab",
+    category: "tablets",
+    description:
+      "10x10 BLISTER + INSERT",
+    ingredient: "Each Tablet Contains:Bromhexine Hcl BP	8 mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "205",
+    title: "CLOTRAFAR-V TAB.",
+    slug: "clotrafar-v-tab",
+    category: "tablets",
+    description:
+      "1x6 ALU-ALU + INSERT",
+    ingredient: "Each extended release vaginal tablet contains: Clotrimazole	BP	100 mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "206",
+    title: "CITIFAR 500 TAB.",
+    slug: "citifar-500-tab",
+    category: "tablets",
+    description:
+      "10X1X10 ALU-ALU + INSERT",
+    ingredient: "Citicoline	BP	500 mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "207",
+    title: "DROTAFAR TAB.",
+    slug: "drotafar-tab",
+    category: "tablets",
+    description:
+      "10X10 BLISTER + INSERT",
+    ingredient: "(1. )Each film coated contains:Mefenamic Acid	BP	250 mg. Drotaverine HCL	BP	80 mg., (2.) Dicyclomine	BP	10 mg. Mefenamic Acid	BP	250mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "208",
+    title: "DYSRINFAR-G TAB.",
+    slug: "dysrinfar-g-tab",
+    category: "tablets",
+    description:
+      "10X1X10 ALU-ALU + INSERT",
+    ingredient: "Each film coated tablet contains:Diacerein	BP 50 mg. Glucosamine Sulphate Potassium Chloride 1500 mg. eq. to Glucosamine BP	892 mg.Methyl Sulfonyl Methane BP	100 mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "209",
+    title: "DESLOFAR-5 TAB.",
+    slug: "deslofar-5-tab",
+    category: "tablets",
+    description:
+      "10X1X10 ALU-ALU + INSERT",
+    ingredient: "Each film coated tablet contains:Desloratadine	BP	5 mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "210",
+    title: "LOPRAFAR TAB.",
+    slug: "loprafar-tab",
+    category: "tablets",
+    description:
+      "10X10 BLISTER + INSERT",
+    ingredient: "Loperamide Hcl	BP	2mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "211",
+    title: "VALFAR-500 TAB.",
+    slug: "valfar-500-tab",
+    category: "tablets",
+    description:
+      "10X1X10 ALU-ALU + INSERT",
+    ingredient: "Each film coated sustained release tablet contains:Sodium Valproate	BP	333 mg., Valproic Acid	BP	145 mg. (Both together correspond to Sodium Valproate 500mg.)",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "212",
+    title: "L-BENDAFAR TAB.",
+    slug: "l-bendafar-tab",
+    category: "tablets",
+    description:
+      "1X1 ALU-ALU + INSERT",
+    ingredient: "Each uncoated chewable tablet contains :Albendazole BP 400 mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "213",
+    title: "ONDAFAR-4 TAB.",
+    slug: "ondafar-4-tab",
+    category: "tablets",
+    description:
+      "10x10 ALU-ALU + INSERT",
+    ingredient: "Each uncoated tablet contains:Ondanserton BP 4mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+
 
   //----------------------------------------------------- ANTACID-------------------------------------- //
   {
@@ -2161,7 +2349,336 @@ export const products = [
     price: 0,
   },
   //--------------------------------------------- LIQUID/DRY SYP.------------------------------------- //
+  {
+    id: "224",
+    title: " AMOXIFAR-125  SUSP.",
+    slug: "amoxifar-125-susp",
+    category: "liquid-dry-syp",
+    description:
+      "100ML OUTER + INSERT WITH DOSE CAP",
+    ingredient: "Each 5ml after reconstitution contains:Amoxycillin Trihydrate BP Eq. to Amoxycillin  125mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "225",
+    title: "AMOXIFAR-250 SUSP.",
+    slug: "amoxifar-250-susp",
+    category: "liquid-dry-syp",
+    description:
+      "100ML OUTER + INSERT WITH DOSE CAP",
+    ingredient: "Each 5ml after reconstitution contains:Amoxycillin Trihydrate BP Eq. to Amoxycillin  250mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "226",
+    title: "MOXIFAR-CV SUSP.",
+    slug: "moxifar-cv-susp",
+    category: "liquid-dry-syp",
+    description:
+      "60ML/100 ML WITH WFI + INSERT",
+    ingredient: "Amoxycillin Trihydrate  BP 125mg Potassium Clavulanate BP 31.5mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "227",
+    title: "MOXIFAR-CV SUSP.",
+    slug: "moxifar-cv-susp",
+    category: "liquid-dry-syp",
+    description:
+      "100ML OUTER + INSERT WITH DOSE CAP",
+    ingredient: "Each 5ml. (on reconstitution ) Suspension contains :Amoxycillin  Trihydrate  B.P Eq. To Amoxycillin 200 mg Potassium Clavulanate  Diluted  B.P Eq. To Clavulanic Acid 28.5 mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "228",
+    title: "MOXIFAR-CV DS SUSP.",
+    slug: "moxifar-cv-ds-susp",
+    category: "liquid-dry-syp",
+    description:
+      "60ML/100ML WITH WFI + INSERT",
+    ingredient: "Amoxycillin Trihydrate BP 250mg Potassium Clavulanate BP 62.5mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "229",
+    title: "AZIFAR-200 SUSP.",
+    slug: "azifar-200-susp",
+    category: "liquid-dry-syp",
+    description:
+      "30ML WITH CARTON +INSERT",
+    ingredient: "Each 5 ml contains:Azithromycin eq. to Anhydrous Azithromycin BP 200 mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "230",
+    title: "NYSTAFAR SUSP.",
+    slug: "nystafar-susp",
+    category: "liquid-dry-syp",
+    description:
+      "30ML WITH CARTON +INSERT",
+    ingredient: "Each ml oral suspension contains:Nystatin BP 100000 IU",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "231",
+    title: "ERYTHROFAR SUSP.",
+    slug: "erythrofar-susp",
+    category: "liquid-dry-syp",
+    description:
+      "100ML WITH CARTON +INSERT",
+    ingredient: "Each 5 ml contains:Erythromycin BP 125 mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "232",
+    title: "CEF-FAR DRY SYP.",
+    slug: "cef-far-dry-syp",
+    category: "liquid-dry-syp",
+    description:
+      "100 ML  WITH WFI + INSERT",
+    ingredient: "Each 5 ml contains:Cefixime Trihydrate eq. to Anhydrous Cefixime	100 mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "233",
+    title: "CEF-FAR DRY SYP.",
+    slug: "cef-far-dry-syp",
+    category: "liquid-dry-syp",
+    description:
+      "60 ML  WITH WFI + INSERT",
+    ingredient: "Each 5 ml contains:Cefixime Trihydrate eq. to Anhydrous Cefixime	100 mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "234",
+    title: "CYPROFAR SYP.",
+    slug: "cyprofar-syp",
+    category: "liquid-dry-syp",
+    description:
+      "200ML WITH OUTER + INSERT",
+    ingredient: "Each 15 ml contains Cyproheptadine HCL  BP  2mg, Vitamin A (as Palmitate)  BP  1500IU, Vitamin D3  BP  300IU, Thiamine HCL (Vit B1) BP 5mg, Riboflavin  BP 2.2mg, Pyridoxine HCL (Vit B6)  BP  5mg, Cyanocobalamin  BP  5mcg, Dexpanthenol   BP 25mg. ",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "235",
+    title: "PARAFAR SUSP.",
+    slug: "parafar-susp",
+    category: "liquid-dry-syp",
+    description:
+      "100 ML WITH OUTER, DOSE CAP + INSERT",
+    ingredient: "Each 5 ml contains Paracetamol BP 125 mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "236",
+    title: "VIT-B FAR SYP.",
+    slug: "vit-b-far-syp",
+    category: "liquid-dry-syp",
+    description:
+      "100ML OUTER + INSERT WITH DOSE CAP",
+    ingredient: "Each 5 ml contains:Thiamine Mononitrate (Vit.B1) I.P	 5mg, Riboflavin (Vit.B2) I.P		5 mg, Pyridoxine Hydrochloride (Vit.B6) I.P 1.5 mg, Cyanocobalamin (Vit.B12) I.P	7 mcgD-Panthenol I.P	5mg, Niacinamide I.P	45 mg, L-Lysine Hydrochloride U.S.P	150 mg, Ascarbic acid I.P	 75mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "237",
+    title: "CUFFAR SYP.",
+    slug: "cuffar-syp",
+    category: "liquid-dry-syp",
+    description:
+      "100ML OUTER + INSERT WITH DOSE CAP",
+    ingredient: "Each 5 ml contains:Dexamethorphan Hbr	10mg., Guaiphenesin	100mg., Phenylepherine HCI	5mg, CPM	4mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "238",
+    title: "IBUFAR SUSP.",
+    slug: "ibufar-susp",
+    category: "liquid-dry-syp",
+    description:
+      "100ML OUTER + INSERT WITH DOSE CAP",
+    ingredient: "Each 5 ml contains:Ibuprofen	BP	100 mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "239",
+    title: "METROFAR SUSP.",
+    slug: "metrofar-susp",
+    category: "liquid-dry-syp",
+    description:
+      "100ML OUTER + INSERT WITH DOSE CAP",
+    ingredient: "Each 5 ml contains Metronidazole Benzoate	BP. Eq To Metronidazole	200mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "240",
+    title: "OCUFAR SYP.",
+    slug: "ocufar-syp",
+    category: "liquid-dry-syp",
+    description:
+      "100ML OUTER + INSERT WITH DOSE CAP",
+    ingredient: "Each 15 ml. contains:Ferric Ammonium Citrate BP	160 mg. (Eq. to 32 mg of elemental Iron), Cyanocobalamin  BP		7.5 mcg., Folic Acid	BP	0.5 mg.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
 
   //----------------------------------------------- OINTMENT------------------------------------------ //
-
+   {
+    id: "241",
+    title: "BCNFAR CREAM",
+    slug: "bcnfar-cream",
+    category: "ointment",
+    description:
+      "15 Gm. with Outer Box + Insert",
+    ingredient: "Beclomethasone Dipropionate BP 0.025%W/W, Neomycin Sulphate BP 0.5%w/w, Clotrimazole BP 1.0%w/w",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+   {
+    id: "242",
+    title: "BURNFAR CREAM",
+    slug: "burnfar-cream",
+    category: "ointment",
+    description:
+      "15 Gm. with Outer Box + Insert",
+    ingredient: "Silver Nitrate B.P. 0.20%w/w, Chlorhexidine gluconate solution B.P 0.20w/w, Preservative:Chlorocresol B.P 0.12%w/w/",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+   {
+    id: "243",
+    title: "ACICLOFAR CREAM",
+    slug: "aciclofar-cream",
+    category: "ointment",
+    description:
+      "10 Gm. with Outer Box  +Insert",
+    ingredient: "Aciclovir B.P. 5%w/w In a Cream Base q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+   {
+    id: "244",
+    title: "KETOFAR CREAM",
+    slug: "ketofar-cream",
+    category: "ointment",
+    description:
+      "30 Gm. with Outer Box  +Insert",
+    ingredient: "Ketoconazole B.P. 2.00w/w, Cream Base q.s., Preservatives:Methylparaben B.P. 0.18%w/w, Propylparaben B.P. 0.02%w/w",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+   {
+    id: "245",
+    title: "MICONAFAR CREAM",
+    slug: "miconafar-cream",
+    category: "ointment",
+    description:
+      "30 Gm. with Outer Box  +Insert",
+    ingredient: "Miconazole Nitrate B.P. 2.00%w/w",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+   {
+    id: "246",
+    title: "CLOTRIFAR CREAM",
+    slug: "clotrifar-cream",
+    category: "ointment",
+    description:
+      "30 Gm. with Outer Box  +Insert",
+    ingredient: "Clotrimazole B.P. 1%w/w, In water miscible base q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+   {
+    id: "247",
+    title: "CLOTRIFAR VEGINAL GEL",
+    slug: "clotrifar-veginal-gel",
+    category: "ointment",
+    description:
+      "30 Gm. With applicator, Outer Box  +Insert",
+    ingredient: "Each gram contains:Clotrimazole B.P. 20mg.,Preservative: Benzyl Alcohol B.P. 1%w/w",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+   {
+    id: "248",
+    title: "VIZIAFAR(SKIN OINTMENT)",
+    slug: "viziafar",
+    category: "ointment",
+    description:
+      "20 Gm. with Outer Box  +Insert",
+    ingredient: "Betamethasone Valerate BP 0.10%w/w, Clindamycin Phosphate BP 1.0%w/w, Salicylic Acid BP 3.0%w/w",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+   {
+    id: "249",
+    title: "VOMNIFAR GEL",
+    slug: "vomnifar-gel",
+    category: "ointment",
+    description:
+      "30 Gm. with Outer Box  +Insert",
+    ingredient: "Composition : Diclofenac Diethylamine BP 1.16% w/w, Eq. to Diclofenac Sodium  1.00 w/w, Menthol BP  3% w/w, Methyl Salicylate BP  10.0% w/w, Linseed Oil 3.0% w/w",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+   {
+    id: "250",
+    title: "BETNOFAR DERM CREAM",
+    slug: "betnofar-derm-cream",
+    category: "ointment",
+    description:
+      "30 Gm. with Outer Box  +Insert",
+    ingredient: "Betamethasone Dipropionate USP 0.05% w/w, Clotrimazole	BP	1% w/w, Gentamicin Sulphate	 BP	 0.1% w/w, Chlorocresol	BP	0.1% w/w",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+   {
+    id: "251",
+    title: "NOMOSFAR  CREAM",
+    slug: "nomosfar-cream",
+    category: "ointment",
+    description:
+      "50 Gm. With Outer Box  +Insert",
+    ingredient: "Composition:N, N-Diethylbenzamide	12% w/w",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+   {
+    id: "252",
+    title: "POVIFAR CREAM",
+    slug: "povifar-cream",
+    category: "ointment",
+    description:
+      "15GM with Outer Box  +Insert",
+    ingredient: "Povidone Iodine BP. 5%w/w(Available Iodine 0.5%w/w)",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+   {
+    id: "253",
+    title: "TACROFAR CREAM",
+    slug: "tacrofar-cream",
+    category: "ointment",
+    description:
+      "30GM with Outer Box  +Insert",
+    ingredient: "Each gram of  ointment  conatains:Tacrolimus BP 0.1%w/w, Ointment base  q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
 ];
