@@ -28,6 +28,7 @@ import VetInjection from "@/components/Sliders/VetInjection";
 import VetLiquid from "@/components/Sliders/VetLiquid";
 import VetPowder from "@/components/Sliders/VetPowder";
 import VetTablet from "@/components/Sliders/VetTablet";
+import AllProducts from "@/components/Home/AllProducts";
 
 
 export default function ProductDetails({ product }) {
