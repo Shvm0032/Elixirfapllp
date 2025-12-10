@@ -21,6 +21,13 @@ import Antimalarial from "@/components/Sliders/Antimalarial";
 import Tablets from "@/components/Sliders/Tablets";
 import LiquidDrySyp from "@/components/Sliders/LiquidDrySyp";
 import Ointment from "@/components/Sliders/Ointment";
+import OncologyCapsules from "@/components/Sliders/OncologyCapsules";
+import OncologyInjection from "@/components/Sliders/OncologyInjection";
+import VetBolus from "@/components/Sliders/VetBolus";
+import VetInjection from "@/components/Sliders/VetInjection";
+import VetLiquid from "@/components/Sliders/VetLiquid";
+import VetPowder from "@/components/Sliders/VetPowder";
+import VetTablet from "@/components/Sliders/VetTablet";
 
 
 export default function ProductDetails({ product }) {
@@ -91,6 +98,20 @@ export default function ProductDetails({ product }) {
                 ? "LIQUID/DRY SYP"
                 : product.category === "ointment"
                 ? "OINTMENT"
+                : product.category === "oncology-capsules"
+                ? "Oncology Capsules"
+                : product.category === "oncology-injections"
+                ? "Oncology Injections"
+                : product.category === "veterinary-bolus"
+                ? "Veterinary Bolus"
+                : product.category === "veterinary-injection"
+                ? "Veterinary Injection"
+                : product.category === "veterinary-liquid"
+                ? "Veterinary Liquid"
+                : product.category === "veterinary-powder"
+                ? "Veterinary Powder"
+                : product.category === "veterinary-tablet"
+                ? "Veterinary Tablet"
                 : product.category.charAt(0).toUpperCase() +
                   product.category.slice(1)}
             </p>
@@ -168,6 +189,20 @@ export default function ProductDetails({ product }) {
           <LiquidDrySyp />
         ) : product.category === "ointment" ? (
           <Ointment />
+        ) : product.category === "oncology-capsules" ? (
+          <OncologyCapsules />
+        ) : product.category === "oncology-injections" ? (
+          <OncologyInjection />
+        ) : product.category === "veterinary-bolus" ? (
+          <VetBolus />
+        ) : product.category === "veterinary-injection" ? (
+          <VetInjection />
+        ) : product.category === "veterinary-liquid" ? (
+          <VetLiquid />
+        ) : product.category === "veterinary-powder" ? (
+          <VetPowder />
+        ) : product.category === "veterinary-tablet" ? (
+          <VetTablet />
         ) : (
           <AllProducts />
         )}

@@ -11,7 +11,7 @@ export default function Achievement() {
   ];
 
   return (
-    <section className="py-16 bg-gray-50 text-center">
+    <section className="py-16 bg-[#EFF5FA] text-center">
       {/* Heading */}
       <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
         Achievements

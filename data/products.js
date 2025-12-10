@@ -6,7 +6,8 @@ export const products = [
     category: "ayurvedic",
     description:
       "Painfar Oil (100 ML) is a powerful herbal remedy designed to relieve joint pain, backache, and muscle stiffness...",
-    ingredient: "Gandhpura Oil (Gaultheria Gragantissima)20.00% + Soya Bean Oil (Glycine Max) 10.00% + Kapur (Cinnamomum Camphora) 5.00% + Tarpin Ka Tail (Pimus Longifoilia) 10.00% + Arand (Ricinus Communis) 6.00% + Nirgundi (Vites Negundo) 8.00% + Nilgiri (Eucalyptus Globulus) 10.00% Bhutrina 5.00% + Pudina(Mentha Viridis) 5.00% + Shallaki (Bosewellia Serrata) 5.00% + Jyotishmati (Celastrus Paniculatus) 2.00% + Lavang 2.00% + Shudh Guggul (Commiphora Mukul) 0.20% + Shunthi (zingiber Officinale) 0.20% + Jarul 0.20% + Dhatura ( Datura Stromonium ) 0.20% Alsi ( Linum Usitatissimum) 0.20%",
+    ingredient:
+      "Gandhpura Oil (Gaultheria Gragantissima)20.00% + Soya Bean Oil (Glycine Max) 10.00% + Kapur (Cinnamomum Camphora) 5.00% + Tarpin Ka Tail (Pimus Longifoilia) 10.00% + Arand (Ricinus Communis) 6.00% + Nirgundi (Vites Negundo) 8.00% + Nilgiri (Eucalyptus Globulus) 10.00% Bhutrina 5.00% + Pudina(Mentha Viridis) 5.00% + Shallaki (Bosewellia Serrata) 5.00% + Jyotishmati (Celastrus Paniculatus) 2.00% + Lavang 2.00% + Shudh Guggul (Commiphora Mukul) 0.20% + Shunthi (zingiber Officinale) 0.20% + Jarul 0.20% + Dhatura ( Datura Stromonium ) 0.20% Alsi ( Linum Usitatissimum) 0.20%",
     images: ["/Assets/no-img.jpg"],
     price: 29.99,
   },
@@ -16,7 +17,8 @@ export const products = [
     slug: "anaconda-cap-10x1x10",
     category: "ayurvedic",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
-    ingredient: "Arjun chaal (Terminalia arjuna) 80mg + Devdar (Curdus deodara) 80mg + Salampanja (Orchis latifolia) 25mg + Jaifal (Myristica frangans) 55mg + Kapoor (Camphora Cinnamomun) 25mg + Akarkra (Anacyclus pyrethrum) 50mg + Safed musli (Aspragus adscendens) 40mg + Chitrak mul (Plumbago zeylanica) 75mg + Bhramdi (Centella asiatica) 07mg + Aalua (Aloes vera) 05mg + Shilajit (Asphaltum) 10mg + Mandoor bhasm (Sidh yog sangrah) 05mg + Sudh para (Rass) 45mg + Loh basham 05mg + Bang basham 03mg",
+    ingredient:
+      "Arjun chaal (Terminalia arjuna) 80mg + Devdar (Curdus deodara) 80mg + Salampanja (Orchis latifolia) 25mg + Jaifal (Myristica frangans) 55mg + Kapoor (Camphora Cinnamomun) 25mg + Akarkra (Anacyclus pyrethrum) 50mg + Safed musli (Aspragus adscendens) 40mg + Chitrak mul (Plumbago zeylanica) 75mg + Bhramdi (Centella asiatica) 07mg + Aalua (Aloes vera) 05mg + Shilajit (Asphaltum) 10mg + Mandoor bhasm (Sidh yog sangrah) 05mg + Sudh para (Rass) 45mg + Loh basham 05mg + Bang basham 03mg",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -26,7 +28,8 @@ export const products = [
     slug: "anaconda-oil-15-ml",
     category: "ayurvedic",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
-    ingredient: "Anacyclus pyrethrum 125mg + Arsenica sulphate 100mg + Syzgium aromaticum 100mg + Withania somnifera 200mg + Asparagus racemosus 150mg + Pistacia vera 50mg + Chlorephytum arundinaceum 125mg + Celastrus paniculatus 50mg + Crocus sativus 10mg + Cinnamomum zeylanicum 50mg + Myristica fragrance (Jaiphal) 50mg + Myristica fragrance (Javitri) 40mg",
+    ingredient:
+      "Anacyclus pyrethrum 125mg + Arsenica sulphate 100mg + Syzgium aromaticum 100mg + Withania somnifera 200mg + Asparagus racemosus 150mg + Pistacia vera 50mg + Chlorephytum arundinaceum 125mg + Celastrus paniculatus 50mg + Crocus sativus 10mg + Cinnamomum zeylanicum 50mg + Myristica fragrance (Jaiphal) 50mg + Myristica fragrance (Javitri) 40mg",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -46,7 +49,8 @@ export const products = [
     slug: "elixirs-gripe-water-100-ml",
     category: "ayurvedic",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
-    ingredient: "Each 5ml contains: Purified Sarjikakshara 45mg (Sodium Bicarbonate) + Sowa Tel 0.001ml (Anethum Sowa) + Shatapushpa Tel 0.0007ml (Pimpinella Tel) + Pudina Tel 0.0003ml (Mentha Arvensis) + Syrupy Base q.s.",
+    ingredient:
+      "Each 5ml contains: Purified Sarjikakshara 45mg (Sodium Bicarbonate) + Sowa Tel 0.001ml (Anethum Sowa) + Shatapushpa Tel 0.0007ml (Pimpinella Tel) + Pudina Tel 0.0003ml (Mentha Arvensis) + Syrupy Base q.s.",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -56,7 +60,8 @@ export const products = [
     slug: "honeyfar-syp-100-ml",
     category: "ayurvedic",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
-    ingredient: "Each 5 ml contains extracts derived from: Aloe Barbadensis Leaf exudate 50mg + Adhatoda Vasica Leaf extract 60mg + Curcuma Longa(Haldi) Rhizome extract 50mg + Glycyrrhiza Glabra root extract 60mg + Inula racemosa root extract 20mg + Mentha piperita leaf extract 6mg + Ocimum Sanctum leaf extract 120mg + Piper cubeba fruit extract 10mg + Solanum Indicum leaf extract 20mg + Terminalla Belerica leaf extract 20mg + Zingiber officinale rhizome extract 25mg + Honey (Madhu) 1750mg",
+    ingredient:
+      "Each 5 ml contains extracts derived from: Aloe Barbadensis Leaf exudate 50mg + Adhatoda Vasica Leaf extract 60mg + Curcuma Longa(Haldi) Rhizome extract 50mg + Glycyrrhiza Glabra root extract 60mg + Inula racemosa root extract 20mg + Mentha piperita leaf extract 6mg + Ocimum Sanctum leaf extract 120mg + Piper cubeba fruit extract 10mg + Solanum Indicum leaf extract 20mg + Terminalla Belerica leaf extract 20mg + Zingiber officinale rhizome extract 25mg + Honey (Madhu) 1750mg",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -66,7 +71,8 @@ export const products = [
     slug: "stonefar-tab-30s",
     category: "ayurvedic",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
-    ingredient: "Each tablet contains:Berberis Aristata Extract 100 mg + Boerhavia Diffusa Extrac 100 mg + Tribulus Terrestris Extract 100 mg + RubiaCordifolia Extract 50 mg + Didymocarpus Pedicellata Extract 50 mg + Dandelion Extract 20 mg + Piper LongumExtract 5 mg + Flaxseed Hull eq. to SDG Lignans 4.4 mg",
+    ingredient:
+      "Each tablet contains:Berberis Aristata Extract 100 mg + Boerhavia Diffusa Extrac 100 mg + Tribulus Terrestris Extract 100 mg + RubiaCordifolia Extract 50 mg + Didymocarpus Pedicellata Extract 50 mg + Dandelion Extract 20 mg + Piper LongumExtract 5 mg + Flaxseed Hull eq. to SDG Lignans 4.4 mg",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -76,7 +82,8 @@ export const products = [
     slug: "livfar-syp-200ml",
     category: "ayurvedic",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
-    ingredient: "Composition: Each 10 ml. contains :Bhringraj (Eclipta alba) 450 mg + Sarpunka (Abies Webbiana) 450 mg + Rohitiki Chhal (Aphanamixis Rohituka) 400 mg + Arjuna Chhal (Terminalia Arjuna) 300 mg + Ashwagandha (Withania Somnifera) 400 mg + Chirayata (Mentha Arvensis) 200 mg + Kalmegh (Andrographis Paniculate) 200 mg + Makoi (Solanum Nigrum) 200 mg + Vaidvidang (Embelia Officinalis) 200 mg + Pitpapra (Fumaria officinalis) 200 mg + Bhui Amla (Phyllanthus Niruri) 100 mg + Daru Haldi (Berberis Arvensis) 200 mg + Pudina (Mentha Arvensis) 100 mg + Tulsi (Ocimum Sanctum) 100 mg + Kasni (Cichorium Intybus) 100 mg + Giloy (Terminlalia Chebula) 100 mg + Harad (Tinospora Cardifolia) 100 mg + Behera (Terminlalia Belerica) 100 mg + Amla (Phyllanthus Emblica) 100 mg + Kutki (Picrothiza Kurroa) 100 mg + Chitrakmool (Plumbago Zeylanica) 100 mg + Sugar Base q.s.",
+    ingredient:
+      "Composition: Each 10 ml. contains :Bhringraj (Eclipta alba) 450 mg + Sarpunka (Abies Webbiana) 450 mg + Rohitiki Chhal (Aphanamixis Rohituka) 400 mg + Arjuna Chhal (Terminalia Arjuna) 300 mg + Ashwagandha (Withania Somnifera) 400 mg + Chirayata (Mentha Arvensis) 200 mg + Kalmegh (Andrographis Paniculate) 200 mg + Makoi (Solanum Nigrum) 200 mg + Vaidvidang (Embelia Officinalis) 200 mg + Pitpapra (Fumaria officinalis) 200 mg + Bhui Amla (Phyllanthus Niruri) 100 mg + Daru Haldi (Berberis Arvensis) 200 mg + Pudina (Mentha Arvensis) 100 mg + Tulsi (Ocimum Sanctum) 100 mg + Kasni (Cichorium Intybus) 100 mg + Giloy (Terminlalia Chebula) 100 mg + Harad (Tinospora Cardifolia) 100 mg + Behera (Terminlalia Belerica) 100 mg + Amla (Phyllanthus Emblica) 100 mg + Kutki (Picrothiza Kurroa) 100 mg + Chitrakmool (Plumbago Zeylanica) 100 mg + Sugar Base q.s.",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -96,7 +103,8 @@ export const products = [
     slug: "shilajit-syrup-500ml",
     category: "ayurvedic",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
-    ingredient: "Each 10ml contains soft extract of Shudh Shilajit (Asphaltum) 100mg + Vidharikand 50mg + Shatavari 25mg + Ashwagandha 50mg + Gokhru 50mg + Arjun Chhal 25mg + Amla 50mg + Manjistha 12.5mg + Gorakhmundi 12.5mg + Sunthi 25mg + Kaunch Beej 25mg.",
+    ingredient:
+      "Each 10ml contains soft extract of Shudh Shilajit (Asphaltum) 100mg + Vidharikand 50mg + Shatavari 25mg + Ashwagandha 50mg + Gokhru 50mg + Arjun Chhal 25mg + Amla 50mg + Manjistha 12.5mg + Gorakhmundi 12.5mg + Sunthi 25mg + Kaunch Beej 25mg.",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -126,7 +134,8 @@ export const products = [
     slug: "rhino-balm-10gm",
     category: "ayurvedic",
     description: "Painfar Oil (100 ML) is a powerful herbal remedy...",
-    ingredient: "Symptomatic relief of muscular aches and pain, sprains and rheumatism, insect bites, itching, lumbago, cold, cough and headache.",
+    ingredient:
+      "Symptomatic relief of muscular aches and pain, sprains and rheumatism, insect bites, itching, lumbago, cold, cough and headache.",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -1296,8 +1305,7 @@ export const products = [
     title: "CEF-FAR 200 TAB.",
     slug: "cef-far-200-tab",
     category: "antibiotics",
-    description:
-      "10X1X10  ALU-ALU + INSERT (1X10 MONO CARTON)",
+    description: "10X1X10  ALU-ALU + INSERT (1X10 MONO CARTON)",
     ingredient: "Each film coated tablet contains: Cefixime Trihydrate	BP",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
@@ -1307,8 +1315,7 @@ export const products = [
     title: "CEF-FAR -400 TAB.",
     slug: "cef-far-400-tab",
     category: "antibiotics",
-    description:
-      "10X1X10  ALU-ALU + INSERT (1X10 MONO CARTON)",
+    description: "10X1X10  ALU-ALU + INSERT (1X10 MONO CARTON)",
     ingredient: "Each film coated tablet contains: Cefixime Trihydrate	BP",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
@@ -1318,8 +1325,7 @@ export const products = [
     title: "LEVOFAR-500 TAB.",
     slug: "levofar-500-tab",
     category: "antibiotics",
-    description:
-      "3x10  ALU-ALU +INSERT  ",
+    description: "3x10  ALU-ALU +INSERT  ",
     ingredient: "Each uncoated tablet contains:Levofloxacin Hemihyderate BP",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
@@ -1329,8 +1335,7 @@ export const products = [
     title: "LEVOFAR-750 TAB.",
     slug: "levofar-750-tab",
     category: "antibiotics",
-    description:
-      "3x10  ALU-ALU +INSERT  ",
+    description: "3x10  ALU-ALU +INSERT  ",
     ingredient: "Each uncoated tablet contains:Levofloxacin Hemihyderate BP",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
@@ -1340,9 +1345,9 @@ export const products = [
     title: "MOXIFAR CV-625 TAB.",
     slug: "moxifar-cv-625-tab",
     category: "antibiotics",
-    description:
-      "10X1X10  ALU-ALU + INSERT (1X10 MONO CARTON)",
-    ingredient: "Each film coated tablet contains: Amoxycillin Trihydrate	BP,Potassium Calvulanic Acid	BP",
+    description: "10X1X10  ALU-ALU + INSERT (1X10 MONO CARTON)",
+    ingredient:
+      "Each film coated tablet contains: Amoxycillin Trihydrate	BP,Potassium Calvulanic Acid	BP",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -1351,9 +1356,9 @@ export const products = [
     title: "MOXIFAR CV-1GM TAB.",
     slug: "moxifar-cv-1gm-tab",
     category: "antibiotics",
-    description:
-      "2X7 ALU-ALU + WITH OUTER + INSERT  (2X7 MONO POUCH PACK)",
-    ingredient: "Each film coated tablet contains:Amoxycillin Trihydrate BP 875 mg, Potassium  Calvulanic Acid125mg.",
+    description: "2X7 ALU-ALU + WITH OUTER + INSERT  (2X7 MONO POUCH PACK)",
+    ingredient:
+      "Each film coated tablet contains:Amoxycillin Trihydrate BP 875 mg, Potassium  Calvulanic Acid125mg.",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -1362,9 +1367,9 @@ export const products = [
     title: "MOXIFAR-500 CAP.",
     slug: "moxifar-500-cap",
     category: "antibiotics",
-    description:
-      "10X10 BLISTER + INSERT",
-    ingredient: "Each hard gelatin capsule contains:Amoxicillin Trihydrate BP, Eq to amoxicillin 500 mg",
+    description: "10X10 BLISTER + INSERT",
+    ingredient:
+      "Each hard gelatin capsule contains:Amoxicillin Trihydrate BP, Eq to amoxicillin 500 mg",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -1373,9 +1378,9 @@ export const products = [
     title: "AZIFAR-500 TAB.",
     slug: "azifar-500-tab",
     category: "antibiotics",
-    description:
-      "3X10 BLISTER MONO + INSERT",
-    ingredient: "Each film coated tablet contains: Azithromycin Dihydrate	BP,Eq. ccccto Anhydrous Azithromycin",
+    description: "3X10 BLISTER MONO + INSERT",
+    ingredient:
+      "Each film coated tablet contains: Azithromycin Dihydrate	BP,Eq. ccccto Anhydrous Azithromycin",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -1384,8 +1389,7 @@ export const products = [
     title: "CIPROFAR-500 TAB.",
     slug: "ciprofar-500-tab",
     category: "antibiotics",
-    description:
-      "10X10 BLISTER + INSERT",
+    description: "10X10 BLISTER + INSERT",
     ingredient: "Each film coated tablet contains: Ciprofloxacin HCL BP",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
@@ -1395,8 +1399,7 @@ export const products = [
     title: "LINZOFAR-600 TAB.",
     slug: "linzofar-600-tab",
     category: "antibiotics",
-    description:
-      "10X1X10 ALU-ALU + MONO CARTON + INSERT",
+    description: "10X1X10 ALU-ALU + MONO CARTON + INSERT",
     ingredient: "Each film coated tablet contains: Linezolid BP",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
@@ -1406,8 +1409,7 @@ export const products = [
     title: "CEFUFAR-500 TAB.",
     slug: "cefufar-500-tab",
     category: "antibiotics",
-    description:
-      "10X1X10  ALU-ALU + INSERT (1X10 MONO CARTON)",
+    description: "10X1X10  ALU-ALU + INSERT (1X10 MONO CARTON)",
     ingredient: "Each tablet contains:Cefuroxime Axetil	BP",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
@@ -1417,9 +1419,9 @@ export const products = [
     title: "AMPICLOXFAR CAP.",
     slug: "ampicloxfar-cap",
     category: "antibiotics",
-    description:
-      "10X1X10 BLISTER POUCH PACK + INSERT ",
-    ingredient: "Each hard gelatin capsule contain:Ampicillin Trihydrate  B.PE.g. to Ampicillin 250 mg Cloxacillin Sodium  B.Pe.q. to Cloxacillin 250 mg",
+    description: "10X1X10 BLISTER POUCH PACK + INSERT ",
+    ingredient:
+      "Each hard gelatin capsule contain:Ampicillin Trihydrate  B.PE.g. to Ampicillin 250 mg Cloxacillin Sodium  B.Pe.q. to Cloxacillin 250 mg",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -1429,9 +1431,9 @@ export const products = [
     title: "VILDAFAR-M TAB.",
     slug: "vildafar-m-tab",
     category: "antidiabetic",
-    description:
-      "3X10 ALU-ALU + INSERT",
-    ingredient: "Each film coated Tablet Contains:Vildagliptin  BP 50 mg, Metformin Hydrochloride BP   1000 mg",
+    description: "3X10 ALU-ALU + INSERT",
+    ingredient:
+      "Each film coated Tablet Contains:Vildagliptin  BP 50 mg, Metformin Hydrochloride BP   1000 mg",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -1440,9 +1442,9 @@ export const products = [
     title: "SITAFAR-M FORTE TAB.",
     slug: "sitafar-m-forte-tab",
     category: "antidiabetic",
-    description:
-      "3X10 ALU-ALU + INSERT",
-    ingredient: "Each Uncoated  Tablet Contains:Metformin Hydrochloride BP  1000mg, Sitagliptin Phosphate BP 50mg",
+    description: "3X10 ALU-ALU + INSERT",
+    ingredient:
+      "Each Uncoated  Tablet Contains:Metformin Hydrochloride BP  1000mg, Sitagliptin Phosphate BP 50mg",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -1451,9 +1453,9 @@ export const products = [
     title: "SITAFAR-M TAB.",
     slug: "sitafar-m-tab",
     category: "antidiabetic",
-    description:
-      "3X10 ALU-ALU + INSERT",
-    ingredient: "Sitagliptin Phosphate Monohydrate, eq. to Sitagliptin BP 50mg Metformin HCL  BP  500mg.",
+    description: "3X10 ALU-ALU + INSERT",
+    ingredient:
+      "Sitagliptin Phosphate Monohydrate, eq. to Sitagliptin BP 50mg Metformin HCL  BP  500mg.",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -1463,8 +1465,7 @@ export const products = [
     title: "LOSARFAR TAB.",
     slug: "losarfar-tab",
     category: "cardiovascular",
-    description:
-      "3X10 ALU-ALU + INSERT",
+    description: "3X10 ALU-ALU + INSERT",
     ingredient: "Each film coated tablet contains:Losartan Potassium	BP",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
@@ -1474,9 +1475,9 @@ export const products = [
     title: "LOSARFAR-H TAB.",
     slug: "losarfar-h-tab",
     category: "cardiovascular",
-    description:
-      "3X10  ALU-ALU + INSERT",
-    ingredient: "Each film coated tablet contains: Losartan Potassium	BP, Hydrochlorothiazide	BP",
+    description: "3X10  ALU-ALU + INSERT",
+    ingredient:
+      "Each film coated tablet contains: Losartan Potassium	BP, Hydrochlorothiazide	BP",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -1485,8 +1486,7 @@ export const products = [
     title: "AMLOFAR-5 TAB.",
     slug: "amlofar-5-tab",
     category: "cardiovascular",
-    description:
-      "3X10  ALU-ALU + INSERT",
+    description: "3X10  ALU-ALU + INSERT",
     ingredient: "Each uncoated tablet contains: Amlodipine Besylate	BP",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
@@ -1496,8 +1496,7 @@ export const products = [
     title: "AMLOFAR-10 TAB.",
     slug: "amlofar-10-tab",
     category: "cardiovascular",
-    description:
-      "3X10  ALU-ALU + INSERT",
+    description: "3X10  ALU-ALU + INSERT",
     ingredient: "Each uncoated tablet contains: Amlodipine Besylate	BP",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
@@ -1507,8 +1506,7 @@ export const products = [
     title: "RAMIFAR-5 TAB.",
     slug: "ramifar-5-tab",
     category: "cardiovascular",
-    description:
-      "3X10  ALU-ALU + INSERT",
+    description: "3X10  ALU-ALU + INSERT",
     ingredient: "Each uncoated tablet contains: Ramipril 	BP",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
@@ -1518,8 +1516,7 @@ export const products = [
     title: "TELMIFAR-40 TAB.",
     slug: "telmifar-40-tab",
     category: "cardiovascular",
-    description:
-      "3X10  ALU-ALU + INSERT",
+    description: "3X10  ALU-ALU + INSERT",
     ingredient: "Telmisartan	BP",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
@@ -1529,8 +1526,7 @@ export const products = [
     title: "TELMIFAR-H TAB.",
     slug: "telmifar-h-tab",
     category: "cardiovascular",
-    description:
-      "3X10  ALU-ALU + INSERT",
+    description: "3X10  ALU-ALU + INSERT",
     ingredient: "Telmisartan	BP, Hydrochlorothiazide  BP",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
@@ -1540,8 +1536,7 @@ export const products = [
     title: "TELMIFAR-AM TAB.",
     slug: "telmifar-am-tab",
     category: "cardiovascular",
-    description:
-      "3X10  ALU-ALU + INSERT",
+    description: "3X10  ALU-ALU + INSERT",
     ingredient: "Amlodipin	BP 5mg., Telmisartan BP 40mg.	",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
@@ -1551,8 +1546,7 @@ export const products = [
     title: "NIF-FAR 20 TAB.",
     slug: "nif-far-20-tab",
     category: "cardiovascular",
-    description:
-      "3X10  ALU-ALU + INSERT",
+    description: "3X10  ALU-ALU + INSERT",
     ingredient: "Each Uncoated Tablet Contains :Nifedipine	BP	20 mg	",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
@@ -1562,9 +1556,9 @@ export const products = [
     title: "TOCARDFAR-20 TAB.",
     slug: "tocardfar-20-tab",
     category: "cardiovascular",
-    description:
-      "3X10  ALU-ALU + INSERT",
-    ingredient: "Each film coated tablet contains: Atorvastatin Calcium BP 20 mg. Eq. to Atorvastatin",
+    description: "3X10  ALU-ALU + INSERT",
+    ingredient:
+      "Each film coated tablet contains: Atorvastatin Calcium BP 20 mg. Eq. to Atorvastatin",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -1573,9 +1567,9 @@ export const products = [
     title: "ROSUFAR-20 TAB.",
     slug: "rosufar-20-tab",
     category: "cardiovascular",
-    description:
-      "3X10  ALU-ALU + INSERT",
-    ingredient: "Each film coated tablet contains:Rosuvastatin Calcium BP 20mg. Eq. to Rosuvastatin",
+    description: "3X10  ALU-ALU + INSERT",
+    ingredient:
+      "Each film coated tablet contains:Rosuvastatin Calcium BP 20mg. Eq. to Rosuvastatin",
     images: ["/Assets/no-img.jpg"],
     price: 39.99,
   },
@@ -1586,9 +1580,9 @@ export const products = [
     title: "A&A TAB.",
     slug: "a-&-a-tab",
     category: "analgesics",
-    description:
-      "10x1X10 ALU-ALU + INSERT",
-    ingredient: "Each film coated tablet contains: Aceclofenac	BP	100mg., Parcetamol	BP	325mg.",
+    description: "10x1X10 ALU-ALU + INSERT",
+    ingredient:
+      "Each film coated tablet contains: Aceclofenac	BP	100mg., Parcetamol	BP	325mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1597,8 +1591,7 @@ export const products = [
     title: "ACECLOFAR TAB.",
     slug: "aceclofar-tab",
     category: "analgesics",
-    description:
-      "10x1X10 ALU-ALU + INSERT ",
+    description: "10x1X10 ALU-ALU + INSERT ",
     ingredient: "Each film coated tablet contains:Aceclofenac BP 100mg..",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -1608,8 +1601,7 @@ export const products = [
     title: "PREGABAFAR-75 CAP.",
     slug: "pregabafar-75-cap",
     category: "analgesics",
-    description:
-      "10x1X10 ALU-ALU + INSERT ",
+    description: "10x1X10 ALU-ALU + INSERT ",
     ingredient: "Each hard gelatin capsule contains: Pregabalin	BP	75mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -1619,8 +1611,7 @@ export const products = [
     title: "CELEFAR-200 CAP.",
     slug: "celefar-200-cap",
     category: "analgesics",
-    description:
-      "2x10 ALU-ALU + INSERT",
+    description: "2x10 ALU-ALU + INSERT",
     ingredient: "Each hard gelatin capsule contains:Celecoxib	BP	200mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -1630,9 +1621,9 @@ export const products = [
     title: "ELIXIR’S DR. RAPIDEX TAB. FOR RAPID RELIEF",
     slug: "elixir-dr-rapidex-tab",
     category: "analgesics",
-    description:
-      "50X1X10 BLISTER + INSERT ",
-    ingredient: "Each uncoated tablet contains :Diclofenac Sodium  BP   50mg., Paracetamol BP 500mg., Chlorpheniramine Maleate BP 4mg., Magnesium Trisilicate  BP  100mg.",
+    description: "50X1X10 BLISTER + INSERT ",
+    ingredient:
+      "Each uncoated tablet contains :Diclofenac Sodium  BP   50mg., Paracetamol BP 500mg., Chlorpheniramine Maleate BP 4mg., Magnesium Trisilicate  BP  100mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1641,9 +1632,9 @@ export const products = [
     title: "TRAMOLFAR-P TAB.",
     slug: "tramolfar-p-tab",
     category: "analgesics",
-    description:
-      "10x1x10 BLISTER + INSERT",
-    ingredient: "Each tablet contains:Tramadol Hydrochloride  BP	37.5mg., Paracetamol	BP	325mg.",
+    description: "10x1x10 BLISTER + INSERT",
+    ingredient:
+      "Each tablet contains:Tramadol Hydrochloride  BP	37.5mg., Paracetamol	BP	325mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1652,9 +1643,9 @@ export const products = [
     title: "DIZOFAR TAB.",
     slug: "dizofar-tab",
     category: "analgesics",
-    description:
-      "1X10 BLISTER WITH OUTER + INSERT",
-    ingredient: "Each tablet contains:Diclofenac Potassium BP	50mg, Paracetamol BP 325mg",
+    description: "1X10 BLISTER WITH OUTER + INSERT",
+    ingredient:
+      "Each tablet contains:Diclofenac Potassium BP	50mg, Paracetamol BP 325mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1663,9 +1654,9 @@ export const products = [
     title: "DIZOFAR-MR TAB.",
     slug: "dizofar-mr-tab",
     category: "analgesics",
-    description:
-      "10X1X10 BLISTER  + INSERT",
-    ingredient: "Each uncoated tablet contains: Diclofenac Potassium	BP 50mg, Paracetamol	BP 325mg, Chlorzoxazone BP	250mg.",
+    description: "10X1X10 BLISTER  + INSERT",
+    ingredient:
+      "Each uncoated tablet contains: Diclofenac Potassium	BP 50mg, Paracetamol	BP 325mg, Chlorzoxazone BP	250mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1674,9 +1665,9 @@ export const products = [
     title: "DIZOFAR-MR PLUS TAB.",
     slug: "dizofar-mr-plus-tab",
     category: "analgesics",
-    description:
-      "10X1X10 BLISTER + INSERT",
-    ingredient: "Each uncoated tablet contains: Diclofenac Potassium	BP	50mg, Paracetamol	BP 325mg, Chlorzoxazone	BP 500mg.",
+    description: "10X1X10 BLISTER + INSERT",
+    ingredient:
+      "Each uncoated tablet contains: Diclofenac Potassium	BP	50mg, Paracetamol	BP 325mg, Chlorzoxazone	BP 500mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1685,9 +1676,9 @@ export const products = [
     title: "ACICLOFAR-MR TAB.",
     slug: "aciclofar-mr-tab",
     category: "analgesics",
-    description:
-      "10X1X10 ALU-ALU + INSERT",
-    ingredient: "Each film coated tablet contains:Aceclofenac B.P 100 mg, Paracetamol  BP  325 mg, Chlorzoxazone B.P 250 mg",
+    description: "10X1X10 ALU-ALU + INSERT",
+    ingredient:
+      "Each film coated tablet contains:Aceclofenac B.P 100 mg, Paracetamol  BP  325 mg, Chlorzoxazone B.P 250 mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1696,8 +1687,7 @@ export const products = [
     title: "IBUFAR-400 TAB",
     slug: "ibufar-400-tab",
     category: "analgesics",
-    description:
-    "10X10 BLISTER + INSERT ",
+    description: "10X10 BLISTER + INSERT ",
     ingredient: "Each film coated tablet contains:Ibuprofen	BP	400mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -1707,9 +1697,9 @@ export const products = [
     title: "IBUFAR-P TAB.",
     slug: "ibufar-p-tab",
     category: "analgesics",
-    description:
-    "10X10 BLISTER + INSERT ",
-    ingredient: "Each film coated tablet contains: Ibuprofen	BP	400mg., Paracetamol	 BP	325mg",
+    description: "10X10 BLISTER + INSERT ",
+    ingredient:
+      "Each film coated tablet contains: Ibuprofen	BP	400mg., Paracetamol	 BP	325mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1718,8 +1708,7 @@ export const products = [
     title: "PARAFAR-500 TAB",
     slug: "parafar-500-tab",
     category: "analgesics",
-    description:
-    "10X10 BLISTER + INSERT ",
+    description: "10X10 BLISTER + INSERT ",
     ingredient: "Each tablet contains : Paracetamol	BP	500 mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -1730,9 +1719,9 @@ export const products = [
     title: "CARBOFAR EYE DROP",
     slug: "carbofar-eye-drop",
     category: "eye-ear-and-nasal-drops",
-    description:
-      "10 ML  WITH BOX & INSERT ",
-    ingredient: "Each ml contains :Carboxymethylcellulose Sodium B.P. 10 mg, Stabilized Oxychloro Complex B.P. 0.075mg, Aqueous Buffered Vehicle  q.s.",
+    description: "10 ML  WITH BOX & INSERT ",
+    ingredient:
+      "Each ml contains :Carboxymethylcellulose Sodium B.P. 10 mg, Stabilized Oxychloro Complex B.P. 0.075mg, Aqueous Buffered Vehicle  q.s.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1741,9 +1730,9 @@ export const products = [
     title: "CIPROFAR EYE DROP",
     slug: "ciprofar-eye-drop",
     category: "eye-ear-and-nasal-drops",
-    description:
-      "10 ML  WITH BOX & INSERT ",
-    ingredient: "Composition :Ciprofloxacin HCl Eq. to Ciprofloxacin  B.P.  0.3%w/v, Benzalkonium Chloride Solution B.P.  0.02%w/v (As preservative) Sterile Aqueous base  q.s.",
+    description: "10 ML  WITH BOX & INSERT ",
+    ingredient:
+      "Composition :Ciprofloxacin HCl Eq. to Ciprofloxacin  B.P.  0.3%w/v, Benzalkonium Chloride Solution B.P.  0.02%w/v (As preservative) Sterile Aqueous base  q.s.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1752,9 +1741,9 @@ export const products = [
     title: "MOXIFAR EYE DROP",
     slug: "moxifar-eye-drop",
     category: "eye-ear-and-nasal-drops",
-    description:
-      "10 ML  WITH BOX & INSERT ",
-    ingredient: "Each ml Contains:Moxifloxacin Hydrochloride Eq. to Moxifloxacin  B.P.  0.5%w/v, Benzalkonium Chloride Solution  B.P. 0.01%w/v (as preservative) Sterile aqueous base  q.s.   ",
+    description: "10 ML  WITH BOX & INSERT ",
+    ingredient:
+      "Each ml Contains:Moxifloxacin Hydrochloride Eq. to Moxifloxacin  B.P.  0.5%w/v, Benzalkonium Chloride Solution  B.P. 0.01%w/v (as preservative) Sterile aqueous base  q.s.   ",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1763,9 +1752,9 @@ export const products = [
     title: "TIMOFAR EYE DROP",
     slug: "timofar-eye-drop",
     category: "eye-ear-and-nasal-drops",
-    description:
-      "10 ML  WITH BOX & INSERT ",
-    ingredient: "Composition:Each ml contains :Timolol Maleate Eq.to Timolol  B.P. 5 mg, Benzalkonium Chloride  B.P.  0.01%w/v (as Preservative)",
+    description: "10 ML  WITH BOX & INSERT ",
+    ingredient:
+      "Composition:Each ml contains :Timolol Maleate Eq.to Timolol  B.P. 5 mg, Benzalkonium Chloride  B.P.  0.01%w/v (as Preservative)",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1774,9 +1763,9 @@ export const products = [
     title: "PREDNIFAR EYE DROP",
     slug: "prednifar-eye-drop",
     category: "eye-ear-and-nasal-drops",
-    description:
-      "10 ML  WITH BOX & INSERT ",
-    ingredient: "Composition :Prednisolone acetate  B.P.  1.0%w/v, Benzalkonium Chloride B.P.  0.02%wv,   (As preservative) Sterile Aqueous base   q.s.",
+    description: "10 ML  WITH BOX & INSERT ",
+    ingredient:
+      "Composition :Prednisolone acetate  B.P.  1.0%w/v, Benzalkonium Chloride B.P.  0.02%wv,   (As preservative) Sterile Aqueous base   q.s.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1785,9 +1774,9 @@ export const products = [
     title: "GENTAFAR EYE/EAR DROP",
     slug: "gentafar-eye-ear-drop",
     category: "eye-ear-and-nasal-drops",
-    description:
-      "10 ML  WITH BOX & INSERT ",
-    ingredient: "Gentamicin Sulphate B.P.  0.3%w/v, Benzalkonium Chloride  Solution  B.P.  0.02%w/v",
+    description: "10 ML  WITH BOX & INSERT ",
+    ingredient:
+      "Gentamicin Sulphate B.P.  0.3%w/v, Benzalkonium Chloride  Solution  B.P.  0.02%w/v",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1796,9 +1785,9 @@ export const products = [
     title: "GENTAFAR-D EYE/EAR DRO",
     slug: "gentafar-d-eye-ear-drop",
     category: "eye-ear-and-nasal-drops",
-    description:
-      "10 ML  WITH BOX & INSERT ",
-    ingredient: "Gentamicin Sulphate B.P.  0.3%w/v, Dexamethasone Sodium Phosphate  B.P. 0.01%w/v, Benzalkonium Chloride Solution  B.P.  0.02%w/v",
+    description: "10 ML  WITH BOX & INSERT ",
+    ingredient:
+      "Gentamicin Sulphate B.P.  0.3%w/v, Dexamethasone Sodium Phosphate  B.P. 0.01%w/v, Benzalkonium Chloride Solution  B.P.  0.02%w/v",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1807,9 +1796,9 @@ export const products = [
     title: "XYLOFAR NASAL DROP",
     slug: "xylofar-nasal-drop",
     category: "eye-ear-and-nasal-drops",
-    description:
-      "10 ML  WITH BOX & INSERT ",
-    ingredient: "Composition :Xylometazoline HCl  B.P.  0.05%w/v, Benzalkonium Chloride  B.P. 0.011%w/v, (As preservative)",
+    description: "10 ML  WITH BOX & INSERT ",
+    ingredient:
+      "Composition :Xylometazoline HCl  B.P.  0.05%w/v, Benzalkonium Chloride  B.P. 0.011%w/v, (As preservative)",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1818,9 +1807,9 @@ export const products = [
     title: "DORZOFAR EYE DROP",
     slug: "dorzofar-eye-drop",
     category: "eye-ear-and-nasal-drops",
-    description:
-      "10 ML  WITH BOX & INSERT ",
-    ingredient: "Composition :                                                                  Dorzolamide Hydrochloride BP Eq. to Dorzolamide  B.P.   2%w/v, Benzalkonium Chloride USP  B.P.  0002%wv, (As Preservative)Sterile Aqueous buffered vehicle  q.s.",
+    description: "10 ML  WITH BOX & INSERT ",
+    ingredient:
+      "Composition :                                                                  Dorzolamide Hydrochloride BP Eq. to Dorzolamide  B.P.   2%w/v, Benzalkonium Chloride USP  B.P.  0002%wv, (As Preservative)Sterile Aqueous buffered vehicle  q.s.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1829,9 +1818,9 @@ export const products = [
     title: "CIPROFAR-D EYE/EAR DROP",
     slug: "ciprofar-d-eye-ear-drop",
     category: "eye-ear-and-nasal-drops",
-    description:
-      "10 ML  WITH BOX & INSERT ",
-    ingredient: "Composition :Ciprofloxacin B.P. 0.3%w/v, Dexamethasone Sodium 0.1%w/v",
+    description: "10 ML  WITH BOX & INSERT ",
+    ingredient:
+      "Composition :Ciprofloxacin B.P. 0.3%w/v, Dexamethasone Sodium 0.1%w/v",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1841,9 +1830,9 @@ export const products = [
     title: "CEFTRIFAR 1GM INJ.",
     slug: "ceftrifar-1gm-inj",
     category: "injectable-antibiotic",
-    description:
-      "10ml Vial + WFI with Insert (TRAY PACK)",
-    ingredient: "Each vial contains:Sterile Ceftriaxone Sodium B.P. Eq. to Anhydrous Ceftriaxone 1000mg",
+    description: "10ml Vial + WFI with Insert (TRAY PACK)",
+    ingredient:
+      "Each vial contains:Sterile Ceftriaxone Sodium B.P. Eq. to Anhydrous Ceftriaxone 1000mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1852,9 +1841,9 @@ export const products = [
     title: "CEFUFAR 750 INJ.",
     slug: "cefufar-750-inj",
     category: "injectable-antibiotic",
-    description:
-      "10ml Vial + WFI with Insert(TRAY PACK)",
-    ingredient: "Each vial contains:Cefuroxime sodium B.P. Eq. to Cefuroxime 750Mg.",
+    description: "10ml Vial + WFI with Insert(TRAY PACK)",
+    ingredient:
+      "Each vial contains:Cefuroxime sodium B.P. Eq. to Cefuroxime 750Mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1863,9 +1852,9 @@ export const products = [
     title: "VANCOFAR 500 INJ.",
     slug: "vancofar-500-inj",
     category: "injectable-antibiotic",
-    description:
-      "10ml Vial + WFI with Insert(TRAY PACK)",
-    ingredient: "Each vial contains:Sterile Vancomycin Hydrochloride B.P. Eq. to Vancomycin 500Mg.",
+    description: "10ml Vial + WFI with Insert(TRAY PACK)",
+    ingredient:
+      "Each vial contains:Sterile Vancomycin Hydrochloride B.P. Eq. to Vancomycin 500Mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1874,9 +1863,9 @@ export const products = [
     title: "PIPERAFAR TZ 4.5GM INJ.",
     slug: "piperafar-tz-4.5gm-inj",
     category: "injectable-antibiotic",
-    description:
-      "20ml Vial. + WFIwith Insert(TRAY PACK)",
-    ingredient: "Each vial contains:Sterile Piperacillin Sodium B.P. Eq.to Piperacillin  4000mg., Sterile Tazobactam Sodium B.P.Eq.to Anhydrous Tazobactam  500mg.",
+    description: "20ml Vial. + WFIwith Insert(TRAY PACK)",
+    ingredient:
+      "Each vial contains:Sterile Piperacillin Sodium B.P. Eq.to Piperacillin  4000mg., Sterile Tazobactam Sodium B.P.Eq.to Anhydrous Tazobactam  500mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1885,9 +1874,9 @@ export const products = [
     title: "MOXIFAR-CV 1.2 INJ.",
     slug: "moxifar-cv-1.2-inj",
     category: "injectable-antibiotic",
-    description:
-      "10ml Vial. + WFIwith Insert(TRAY PACK)",
-    ingredient: "Each vial contains:Amoxycillin Sodium (Sterile) B.P. Eq. to Amoxycillin Sodium  1000Mg., Potassium  Clavulanate  (Sterile)  B.P. Eq. to Clavulanic Acid   200Mg.",
+    description: "10ml Vial. + WFIwith Insert(TRAY PACK)",
+    ingredient:
+      "Each vial contains:Amoxycillin Sodium (Sterile) B.P. Eq. to Amoxycillin Sodium  1000Mg., Potassium  Clavulanate  (Sterile)  B.P. Eq. to Clavulanic Acid   200Mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1896,9 +1885,9 @@ export const products = [
     title: "MEROFAR 1GM INJ.",
     slug: "merofar-1gm-inj",
     category: "injectable-antibiotic",
-    description:
-      "10ml Vial. + WFIwith Insert(TRAY PACK)",
-    ingredient: "Each vial contains:Meropenem Trihydrate B.P. Eq to Anhydrous Meropenem 1000Mg. ",
+    description: "10ml Vial. + WFIwith Insert(TRAY PACK)",
+    ingredient:
+      "Each vial contains:Meropenem Trihydrate B.P. Eq to Anhydrous Meropenem 1000Mg. ",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1907,9 +1896,9 @@ export const products = [
     title: "CEFOFAR-S INJ.",
     slug: "cefofar-s-inj",
     category: "injectable-antibiotic",
-    description:
-      "1.5GM (VIAL+WFI +TRAY)",
-    ingredient: "Each vial contains:Cefoperazone Sodium	BP	1000mg., Sulbactam Sosium	BP	500mg. ",
+    description: "1.5GM (VIAL+WFI +TRAY)",
+    ingredient:
+      "Each vial contains:Cefoperazone Sodium	BP	1000mg., Sulbactam Sosium	BP	500mg. ",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1919,9 +1908,9 @@ export const products = [
     title: "PREDNIFAR 80 INJ.",
     slug: "prednifar-80-inj",
     category: "injectable",
-    description:
-      "10x2ml Amp. with Insert",
-    ingredient: "Each vial contains: Methylprednisolone Sodium Succinate B.P. eq. to Methylprednisolone 80mg",
+    description: "10x2ml Amp. with Insert",
+    ingredient:
+      "Each vial contains: Methylprednisolone Sodium Succinate B.P. eq. to Methylprednisolone 80mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1930,9 +1919,9 @@ export const products = [
     title: "ONDAFAR INJ.",
     slug: "ondafar-inj",
     category: "injectable",
-    description:
-      "10x2ml Amp.with Insert(TRAY PACK)",
-    ingredient: "Each ml contains:Ondansetron Hydrochloride B.P. Eq.to Ondansetron  2mg.",
+    description: "10x2ml Amp.with Insert(TRAY PACK)",
+    ingredient:
+      "Each ml contains:Ondansetron Hydrochloride B.P. Eq.to Ondansetron  2mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1941,9 +1930,9 @@ export const products = [
     title: "PANTAFAR 40 INJ.",
     slug: "pantafar-40-inj",
     category: "injectable",
-    description:
-      "10ml Vial. + WFIwith Insert(TRAY PACK)",
-    ingredient: "Each vial contains:Sterile Pantoprazole sodium B.P. e.q. Pantoprazole 40mg.",
+    description: "10ml Vial. + WFIwith Insert(TRAY PACK)",
+    ingredient:
+      "Each vial contains:Sterile Pantoprazole sodium B.P. e.q. Pantoprazole 40mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1952,9 +1941,9 @@ export const products = [
     title: "PARAFAR INJ.",
     slug: "parafar-inj",
     category: "injectable",
-    description:
-      "10x2ml Amp.with Insert(TRAY PACK)",
-    ingredient: "Each ml contains:Paracetamol B.P. 150mg., Benzyl Alcohol B.P. 2%v/v",
+    description: "10x2ml Amp.with Insert(TRAY PACK)",
+    ingredient:
+      "Each ml contains:Paracetamol B.P. 150mg., Benzyl Alcohol B.P. 2%v/v",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1963,9 +1952,9 @@ export const products = [
     title: "NEUROFAR INJ.",
     slug: "neurofar-inj",
     category: "injectable",
-    description:
-      "10x3ml Amp.with Insert(TRAY PACK)",
-    ingredient: "Each ml contains: Thiamine Hydrochloride  B.P. 33.3mg., Pyridoxine  Hydrochloride  B.P.  33.3mg.,  Cyanaocobalamin  B.P.  333 mcg.Dexpanthenol B.P. 5mg., Nicotinamide B.P. 20mg., Benzyl Alcohol B.P. 2% v/v, Water for Injection B.P.  q.s.",
+    description: "10x3ml Amp.with Insert(TRAY PACK)",
+    ingredient:
+      "Each ml contains: Thiamine Hydrochloride  B.P. 33.3mg., Pyridoxine  Hydrochloride  B.P.  33.3mg.,  Cyanaocobalamin  B.P.  333 mcg.Dexpanthenol B.P. 5mg., Nicotinamide B.P. 20mg., Benzyl Alcohol B.P. 2% v/v, Water for Injection B.P.  q.s.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1974,9 +1963,9 @@ export const products = [
     title: "OMIFAR 40 INJ.",
     slug: "omifar-40-inj",
     category: "injectable",
-    description:
-      "10ml Amp. + WFI with Insert",
-    ingredient: "Each vial contains:Sterile Omeprazole Sodium B.P. Eq. to Anhydrous Omeprazole 40mg.",
+    description: "10ml Amp. + WFI with Insert",
+    ingredient:
+      "Each vial contains:Sterile Omeprazole Sodium B.P. Eq. to Anhydrous Omeprazole 40mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -1985,8 +1974,7 @@ export const products = [
     title: "DIZOFAR INJ.",
     slug: "dizofar-inj",
     category: "injectable",
-    description:
-      "10x3ml Amp. with Insert",
+    description: "10x3ml Amp. with Insert",
     ingredient: "Each ml contains:Diclofenac Sodium B.P. 25Mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -1996,8 +1984,7 @@ export const products = [
     title: "QUINIFAR INJ.",
     slug: "quinifar-inj",
     category: "injectable",
-    description:
-      "10x2ml Amp. with Insert",
+    description: "10x2ml Amp. with Insert",
     ingredient: "Each ml contains:Quinine Dihydrochloride B.P. 300mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -2007,9 +1994,9 @@ export const products = [
     title: "METHYLFAR INJ.",
     slug: "methylfar-inj",
     category: "injectable",
-    description:
-      "2 ML",
-    ingredient: "Each 2 ml contains:Methylcobalamin	BP	1500 mcg., Benzyl Alcohol BP 2% v/v (as preservative)Water for injection BP Q.S",
+    description: "2 ML",
+    ingredient:
+      "Each 2 ml contains:Methylcobalamin	BP	1500 mcg., Benzyl Alcohol BP 2% v/v (as preservative)Water for injection BP Q.S",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2018,9 +2005,9 @@ export const products = [
     title: "CITIFAR INJ.",
     slug: "citifar-inj",
     category: "injectable",
-    description:
-      "10x2ml Amp. with Insert",
-    ingredient: "Each ml contains: Citicolin Sodium B.P. Eq. to Citicolin 250 mg.",
+    description: "10x2ml Amp. with Insert",
+    ingredient:
+      "Each ml contains: Citicolin Sodium B.P. Eq. to Citicolin 250 mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2029,8 +2016,7 @@ export const products = [
     title: "OCUFAR INJ.",
     slug: "ocufar-inj",
     category: "injectable",
-    description:
-      "5X5ml Amp. With insert",
+    description: "5X5ml Amp. With insert",
     ingredient: "Iron Sucrose Injection B.P. 20 mg/ml",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -2040,9 +2026,9 @@ export const products = [
     title: "LUMEFAR-A INJ.",
     slug: "lumefar-a-inj",
     category: "injectable",
-    description:
-      "2 ML",
-    ingredient: "Each 2 ml ampoule contains:α-β Arteether	BP 150 mg. Oily base	q.s",
+    description: "2 ML",
+    ingredient:
+      "Each 2 ml ampoule contains:α-β Arteether	BP 150 mg. Oily base	q.s",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2074,8 +2060,7 @@ export const products = [
     title: "TADALAFAR-20",
     slug: "tadalafar-20",
     category: "tablets",
-    description:
-      "10X1X4 BLISTER WITH OUTER",
+    description: "10X1X4 BLISTER WITH OUTER",
     ingredient: "Each film coated tablet contains:Tadalafil	BP	20 mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -2109,7 +2094,8 @@ export const products = [
     category: "tablets",
     description:
       "10X1X4 BLISTER (MONO CARTON 1X4) + INSERT IN EVERY MONO + OUTER",
-    ingredient: "Each film coated tablet contains:Sildenafil Citrate	BP	100 mg.Dapoxetine	BP	60mg.",
+    ingredient:
+      "Each film coated tablet contains:Sildenafil Citrate	BP	100 mg.Dapoxetine	BP	60mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2118,9 +2104,9 @@ export const products = [
     title: "NEUROFAR TAB.",
     slug: "neurofar-tab",
     category: "tablets",
-    description:
-      "3X10 BLISTER + INSERT",
-    ingredient: "Each sugar coated tablet contains:Vitamin B1(Thiamine Mononitrate) B.P. 100 mg, Vitamin B6(Pyridoxine Hydrochloride) B.P.	200 mg, Vitamin B12(Cyanocobalamin) B.P.	200 mcg",
+    description: "3X10 BLISTER + INSERT",
+    ingredient:
+      "Each sugar coated tablet contains:Vitamin B1(Thiamine Mononitrate) B.P. 100 mg, Vitamin B6(Pyridoxine Hydrochloride) B.P.	200 mg, Vitamin B12(Cyanocobalamin) B.P.	200 mcg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2129,8 +2115,7 @@ export const products = [
     title: "BRONCOFAR TAB.",
     slug: "broncofar-tab",
     category: "tablets",
-    description:
-      "10x10 BLISTER + INSERT",
+    description: "10x10 BLISTER + INSERT",
     ingredient: "Each Tablet Contains:Bromhexine Hcl BP	8 mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -2140,9 +2125,9 @@ export const products = [
     title: "CLOTRAFAR-V TAB.",
     slug: "clotrafar-v-tab",
     category: "tablets",
-    description:
-      "1x6 ALU-ALU + INSERT",
-    ingredient: "Each extended release vaginal tablet contains: Clotrimazole	BP	100 mg.",
+    description: "1x6 ALU-ALU + INSERT",
+    ingredient:
+      "Each extended release vaginal tablet contains: Clotrimazole	BP	100 mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2151,8 +2136,7 @@ export const products = [
     title: "CITIFAR 500 TAB.",
     slug: "citifar-500-tab",
     category: "tablets",
-    description:
-      "10X1X10 ALU-ALU + INSERT",
+    description: "10X1X10 ALU-ALU + INSERT",
     ingredient: "Citicoline	BP	500 mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -2162,9 +2146,9 @@ export const products = [
     title: "DROTAFAR TAB.",
     slug: "drotafar-tab",
     category: "tablets",
-    description:
-      "10X10 BLISTER + INSERT",
-    ingredient: "(1. )Each film coated contains:Mefenamic Acid	BP	250 mg. Drotaverine HCL	BP	80 mg., (2.) Dicyclomine	BP	10 mg. Mefenamic Acid	BP	250mg.",
+    description: "10X10 BLISTER + INSERT",
+    ingredient:
+      "(1. )Each film coated contains:Mefenamic Acid	BP	250 mg. Drotaverine HCL	BP	80 mg., (2.) Dicyclomine	BP	10 mg. Mefenamic Acid	BP	250mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2173,9 +2157,9 @@ export const products = [
     title: "DYSRINFAR-G TAB.",
     slug: "dysrinfar-g-tab",
     category: "tablets",
-    description:
-      "10X1X10 ALU-ALU + INSERT",
-    ingredient: "Each film coated tablet contains:Diacerein	BP 50 mg. Glucosamine Sulphate Potassium Chloride 1500 mg. eq. to Glucosamine BP	892 mg.Methyl Sulfonyl Methane BP	100 mg.",
+    description: "10X1X10 ALU-ALU + INSERT",
+    ingredient:
+      "Each film coated tablet contains:Diacerein	BP 50 mg. Glucosamine Sulphate Potassium Chloride 1500 mg. eq. to Glucosamine BP	892 mg.Methyl Sulfonyl Methane BP	100 mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2184,8 +2168,7 @@ export const products = [
     title: "DESLOFAR-5 TAB.",
     slug: "deslofar-5-tab",
     category: "tablets",
-    description:
-      "10X1X10 ALU-ALU + INSERT",
+    description: "10X1X10 ALU-ALU + INSERT",
     ingredient: "Each film coated tablet contains:Desloratadine	BP	5 mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -2195,8 +2178,7 @@ export const products = [
     title: "LOPRAFAR TAB.",
     slug: "loprafar-tab",
     category: "tablets",
-    description:
-      "10X10 BLISTER + INSERT",
+    description: "10X10 BLISTER + INSERT",
     ingredient: "Loperamide Hcl	BP	2mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -2206,9 +2188,9 @@ export const products = [
     title: "VALFAR-500 TAB.",
     slug: "valfar-500-tab",
     category: "tablets",
-    description:
-      "10X1X10 ALU-ALU + INSERT",
-    ingredient: "Each film coated sustained release tablet contains:Sodium Valproate	BP	333 mg., Valproic Acid	BP	145 mg. (Both together correspond to Sodium Valproate 500mg.)",
+    description: "10X1X10 ALU-ALU + INSERT",
+    ingredient:
+      "Each film coated sustained release tablet contains:Sodium Valproate	BP	333 mg., Valproic Acid	BP	145 mg. (Both together correspond to Sodium Valproate 500mg.)",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2217,8 +2199,7 @@ export const products = [
     title: "L-BENDAFAR TAB.",
     slug: "l-bendafar-tab",
     category: "tablets",
-    description:
-      "1X1 ALU-ALU + INSERT",
+    description: "1X1 ALU-ALU + INSERT",
     ingredient: "Each uncoated chewable tablet contains :Albendazole BP 400 mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -2228,13 +2209,11 @@ export const products = [
     title: "ONDAFAR-4 TAB.",
     slug: "ondafar-4-tab",
     category: "tablets",
-    description:
-      "10x10 ALU-ALU + INSERT",
+    description: "10x10 ALU-ALU + INSERT",
     ingredient: "Each uncoated tablet contains:Ondanserton BP 4mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
-
 
   //----------------------------------------------------- ANTACID-------------------------------------- //
   {
@@ -2242,9 +2221,9 @@ export const products = [
     title: "ESOFAR-40 TAB.",
     slug: "esofar-40-tab",
     category: "antacid",
-    description:
-      "10X1X10 ALU-ALU + INSERT",
-    ingredient: "Each Enteric coated tablet Contains:Esomeprazole Magnesium Trihydrate BP 40mg",
+    description: "10X1X10 ALU-ALU + INSERT",
+    ingredient:
+      "Each Enteric coated tablet Contains:Esomeprazole Magnesium Trihydrate BP 40mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2253,8 +2232,7 @@ export const products = [
     title: "PANTAFAR-40 TAB.",
     slug: "pantafar-40-tab",
     category: "antacid",
-    description:
-      "10X10 ALU-ALU + INSERT",
+    description: "10X10 ALU-ALU + INSERT",
     ingredient: "Each uncoated tablet contains :Pantoprazole Sodium BP 40mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -2264,8 +2242,7 @@ export const products = [
     title: "DOMIFAR TAB.",
     slug: "domifar-tab",
     category: "antacid",
-    description:
-      "10X10 ALU-ALU + INSERT",
+    description: "10X10 ALU-ALU + INSERT",
     ingredient: "Each mouth dissolving tablet contains :Domperidone B.P 10mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -2275,9 +2252,9 @@ export const products = [
     title: "ESOFAR-DSR CAP.",
     slug: "esofar-dsr-cap",
     category: "antacid",
-    description:
-      "1x10 ALU-ALU + INSERT",
-    ingredient: "Each hard gelatin capsule contains: Esomeprazole Magnesium Trihydrate BP 40mg (As enteric coated pellets)Domperidone BP	30 mg (As sustained release pellets)",
+    description: "1x10 ALU-ALU + INSERT",
+    ingredient:
+      "Each hard gelatin capsule contains: Esomeprazole Magnesium Trihydrate BP 40mg (As enteric coated pellets)Domperidone BP	30 mg (As sustained release pellets)",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2286,8 +2263,7 @@ export const products = [
     title: "OMIFAR-20 CAP.",
     slug: "omifar-20-cap",
     category: "antacid",
-    description:
-      "20X10 BLISTER  + INSERT",
+    description: "20X10 BLISTER  + INSERT",
     ingredient: "Each hard gelatin capsule contains:Omeprazole	B.P.	20 mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -2297,9 +2273,9 @@ export const products = [
     title: "ROZFAR –DSR CAP.",
     slug: "rozfar-dsr-cap",
     category: "antacid",
-    description:
-      "10X1X10 ALU-ALU + INSERT",
-    ingredient: "Each hard Gelatin capsule contains: Rabeprazole Sodium BP	20 mg., Domperidone BP	30 mg.",
+    description: "10X1X10 ALU-ALU + INSERT",
+    ingredient:
+      "Each hard Gelatin capsule contains: Rabeprazole Sodium BP	20 mg., Domperidone BP	30 mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2308,9 +2284,9 @@ export const products = [
     title: "PANTAFAR-LSR CAP.",
     slug: "pantafar-lsr-cap",
     category: "antacid",
-    description:
-      "10X1X10 ALU-ALU + INSERT",
-    ingredient: "Pantoprazole Sodium (As Sesquihydrate) Eq.to Pantoprazole	BP	40mg. (As enteric coated pellets)Levosulpride	BP	75mg. (As Sustained release pellets)",
+    description: "10X1X10 ALU-ALU + INSERT",
+    ingredient:
+      "Pantoprazole Sodium (As Sesquihydrate) Eq.to Pantoprazole	BP	40mg. (As enteric coated pellets)Levosulpride	BP	75mg. (As Sustained release pellets)",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2319,9 +2295,9 @@ export const products = [
     title: "PANTAFAR-D TAB.",
     slug: "pantafar-d-tab",
     category: "antacid",
-    description:
-      "10X1X10 ALU-ALU + INSERT",
-    ingredient: "Each enteric coated Tablet contains: Pantoprazole Sodium Eq. to Pantoprazole BP	40mg., Domperidone	BP	10mg.",
+    description: "10X1X10 ALU-ALU + INSERT",
+    ingredient:
+      "Each enteric coated Tablet contains: Pantoprazole Sodium Eq. to Pantoprazole BP	40mg., Domperidone	BP	10mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2331,9 +2307,9 @@ export const products = [
     title: "LUMEFAR TAB.",
     slug: "lumefar-tab",
     category: "antimalarial",
-    description:
-      "4X6 ALU-ALU + INSERT",
-    ingredient: "Each uncoated tablet contains :Artemether BP 20mg, Lumefantrine BP 120 mg",
+    description: "4X6 ALU-ALU + INSERT",
+    ingredient:
+      "Each uncoated tablet contains :Artemether BP 20mg, Lumefantrine BP 120 mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2342,9 +2318,9 @@ export const products = [
     title: " LUMEFAR PLUS TAB.",
     slug: "lumefar-plus-tab",
     category: "antimalarial",
-    description:
-      "10X1X6  ALU-ALU + INSERT",
-    ingredient: "Each uncoated tablet contains :Artemether BP 80 mg, Lumefantrine BP 480 mg",
+    description: "10X1X6  ALU-ALU + INSERT",
+    ingredient:
+      "Each uncoated tablet contains :Artemether BP 80 mg, Lumefantrine BP 480 mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2354,9 +2330,9 @@ export const products = [
     title: " AMOXIFAR-125  SUSP.",
     slug: "amoxifar-125-susp",
     category: "liquid-dry-syp",
-    description:
-      "100ML OUTER + INSERT WITH DOSE CAP",
-    ingredient: "Each 5ml after reconstitution contains:Amoxycillin Trihydrate BP Eq. to Amoxycillin  125mg.",
+    description: "100ML OUTER + INSERT WITH DOSE CAP",
+    ingredient:
+      "Each 5ml after reconstitution contains:Amoxycillin Trihydrate BP Eq. to Amoxycillin  125mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2365,9 +2341,9 @@ export const products = [
     title: "AMOXIFAR-250 SUSP.",
     slug: "amoxifar-250-susp",
     category: "liquid-dry-syp",
-    description:
-      "100ML OUTER + INSERT WITH DOSE CAP",
-    ingredient: "Each 5ml after reconstitution contains:Amoxycillin Trihydrate BP Eq. to Amoxycillin  250mg.",
+    description: "100ML OUTER + INSERT WITH DOSE CAP",
+    ingredient:
+      "Each 5ml after reconstitution contains:Amoxycillin Trihydrate BP Eq. to Amoxycillin  250mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2376,9 +2352,9 @@ export const products = [
     title: "MOXIFAR-CV SUSP.",
     slug: "moxifar-cv-susp",
     category: "liquid-dry-syp",
-    description:
-      "60ML/100 ML WITH WFI + INSERT",
-    ingredient: "Amoxycillin Trihydrate  BP 125mg Potassium Clavulanate BP 31.5mg.",
+    description: "60ML/100 ML WITH WFI + INSERT",
+    ingredient:
+      "Amoxycillin Trihydrate  BP 125mg Potassium Clavulanate BP 31.5mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2387,9 +2363,9 @@ export const products = [
     title: "MOXIFAR-CV SUSP.",
     slug: "moxifar-cv-susp",
     category: "liquid-dry-syp",
-    description:
-      "100ML OUTER + INSERT WITH DOSE CAP",
-    ingredient: "Each 5ml. (on reconstitution ) Suspension contains :Amoxycillin  Trihydrate  B.P Eq. To Amoxycillin 200 mg Potassium Clavulanate  Diluted  B.P Eq. To Clavulanic Acid 28.5 mg",
+    description: "100ML OUTER + INSERT WITH DOSE CAP",
+    ingredient:
+      "Each 5ml. (on reconstitution ) Suspension contains :Amoxycillin  Trihydrate  B.P Eq. To Amoxycillin 200 mg Potassium Clavulanate  Diluted  B.P Eq. To Clavulanic Acid 28.5 mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2398,9 +2374,9 @@ export const products = [
     title: "MOXIFAR-CV DS SUSP.",
     slug: "moxifar-cv-ds-susp",
     category: "liquid-dry-syp",
-    description:
-      "60ML/100ML WITH WFI + INSERT",
-    ingredient: "Amoxycillin Trihydrate BP 250mg Potassium Clavulanate BP 62.5mg.",
+    description: "60ML/100ML WITH WFI + INSERT",
+    ingredient:
+      "Amoxycillin Trihydrate BP 250mg Potassium Clavulanate BP 62.5mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2409,9 +2385,9 @@ export const products = [
     title: "AZIFAR-200 SUSP.",
     slug: "azifar-200-susp",
     category: "liquid-dry-syp",
-    description:
-      "30ML WITH CARTON +INSERT",
-    ingredient: "Each 5 ml contains:Azithromycin eq. to Anhydrous Azithromycin BP 200 mg.",
+    description: "30ML WITH CARTON +INSERT",
+    ingredient:
+      "Each 5 ml contains:Azithromycin eq. to Anhydrous Azithromycin BP 200 mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2420,8 +2396,7 @@ export const products = [
     title: "NYSTAFAR SUSP.",
     slug: "nystafar-susp",
     category: "liquid-dry-syp",
-    description:
-      "30ML WITH CARTON +INSERT",
+    description: "30ML WITH CARTON +INSERT",
     ingredient: "Each ml oral suspension contains:Nystatin BP 100000 IU",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -2431,8 +2406,7 @@ export const products = [
     title: "ERYTHROFAR SUSP.",
     slug: "erythrofar-susp",
     category: "liquid-dry-syp",
-    description:
-      "100ML WITH CARTON +INSERT",
+    description: "100ML WITH CARTON +INSERT",
     ingredient: "Each 5 ml contains:Erythromycin BP 125 mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -2442,9 +2416,9 @@ export const products = [
     title: "CEF-FAR DRY SYP.",
     slug: "cef-far-dry-syp",
     category: "liquid-dry-syp",
-    description:
-      "100 ML  WITH WFI + INSERT",
-    ingredient: "Each 5 ml contains:Cefixime Trihydrate eq. to Anhydrous Cefixime	100 mg",
+    description: "100 ML  WITH WFI + INSERT",
+    ingredient:
+      "Each 5 ml contains:Cefixime Trihydrate eq. to Anhydrous Cefixime	100 mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2453,9 +2427,9 @@ export const products = [
     title: "CEF-FAR DRY SYP.",
     slug: "cef-far-dry-syp",
     category: "liquid-dry-syp",
-    description:
-      "60 ML  WITH WFI + INSERT",
-    ingredient: "Each 5 ml contains:Cefixime Trihydrate eq. to Anhydrous Cefixime	100 mg",
+    description: "60 ML  WITH WFI + INSERT",
+    ingredient:
+      "Each 5 ml contains:Cefixime Trihydrate eq. to Anhydrous Cefixime	100 mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2464,9 +2438,9 @@ export const products = [
     title: "CYPROFAR SYP.",
     slug: "cyprofar-syp",
     category: "liquid-dry-syp",
-    description:
-      "200ML WITH OUTER + INSERT",
-    ingredient: "Each 15 ml contains Cyproheptadine HCL  BP  2mg, Vitamin A (as Palmitate)  BP  1500IU, Vitamin D3  BP  300IU, Thiamine HCL (Vit B1) BP 5mg, Riboflavin  BP 2.2mg, Pyridoxine HCL (Vit B6)  BP  5mg, Cyanocobalamin  BP  5mcg, Dexpanthenol   BP 25mg. ",
+    description: "200ML WITH OUTER + INSERT",
+    ingredient:
+      "Each 15 ml contains Cyproheptadine HCL  BP  2mg, Vitamin A (as Palmitate)  BP  1500IU, Vitamin D3  BP  300IU, Thiamine HCL (Vit B1) BP 5mg, Riboflavin  BP 2.2mg, Pyridoxine HCL (Vit B6)  BP  5mg, Cyanocobalamin  BP  5mcg, Dexpanthenol   BP 25mg. ",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2475,8 +2449,7 @@ export const products = [
     title: "PARAFAR SUSP.",
     slug: "parafar-susp",
     category: "liquid-dry-syp",
-    description:
-      "100 ML WITH OUTER, DOSE CAP + INSERT",
+    description: "100 ML WITH OUTER, DOSE CAP + INSERT",
     ingredient: "Each 5 ml contains Paracetamol BP 125 mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -2486,9 +2459,9 @@ export const products = [
     title: "VIT-B FAR SYP.",
     slug: "vit-b-far-syp",
     category: "liquid-dry-syp",
-    description:
-      "100ML OUTER + INSERT WITH DOSE CAP",
-    ingredient: "Each 5 ml contains:Thiamine Mononitrate (Vit.B1) I.P	 5mg, Riboflavin (Vit.B2) I.P		5 mg, Pyridoxine Hydrochloride (Vit.B6) I.P 1.5 mg, Cyanocobalamin (Vit.B12) I.P	7 mcgD-Panthenol I.P	5mg, Niacinamide I.P	45 mg, L-Lysine Hydrochloride U.S.P	150 mg, Ascarbic acid I.P	 75mg",
+    description: "100ML OUTER + INSERT WITH DOSE CAP",
+    ingredient:
+      "Each 5 ml contains:Thiamine Mononitrate (Vit.B1) I.P	 5mg, Riboflavin (Vit.B2) I.P		5 mg, Pyridoxine Hydrochloride (Vit.B6) I.P 1.5 mg, Cyanocobalamin (Vit.B12) I.P	7 mcgD-Panthenol I.P	5mg, Niacinamide I.P	45 mg, L-Lysine Hydrochloride U.S.P	150 mg, Ascarbic acid I.P	 75mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2497,9 +2470,9 @@ export const products = [
     title: "CUFFAR SYP.",
     slug: "cuffar-syp",
     category: "liquid-dry-syp",
-    description:
-      "100ML OUTER + INSERT WITH DOSE CAP",
-    ingredient: "Each 5 ml contains:Dexamethorphan Hbr	10mg., Guaiphenesin	100mg., Phenylepherine HCI	5mg, CPM	4mg.",
+    description: "100ML OUTER + INSERT WITH DOSE CAP",
+    ingredient:
+      "Each 5 ml contains:Dexamethorphan Hbr	10mg., Guaiphenesin	100mg., Phenylepherine HCI	5mg, CPM	4mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2508,8 +2481,7 @@ export const products = [
     title: "IBUFAR SUSP.",
     slug: "ibufar-susp",
     category: "liquid-dry-syp",
-    description:
-      "100ML OUTER + INSERT WITH DOSE CAP",
+    description: "100ML OUTER + INSERT WITH DOSE CAP",
     ingredient: "Each 5 ml contains:Ibuprofen	BP	100 mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
@@ -2519,9 +2491,9 @@ export const products = [
     title: "METROFAR SUSP.",
     slug: "metrofar-susp",
     category: "liquid-dry-syp",
-    description:
-      "100ML OUTER + INSERT WITH DOSE CAP",
-    ingredient: "Each 5 ml contains Metronidazole Benzoate	BP. Eq To Metronidazole	200mg",
+    description: "100ML OUTER + INSERT WITH DOSE CAP",
+    ingredient:
+      "Each 5 ml contains Metronidazole Benzoate	BP. Eq To Metronidazole	200mg",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
@@ -2530,155 +2502,1190 @@ export const products = [
     title: "OCUFAR SYP.",
     slug: "ocufar-syp",
     category: "liquid-dry-syp",
-    description:
-      "100ML OUTER + INSERT WITH DOSE CAP",
-    ingredient: "Each 15 ml. contains:Ferric Ammonium Citrate BP	160 mg. (Eq. to 32 mg of elemental Iron), Cyanocobalamin  BP		7.5 mcg., Folic Acid	BP	0.5 mg.",
+    description: "100ML OUTER + INSERT WITH DOSE CAP",
+    ingredient:
+      "Each 15 ml. contains:Ferric Ammonium Citrate BP	160 mg. (Eq. to 32 mg of elemental Iron), Cyanocobalamin  BP		7.5 mcg., Folic Acid	BP	0.5 mg.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
 
   //----------------------------------------------- OINTMENT------------------------------------------ //
-   {
+  {
     id: "241",
     title: "BCNFAR CREAM",
     slug: "bcnfar-cream",
     category: "ointment",
-    description:
-      "15 Gm. with Outer Box + Insert",
-    ingredient: "Beclomethasone Dipropionate BP 0.025%W/W, Neomycin Sulphate BP 0.5%w/w, Clotrimazole BP 1.0%w/w",
+    description: "15 Gm. with Outer Box + Insert",
+    ingredient:
+      "Beclomethasone Dipropionate BP 0.025%W/W, Neomycin Sulphate BP 0.5%w/w, Clotrimazole BP 1.0%w/w",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
-   {
+  {
     id: "242",
     title: "BURNFAR CREAM",
     slug: "burnfar-cream",
     category: "ointment",
-    description:
-      "15 Gm. with Outer Box + Insert",
-    ingredient: "Silver Nitrate B.P. 0.20%w/w, Chlorhexidine gluconate solution B.P 0.20w/w, Preservative:Chlorocresol B.P 0.12%w/w/",
+    description: "15 Gm. with Outer Box + Insert",
+    ingredient:
+      "Silver Nitrate B.P. 0.20%w/w, Chlorhexidine gluconate solution B.P 0.20w/w, Preservative:Chlorocresol B.P 0.12%w/w/",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
-   {
+  {
     id: "243",
     title: "ACICLOFAR CREAM",
     slug: "aciclofar-cream",
     category: "ointment",
-    description:
-      "10 Gm. with Outer Box  +Insert",
+    description: "10 Gm. with Outer Box  +Insert",
     ingredient: "Aciclovir B.P. 5%w/w In a Cream Base q.s.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
-   {
+  {
     id: "244",
     title: "KETOFAR CREAM",
     slug: "ketofar-cream",
     category: "ointment",
-    description:
-      "30 Gm. with Outer Box  +Insert",
-    ingredient: "Ketoconazole B.P. 2.00w/w, Cream Base q.s., Preservatives:Methylparaben B.P. 0.18%w/w, Propylparaben B.P. 0.02%w/w",
+    description: "30 Gm. with Outer Box  +Insert",
+    ingredient:
+      "Ketoconazole B.P. 2.00w/w, Cream Base q.s., Preservatives:Methylparaben B.P. 0.18%w/w, Propylparaben B.P. 0.02%w/w",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
-   {
+  {
     id: "245",
     title: "MICONAFAR CREAM",
     slug: "miconafar-cream",
     category: "ointment",
-    description:
-      "30 Gm. with Outer Box  +Insert",
+    description: "30 Gm. with Outer Box  +Insert",
     ingredient: "Miconazole Nitrate B.P. 2.00%w/w",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
-   {
+  {
     id: "246",
     title: "CLOTRIFAR CREAM",
     slug: "clotrifar-cream",
     category: "ointment",
-    description:
-      "30 Gm. with Outer Box  +Insert",
+    description: "30 Gm. with Outer Box  +Insert",
     ingredient: "Clotrimazole B.P. 1%w/w, In water miscible base q.s.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
-   {
+  {
     id: "247",
     title: "CLOTRIFAR VEGINAL GEL",
     slug: "clotrifar-veginal-gel",
     category: "ointment",
-    description:
-      "30 Gm. With applicator, Outer Box  +Insert",
-    ingredient: "Each gram contains:Clotrimazole B.P. 20mg.,Preservative: Benzyl Alcohol B.P. 1%w/w",
+    description: "30 Gm. With applicator, Outer Box  +Insert",
+    ingredient:
+      "Each gram contains:Clotrimazole B.P. 20mg.,Preservative: Benzyl Alcohol B.P. 1%w/w",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
-   {
+  {
     id: "248",
     title: "VIZIAFAR(SKIN OINTMENT)",
     slug: "viziafar",
     category: "ointment",
-    description:
-      "20 Gm. with Outer Box  +Insert",
-    ingredient: "Betamethasone Valerate BP 0.10%w/w, Clindamycin Phosphate BP 1.0%w/w, Salicylic Acid BP 3.0%w/w",
+    description: "20 Gm. with Outer Box  +Insert",
+    ingredient:
+      "Betamethasone Valerate BP 0.10%w/w, Clindamycin Phosphate BP 1.0%w/w, Salicylic Acid BP 3.0%w/w",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
-   {
+  {
     id: "249",
     title: "VOMNIFAR GEL",
     slug: "vomnifar-gel",
     category: "ointment",
-    description:
-      "30 Gm. with Outer Box  +Insert",
-    ingredient: "Composition : Diclofenac Diethylamine BP 1.16% w/w, Eq. to Diclofenac Sodium  1.00 w/w, Menthol BP  3% w/w, Methyl Salicylate BP  10.0% w/w, Linseed Oil 3.0% w/w",
+    description: "30 Gm. with Outer Box  +Insert",
+    ingredient:
+      "Composition : Diclofenac Diethylamine BP 1.16% w/w, Eq. to Diclofenac Sodium  1.00 w/w, Menthol BP  3% w/w, Methyl Salicylate BP  10.0% w/w, Linseed Oil 3.0% w/w",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
-   {
+  {
     id: "250",
     title: "BETNOFAR DERM CREAM",
     slug: "betnofar-derm-cream",
     category: "ointment",
-    description:
-      "30 Gm. with Outer Box  +Insert",
-    ingredient: "Betamethasone Dipropionate USP 0.05% w/w, Clotrimazole	BP	1% w/w, Gentamicin Sulphate	 BP	 0.1% w/w, Chlorocresol	BP	0.1% w/w",
+    description: "30 Gm. with Outer Box  +Insert",
+    ingredient:
+      "Betamethasone Dipropionate USP 0.05% w/w, Clotrimazole	BP	1% w/w, Gentamicin Sulphate	 BP	 0.1% w/w, Chlorocresol	BP	0.1% w/w",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
-   {
+  {
     id: "251",
     title: "NOMOSFAR  CREAM",
     slug: "nomosfar-cream",
     category: "ointment",
-    description:
-      "50 Gm. With Outer Box  +Insert",
+    description: "50 Gm. With Outer Box  +Insert",
     ingredient: "Composition:N, N-Diethylbenzamide	12% w/w",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
-   {
+  {
     id: "252",
     title: "POVIFAR CREAM",
     slug: "povifar-cream",
     category: "ointment",
-    description:
-      "15GM with Outer Box  +Insert",
+    description: "15GM with Outer Box  +Insert",
     ingredient: "Povidone Iodine BP. 5%w/w(Available Iodine 0.5%w/w)",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
-   {
+  {
     id: "253",
     title: "TACROFAR CREAM",
     slug: "tacrofar-cream",
     category: "ointment",
-    description:
-      "30GM with Outer Box  +Insert",
-    ingredient: "Each gram of  ointment  conatains:Tacrolimus BP 0.1%w/w, Ointment base  q.s.",
+    description: "30GM with Outer Box  +Insert",
+    ingredient:
+      "Each gram of  ointment  conatains:Tacrolimus BP 0.1%w/w, Ointment base  q.s.",
     images: ["/Assets/no-img.jpg"],
     price: 0,
   },
+
+  //--------------------------------------- ONCOLOGY CAPSULES ----------------------------------------//
+  {
+    id: "254",
+    title: "Aprepitant Kit",
+    slug: "aprepitant-kit",
+    category: "oncology-capsules",
+    description: "125mg + 80mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "255",
+    title: "Crizotinib",
+    slug: "crizotinib",
+    category: "oncology-capsules",
+    description: "250mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "256",
+    title: "Cyclosporine",
+    slug: "cyclosporine",
+    category: "oncology-capsules",
+    description: "25mg, 50mg, 100mg, 250mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "257",
+    title: "Enzalutamide",
+    slug: "enzalutamide",
+    category: "oncology-capsules",
+    description: "40mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "258",
+    title: "Etoposide",
+    slug: "etoposide",
+    category: "oncology-capsules",
+    description: "50mg, 100mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "259",
+    title: "Ganciclovir",
+    slug: "ganciclovir",
+    category: "oncology-capsules",
+    description: "250mg, 500mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "260",
+    title: "Hydroxyurea",
+    slug: "hydroxyurea",
+    category: "onccology-capsules",
+    description: "250mg, 500mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "261",
+    title: "Imatinib Mesylate",
+    slug: "imatinib-mesylate",
+    category: "oncology-capsules",
+    description: "100mg, 400mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "262",
+    title: "Lenalidomide",
+    slug: "lenalidomide",
+    category: "oncology-capsules",
+    description: "10mg, 15mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "263",
+    title: "Lenvatinib",
+    slug: "lenvatinib",
+    category: "oncology-capsules",
+    description: "10mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "264",
+    title: "Palbociclib",
+    slug: "palbociclib",
+    category: "oncology-capsules",
+    description: "125mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "265",
+    title: "Procarbazine",
+    slug: "procarbazine",
+    category: "oncology-capsules",
+    description: "50mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "266",
+    title: "Sunitinib",
+    slug: "sunitinib",
+    category: "oncology-capsules",
+    description: "12.5mg, 25mg, 37.5mg, 50mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "267",
+    title: "Tacrolimus",
+    slug: "tacrolimus",
+    category: "oncology-capsules",
+    description: "0.5mg, 1mg, 5mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "268",
+    title: "Temozolomide",
+    slug: "temozolomide",
+    category: "oncology-capsules",
+    description: "20mg, 100mg, 250mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "269",
+    title: "Thalidomide",
+    slug: "thalidomide",
+    category: "oncology-capsules",
+    description: "50mg, 100mg, 150mg, 200mg, 300mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+
+  //-------------------------------------- ONCOLOGY INJECTIONS --------------------------------------- //
+  {
+    id: "270",
+    title: "Amifostine",
+    slug: "amifostine",
+    category: "oncology-injections",
+    description: "500mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "271",
+    title: "Bleomycin (Lyophilized)",
+    slug: "bleomycin-lyophilized",
+    category: "oncology-injections",
+    description: "15 IU",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "272",
+    title: "Carboplatin",
+    slug: "carboplatin",
+    category: "oncology-injections",
+    description: "150mg/15ml, 450mg/45ml, 600mg/60ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "273",
+    title: "Cisplatin",
+    slug: "cisplatin",
+    category: "oncology-injections",
+    description: "10mg/10ml, 50mg/50ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "274",
+    title: "Cyclophosphamide (Lyophilized)",
+    slug: "cyclophosphamide-lyophilized",
+    category: "oncology-injections",
+    description: "100mg, 200mg, 500mg, 1000mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "275",
+    title: "Cytarabine",
+    slug: "cytarabine",
+    category: "oncology-injections",
+    description: "100mg/ml, 500mg/5ml, 1000mg/10ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "276",
+    title: "Dacarbazine (Lyophilized)",
+    slug: "dacarbazine-lyophilized",
+    category: "oncology-injections",
+    description: "100mg, 200mg, 500mg, 1gm",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "277",
+    title: "Dactinomycin (Lyophilized)",
+    slug: "dactinomycin-lyophilized",
+    category: "oncology-injections",
+    description: "500mcg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "278",
+    title: "Daunorubicin (Lyophilized)",
+    slug: "daunorubicin-lyophilized",
+    category: "oncology-injections",
+    description: "20mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "279",
+    title: "Docetaxel (With Solvent)",
+    slug: "docetaxel-with-solvent",
+    category: "oncology-injections",
+    description: "20mg, 80mg, 120mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "280",
+    title: "Doxorubicin (Liquid)",
+    slug: "doxorubicin-liquid",
+    category: "oncology-injections",
+    description: "10mg/5ml, 50mg/25ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "281",
+    title: "Doxorubicin (Lyophilized)",
+    slug: "doxorubicin-lyophilized",
+    category: "oncology-injections",
+    description: "10mg, 50mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "282",
+    title: "Epirubicin (Liquid)",
+    slug: "epirubicin-liquid",
+    category: "oncology-injections",
+    description: "10mg/5ml, 50mg/25ml, 100mg/50ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "283",
+    title: "Epirubicin (Lyophilized)",
+    slug: "epirubicin-lyophilized",
+    category: "oncology-injections",
+    description: "10mg, 50mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "284",
+    title: "Etoposide",
+    slug: "etoposide",
+    category: "oncology-injections",
+    description: "100mg/5ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "285",
+    title: "Fludarabine",
+    slug: "fludarabine",
+    category: "oncology-injections",
+    description: "50mg/2ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "286",
+    title: "5-Fluorouracil",
+    slug: "5-fluorouracil",
+    category: "oncology-injections",
+    description: "250mg/5ml, 500/10ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "287",
+    title: "Gemcitabine (Lyophilized)",
+    slug: "gemcitabine-lyophilized",
+    category: "oncology-injections",
+    description: "200mg, 1gm, 1.4gm",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "288",
+    title: "Ifosfamide",
+    slug: "ifosfamide",
+    category: "oncology-injections",
+    description: "1gm, 2gm",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "289",
+    title: "Irinotecan",
+    slug: "irinotecan",
+    category: "oncology-injections",
+    description: "40mg/2ml, 100mg/5ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "290",
+    title: "L-Asparaginase (Lyophilized)",
+    slug: "l-asparaginase-lyophilized",
+    category: "oncology-injections",
+    description: "5000 IU, 10000 IU",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "291",
+    title: "Leuprolide Acetate",
+    slug: "leuprolide-acetate",
+    category: "oncology-injections",
+    description: "3.75mg, 7.5mg, 11.25mg, 22.5mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "292",
+    title: "Mesna",
+    slug: "mesna",
+    category: "oncology-injections",
+    description: "200mg/2ml, 400mg/4ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "293",
+    title: "Methotrexate",
+    slug: "methotrexate",
+    category: "oncology-injections",
+    description: "15mg/3ml, 50mg/2ml, 100mg/4ml, 250mg/10ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "294",
+    title: "Methylene Blue",
+    slug: "methylene-blue",
+    category: "oncology-injections",
+    description: "10mg/ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "295",
+    title: "Mitomycin-C",
+    slug: "mitomycin-c",
+    category: "oncology-injections",
+    description: "2mg, 5mg, 10mg, 20mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "296",
+    title: "Oxaliplatin (Liquid)",
+    slug: "oxaliplatin-liquid",
+    category: "oncology-injections",
+    description: "50mg/25ml, 100mg/50ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "297",
+    title: "Oxaliplatin (Lyophilized)",
+    slug: "oxaliplatin-lyophilized",
+    category: "oncology-injections",
+    description: "50mg, 100mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "298",
+    title: "Pamidronate Disodium (Lyophilized)",
+    slug: "pamidronate-disodium-lyophilized",
+    category: "oncology-injections",
+    description: "30mg, 60mg, 90mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "299",
+    title: "Paclitaxel",
+    slug: "paclitaxel",
+    category: "oncology-injections",
+    description: "30mg/5ml, 100mg/16.7ml, 260mg/43.4ml, 300mg/50ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "300",
+    title: "Pemetrexed (Lyophilized)",
+    slug: "pemetrexed-lyophilized",
+    category: "oncology-injections",
+    description: "100mg, 500mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "301",
+    title: "Topotecan",
+    slug: "topotecan",
+    category: "oncology-injections",
+    description: "2.5mg/2.5ml, 4mg/4ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "302",
+    title: "Temoporfin",
+    slug: "temoporfin",
+    category: "oncology-injections",
+    description: "1mg/ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "303",
+    title: "Vinblastine",
+    slug: "vinblastine",
+    category: "oncology-injections",
+    description: "10mg/10ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "304",
+    title: "Vincristine",
+    slug: "vincristine",
+    category: "oncology-injections",
+    description: "1mg/ml, 2mg/2ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "305",
+    title: "Vinorelbine",
+    slug: "vinorelbine",
+    category: "oncology-injections",
+    description: "10mg/ml, 20mg/2ml, 50mg/5ml",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "306",
+    title: "Voriconazole (Lyophilized)",
+    slug: "voriconazole-lyophilized",
+    category: "oncology-injections",
+    description: "200mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "307",
+    title: "Zoledronic Acid (Lyophilized)",
+    slug: "zoledronic-acid-lyophilized",
+    category: "oncology-injections",
+    description: "4mg",
+    ingredient: "",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  //----------------------------------------------------- VET BOLUS ----------------------------------------------//
+
+  {
+    id: "308",
+    title: "Ofloxacin & Ornidazole Bolus (Veterinary)",
+    slug: "ofloxacin-ornidazole-bolus",
+    category: "veterinary-bolus",
+    description: "Ofloxacin 1200 mg + Ornidazole 2700 mg",
+    ingredient:
+      "Each uncoated bolus contains Ofloxacin (I.P.) 1200mg, Ornidazole (I.P.) 2700mg, Excipients q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "309",
+    title: "Ivermectin Bolus (Vet.)",
+    slug: "ivermectin-bolus-vet",
+    category: "veterinary-bolus",
+    description: "Ivermectin 110 mg",
+    ingredient:
+      "Each uncoated bolus contains Ivermectin (I.P. Vet.) 110mg, Excipients q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "310",
+    title: "Cefixime, Ofloxacin & Lactic Acid Bacillus Bolus",
+    slug: "cefixime-ofloxacin-lactic-acid-bacillus-bolus",
+    category: "veterinary-bolus",
+    description:
+      "Cefixime 1000 mg + Ofloxacin 100 mg + Lactic Acid Bacillus 600 million spores",
+    ingredient:
+      "Cefixime Trihydrate (I.P.) 1000mg, Ofloxacin (I.P.) 100mg, Lactic Acid Bacillus 600 million spores, Excipients q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "311",
+    title: "Albendazole and Ivermectin Bolus",
+    slug: "albendazole-ivermectin-bolus",
+    category: "veterinary-bolus",
+    description: "Albendazole 3000 mg + Ivermectin 100 mg",
+    ingredient:
+      "Albendazole (I.P.) 3000mg, Ivermectin (I.P. Vet.) 100mg, Excipients q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "312",
+    title: "Aceclofenac, Paracetamol & Serratiopeptidase Bolus",
+    slug: "aceclofenac-paracetamol-serratiopeptidase-bolus",
+    category: "veterinary-bolus",
+    description:
+      "Aceclofenac 400 mg + Paracetamol 2000 mg + Serratiopeptidase 62.5 mg",
+    ingredient:
+      "Aceclofenac (I.P.) 400mg, Paracetamol (I.P.) 2000mg, Serratiopeptidase 62.5mg (12,500 IU activity), Excipients q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "313",
+    title: "Meloxicam & Paracetamol Bolus",
+    slug: "meloxicam-paracetamol-bolus",
+    category: "veterinary-bolus",
+    description: "Meloxicam 600 mg + Paracetamol 1500 mg",
+    ingredient:
+      "Meloxicam (B.P.) 600mg, Paracetamol (I.P.) 1500mg, Excipients q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "314",
+    title: "Ciprofloxacin Hydrochloride & Tinidazole Bolus",
+    slug: "ciprofloxacin-tinidazole-bolus",
+    category: "veterinary-bolus",
+    description: "Ciprofloxacin 1500 mg + Tinidazole 1800 mg",
+    ingredient:
+      "Ciprofloxacin Hydrochloride (I.P.) equivalent to Ciprofloxacin 1500mg, Tinidazole (I.P.) 1800mg, Excipients q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "315",
+    title: "Norfloxacin and Tinidazole Bolus",
+    slug: "norfloxacin-tinidazole-bolus",
+    category: "veterinary-bolus",
+    description: "Norfloxacin 1200 mg + Tinidazole 1800 mg",
+    ingredient:
+      "Norfloxacin (I.P.) 1200mg, Tinidazole (I.P.) 1800mg, Excipients q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "316",
+    title: "Paracetamol and Chlorzoxazone Bolus",
+    slug: "paracetamol-chlorzoxazone-bolus",
+    category: "veterinary-bolus",
+    description: "Paracetamol 2000 mg + Chlorzoxazone 1000 mg",
+    ingredient:
+      "Paracetamol (I.P.) 2000mg, Chlorzoxazone (I.P.) 1000mg, Excipients q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "317",
+    title: "Meloxicam and Drotaverine Hydrochloride Bolus",
+    slug: "meloxicam-drotaverine-bolus",
+    category: "veterinary-bolus",
+    description: "Meloxicam 1000 mg + Drotaverine Hydrochloride 100 mg",
+    ingredient:
+      "Meloxicam (I.P.) 1000mg, Drotaverine Hydrochloride (I.P.) 100mg, Excipients q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+
+  //-------------------------------------------------- Vetrinary Injection ----------------------------------------//
+  {
+    id: "318",
+    title: "Vitamin AD3E & B12 Injection",
+    slug: "vitamin-ad3e-b12-injection",
+    category: "veterinary-injection",
+    description: "Vitamin A, D3, E, B12 Injection",
+    ingredient:
+      "Vitamin A 500000 IU, Vitamin D3 75000 IU, Vitamin E Acetate 50 mg, Vitamin B12 500 mcg, Benzyl Alcohol I.P. 2.0% v/v",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "319",
+    title: "Methylcobalamin Injection 1500mcg",
+    slug: "methylcobalamin-injection-1500mcg",
+    category: "veterinary-injection",
+    description: "Methylcobalamin 1500 mcg",
+    ingredient:
+      "Each ml contains: Methylcobalamin 1500 mcg, Water for injection q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "320",
+    title: "Calcium Supplement Injection",
+    slug: "calcium-supplement-injection",
+    category: "veterinary-injection",
+    description: "Calcium Gluconate, Magnesium, D3 Injection",
+    ingredient:
+      "Calcium Gluconate 4g, Calcium Lactate 3g, Magnesium Hypophosphite 1g, Vitamin D3 40000 IU, Water for injection q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "321",
+    title: "Methylcobalamin, Thiamine Injection",
+    slug: "methylcobalamin-thiamine-injection",
+    category: "veterinary-injection",
+    description: "Methylcobalamin + Thiamine Injection",
+    ingredient:
+      "Methylcobalamin 1500 mcg, Thiamine 100 mg, Water for injection q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "322",
+    title: "Ceftriaxone and Tazobactam Injection (Vet.)",
+    slug: "ceftriaxone-tazobactam-vet",
+    category: "veterinary-injection",
+    description: "Ceftriaxone 4500 mg + Tazobactam 562.5 mg",
+    ingredient:
+      "Ceftriaxone Sodium I.P. 4500mg, Tazobactam Sodium 562.5mg, Excipients q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "323",
+    title: "Iron Dextran Injection",
+    slug: "iron-dextran-injection",
+    category: "veterinary-injection",
+    description: "Iron Dextran Injection",
+    ingredient: "Iron Dextran 100 mg, Water for injection q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "324",
+    title: "Ceftriaxone Injection",
+    slug: "ceftriaxone-injection",
+    category: "veterinary-injection",
+    description: "Ceftriaxone 3000 mg",
+    ingredient: "Ceftriaxone Sodium I.P. equivalent to Ceftriaxone 3000mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "325",
+    title: "Ceftriaxone and Tazobactam Injection",
+    slug: "ceftriaxone-tazobactam-injection",
+    category: "veterinary-injection",
+    description: "Ceftriaxone 1125 mg",
+    ingredient:
+      "Ceftriaxone Sodium I.P. + Tazobactam Sodium equivalent to 1125mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "326",
+    title: "Oxytetracycline Injection",
+    slug: "oxytetracycline-injection",
+    category: "veterinary-injection",
+    description: "Oxytetracycline 100 mg/ml",
+    ingredient:
+      "Oxytetracycline Hydrochloride I.P. equivalent to 100 mg Oxytetracycline",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "327",
+    title: "Enrofloxacin Injection",
+    slug: "enrofloxacin-injection",
+    category: "veterinary-injection",
+    description: "Enrofloxacin 100 mg",
+    ingredient: "Enrofloxacin I.P. 100mg, Water for injection q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "328",
+    title: "Prednisolone Injection",
+    slug: "prednisolone-injection",
+    category: "veterinary-injection",
+    description: "Prednisolone 25 mg",
+    ingredient: "Prednisolone Sodium Phosphate 25mg",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "329",
+    title: "Meloxicam Injection",
+    slug: "meloxicam-injection",
+    category: "veterinary-injection",
+    description: "Meloxicam 5 mg",
+    ingredient: "Meloxicam 5mg, Water for injection q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "330",
+    title: "Ascorbic Acid Injection",
+    slug: "ascorbic-acid-injection",
+    category: "veterinary-injection",
+    description: "Ascorbic Acid 500 mg",
+    ingredient: "Ascorbic Acid I.P. 500mg, Water for injection q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "331",
+    title: "Atropine Sulphate Injection",
+    slug: "atropine-sulphate-injection",
+    category: "veterinary-injection",
+    description: "Atropine Sulphate 0.6 mg",
+    ingredient: "Atropine Sulphate I.P. 0.6mg, Water for injection q.s.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+
+  //---------------------------------------------------- Veterinary Liquid ----------------------------------------//
+
+  {
+    id: "332",
+    title: "Albendazole and Ivermectin Suspension",
+    slug: "albendazole-ivermectin-suspension",
+    category: "veterinary-liquid",
+    description: "Each 5 ml Contains: Albendazole 200mg, Ivermectin 2mg",
+    ingredient:
+      "Albendazole 200mg, Ivermectin 2mg. Dosage: As directed by the Veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "333",
+    title: "Ofloxacin, Ornidazole, Povidone Iodine and Urea Solution",
+    slug: "ofloxacin-ornidazole-povidone-iodine-urea-solution",
+    category: "veterinary-liquid",
+    description:
+      "Each 5 ml Contains: Ofloxacin 50mg, Ornidazole 125mg, Povidone Iodine 50mg, Urea 500mg",
+    ingredient:
+      "Ofloxacin 50mg, Ornidazole 125mg, Povidone Iodine 50mg, Urea 500mg. Dosage: As directed by the Veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "334",
+    title:
+      "Oxyclozanide, Levamisole HCl, Selenium & Cobalt Chloride Suspension",
+    slug: "oxyclozanide-levamisole-selenium-cobalt-suspension",
+    category: "veterinary-liquid",
+    description:
+      "Oxyclozanide 6% w/v, Levamisole HCl 3% w/v, Selenium 0.10% w/v, Cobalt Chloride 0.10% w/v",
+    ingredient:
+      "Oxyclozanide 6%, Levamisole HCl 3%, Selenium 0.10%, Cobalt Chloride 0.10%. Dosage: As directed by the Veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "335",
+    title: "Albendazole and Ivermectin Suspension",
+    slug: "albendazole-ivermectin-suspension-125-5",
+    category: "veterinary-liquid",
+    description: "Each 5 ml Contains: Albendazole 125mg, Ivermectin 5mg",
+    ingredient:
+      "Albendazole 125mg, Ivermectin 5mg. Dosage: As directed by the Veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "336",
+    title: "Simethicone Suspension",
+    slug: "simethicone-suspension",
+    category: "veterinary-liquid",
+    description: "Simethicone Emulsion equivalent to Simethicone - 1.00% w/v",
+    ingredient:
+      "Simethicone Emulsion equivalent to Simethicone (1.00% w/v). Dosage: As directed by the Veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "337",
+    title:
+      "Moxifloxacin, Ornidazole, Urea With Vitamin E & Citrus Bioflavonoids Solution",
+    slug: "moxifloxacin-ornidazole-urea-vitamin-e-citrus-bioflavonoids",
+    category: "veterinary-liquid",
+    description:
+      "Each 10 ml Contains: Moxifloxacin 50mg, Ornidazole 250mg, Urea 1600mg, Vitamin E 10mg, Citrus Bioflavonoids 100mg",
+    ingredient:
+      "Moxifloxacin 50mg, Ornidazole 250mg, Urea 1600mg, Vitamin E 10mg, Citrus Bioflavonoids 100mg. Dosage: As directed by the Veterinarian. (For Veterinary Use Only)",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+
+  //--------------------------------------- Veterinary powder --------------------------------------------//
+
+  {
+    id: "338",
+    title: "Monopersulphate Compound Powder",
+    slug: "monopersulphate-compound-powder",
+    category: "veterinary-powder",
+    description:
+      "Pentapotassium bis (Peroxymono Sulphate) 49.8%, Bis (Sulphate) 1.5%, Sodium Chloride, Excipients q.s.",
+    ingredient:
+      "Pentapotassium bis (Peroxymono Sulphate) 49.8%, Bis (Sulphate) 1.5%, Sodium Chloride, Excipients q.s. Dosage: As directed by the veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "339",
+    title: "Cephalexin Oral Powder",
+    slug: "cephalexin-oral-powder",
+    category: "veterinary-powder",
+    description:
+      "Each gm contains Cephalexin I.P. eq. to Anhydrous Cephalexin 75gm",
+    ingredient:
+      "Cephalexin I.P. eq. to Anhydrous Cephalexin 75gm. Dosage: As directed by the veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "340",
+    title: "Oxfendazole and Ivermectin Powder",
+    slug: "oxfendazole-ivermectin-powder",
+    category: "veterinary-powder",
+    description: "Each 5 gm contains Oxfendazole 1.5gm, Ivermectin 50mg",
+    ingredient:
+      "Oxfendazole 1.5gm, Ivermectin 50mg. Dosage: As directed by the veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "341",
+    title: "Colistin Veterinary Water Soluble Powder",
+    slug: "colistin-water-soluble-powder",
+    category: "veterinary-powder",
+    description: "Each gram contains Colistin Sulphate 100mg",
+    ingredient:
+      "Colistin Sulphate 100mg. Dosage: As directed by the veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "342",
+    title: "Levofloxacin Water Soluble Powder",
+    slug: "levofloxacin-water-soluble-powder",
+    category: "veterinary-powder",
+    description:
+      "Each gm contains Levofloxacin Hemihydrate eq. to Levofloxacin 100mg",
+    ingredient:
+      "Levofloxacin Hemihydrate eq. to Levofloxacin 100mg. Dosage: As directed by the veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "343",
+    title: "Amoxycillin Trihydrate and Colistin Sulphate Powder",
+    slug: "amoxycillin-colistin-powder",
+    category: "veterinary-powder",
+    description:
+      "Each gm contains Amoxycillin Trihydrate 10% w/w, Amoxycillin Anhydrous eq. to Trihydrate, Colistin Sulphate eq. to Colistin 5% w/w",
+    ingredient:
+      "Amoxycillin Trihydrate 10% w/w, Amoxycillin Anhydrous eq. to Trihydrate, Colistin Sulphate eq. to Colistin 5% w/w. Dosage: As directed by the veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "344",
+    title: "Triclabenazole & Ivermectin Powder",
+    slug: "triclabenazole-ivermectin-powder",
+    category: "veterinary-powder",
+    description:
+      "Each 5 gm contains Triclabenazole 2gm, Ivermectin 2.95mg, Lactose Powder q.s.",
+    ingredient:
+      "Triclabenazole 2gm, Ivermectin 2.95mg, Lactose Powder q.s. Dosage: As directed by the veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+
+//------------------------------------------------- Vetainary Tablet -----------------------------------------//
+
+{
+    id: "345",
+    title: "Kit of Clomiphene Citrate & Copper Sulphate Tablets",
+    slug: "clomiphene-copper-sulphate-tablets",
+    category: "veterinary-tablet",
+    description:
+      "One Clomiphene Citrate tablet contains Clomiphene Citrate I.P. 500mg, Excipients q.s. Two Copper Sulphate tablets contain Copper Sulphate (anhydrous) I.P. 750mg, Excipients q.s.",
+    ingredient:
+      "Clomiphene Citrate I.P. 500mg, Copper Sulphate (anhydrous) I.P. 750mg, Excipients q.s. Dosage: As directed by the Veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "346",
+    title: "Oxfendazole with Levamisole Tablets",
+    slug: "oxfendazole-levamisole-tablets",
+    category: "veterinary-tablet",
+    description:
+      "Each uncoated tablet contains Oxfendazole I.P.(Vet.) 200mg, Levamisole I.P.(Vet.) 100mg, Excipients q.s.",
+    ingredient:
+      "Oxfendazole I.P.(Vet.) 200mg, Levamisole I.P.(Vet.) 100mg, Excipients q.s. Dosage: As directed by the Veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "347",
+    title: "Ivermectin Tablet",
+    slug: "ivermectin-tablet",
+    category: "veterinary-tablet",
+    description: "Each uncoated tablet contains Ivermectin I.P.Vet 100mg",
+    ingredient:
+      "Ivermectin I.P.Vet 100mg. Dosage: As directed by the Veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "348",
+    title: "Oxyclozanide and Levamisole HCl Tablets",
+    slug: "oxyclozanide-levamisole-hcl-tablets",
+    category: "veterinary-tablet",
+    description:
+      "Each uncoated tablet contains Oxyclozanide I.P. 150mg, Levamisole Hydrochloride I.P.Vet 75mg",
+    ingredient:
+      "Oxyclozanide I.P. 150mg, Levamisole Hydrochloride I.P.Vet 75mg. Dosage: As directed by the Veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "349",
+    title: "Albendazole and Ivermectin Tablet",
+    slug: "albendazole-ivermectin-tablet",
+    category: "veterinary-tablet",
+    description:
+      "Each uncoated tablet contains Albendazole I.P. 750mg, Ivermectin I.P.Vet 25mg",
+    ingredient:
+      "Albendazole I.P. 750mg, Ivermectin I.P.Vet 25mg. Dosage: As directed by the Veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  },
+  {
+    id: "350",
+    title: "Oxfendazole Tablets",
+    slug: "oxfendazole-tablets",
+    category: "veterinary-tablet",
+    description: "Each uncoated tablet contains Oxfendazole I.P. 150mg",
+    ingredient:
+      "Oxfendazole I.P. 150mg, Excipients q.s. Dosage: As directed by the Veterinarian.",
+    images: ["/Assets/no-img.jpg"],
+    price: 0,
+  }
+
 ];

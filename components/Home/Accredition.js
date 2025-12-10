@@ -17,7 +17,7 @@ export default function Accredition() {
       style={{ backgroundImage: "url('/Assets/logos/elixir-logo-main.png')" }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#EDF4FA]/90"></div>
+      <div className="absolute inset-0 bg-white/90"></div>
 
       {/* Content */}
       <div className="relative z-10">
