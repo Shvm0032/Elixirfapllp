@@ -20,15 +20,17 @@ export default function FormSection() {
 
             <div className="flex items-center space-x-4">
               <Mail size={24} className="text-[#009136]" />
-              <p className="text-gray-700 text-lg">info@elixirfarllp.com</p>
+              <p className="text-gray-700 text-lg">elixirfar24@gmail.com</p>
             </div>
 
             <div className="flex items-start space-x-4">
               <MapPin size={24} className="text-[#009136] mt-1" />
               <p className="text-gray-700 text-lg">
-                123 Medical Street, Suite 200,
+                C-109, First Floor, Block-C,
                 <br />
-                New Delhi, India
+                Parsevnath Eleganza Mall,
+                <br />
+                Rajpur Road Dehradun-248001(Uttarakhand)
               </p>
             </div>
           </div>

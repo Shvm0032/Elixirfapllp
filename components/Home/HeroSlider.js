@@ -4,33 +4,61 @@ import Link from "next/link";
 
 export default function FeatureSection() {
   const cards = [
+    // {
+    //   title: "Ayurvedic & Herbal Products",
+    //   button: "View >",
+    //   bg: "bg-[#0AA0DD]",
+    //   buttonBg: "bg-[#009136]",
+    //   link: "/products?category=ayurvedic",
+    // },
+    // {
+    //   title: "Medical Devices & Other Product",
+    //   button: "View >",
+    //   bg: "bg-[#009136]",
+    //   buttonBg: "bg-[#0AA0DD]",
+    //   link: "/products?category=medical-devices",
+    // },
+    // {
+    //   title: "Surgical Products",
+    //   button: "View >",
+    //   bg: "bg-[#B3CB02]",
+    //   buttonBg: "bg-[#009136]",
+    //   link: "/products?category=surgical",
+    // },
+    // {
+    //   title: "Test Cards & Test Strips",
+    //   button: "View >",
+    //   bg: "bg-[#B3CB02]",
+    //   buttonBg: "bg-[#009136]",
+    //   link: "/products?category=test-card",
+    // },
     {
-      title: "Ayurvedic & Herbal Products",
+      title: "Pharmaceutical Medicines",
+      button: "View >",
+      bg: "bg-[#B3CB02]",
+      buttonBg: "bg-[#0AA0DD]",
+      link: "#",
+    },
+    {
+      title: "Nutraceuticals Medicines",
       button: "View >",
       bg: "bg-[#0AA0DD]",
       buttonBg: "bg-[#009136]",
-      link: "/products?category=ayurvedic",
+      link: "#",
     },
     {
-      title: "Medical Devices & Other Product",
+      title: "Oncology Capsules & injections",
       button: "View >",
       bg: "bg-[#009136]",
       buttonBg: "bg-[#0AA0DD]",
-      link: "/products?category=medical-devices",
+      link: "/oncology-products",
     },
     {
-      title: "Surgical Products",
+      title: "Veterinary",
       button: "View >",
       bg: "bg-[#B3CB02]",
       buttonBg: "bg-[#009136]",
-      link: "/products?category=surgical",
-    },
-    {
-      title: "Test Cards & Test Strips",
-      button: "View >",
-      bg: "bg-[#009136]",
-      buttonBg: "bg-[#0AA0DD]",
-      link: "/products?category=test-card",
+      link: "/veterinary-products",
     },
   ];
 
@@ -72,7 +100,7 @@ export default function FeatureSection() {
               key={index}
               className={`flex flex-col justify-between items-center p-6 sm:p-5 md:p-6 rounded-lg text-center ${card.bg} hover:shadow-xl transition-all duration-300`}
             >
-              <h4 className="text-lg sm:text-xl md:text-2xl text-white font-semibold mb-4">
+              <h4 className="text-lg sm:text-xl md:text-xl text-white font-semibold mb-4">
                 {card.title}
               </h4>
 

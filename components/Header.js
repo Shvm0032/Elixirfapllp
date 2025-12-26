@@ -47,7 +47,7 @@ export default function Header() {
 
   const navigation = [
     // { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
+    // { name: "About", href: "/about" },
     // { name: "Products", href: "/products" },
     {
       name: "Ayurvedic & Herbal Products",
@@ -75,7 +75,7 @@ export default function Header() {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail size={16} />
-                <span className="text-sm">info@elixirfarllp.com</span>
+                <span className="text-sm">elixirfar24@gmail.com</span>
               </div>
             </div>
             <div className="flex items-center space-x-4">

@@ -18,7 +18,8 @@ export default function Footer() {
   const usefulLinks = [
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
-    { name: "Product Category", href: "#" },
+    { name: "Terms & Conditions", href: "#" },
+    { name: "Privacy Policy", href: "#" },
   ];
 
   const categories = [
@@ -134,14 +135,14 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={18} className="text-[#009136]" />
-                <span className="text-gray-700">info@elixirllp.com</span>
+                <span className="text-gray-700">elixirfar24@gmail.com</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin size={18} className="text-[#009136] mt-1" />
                 <span className="text-gray-700">
-                  Address
-                  <br />
-                  123 Business Avenue, Mumbai, India
+                  C-109, First Floor, Block-C,<br/>
+                   Parsevnath Eleganza Mall,<br/>
+                  Rajpur Road Dehradun-248001(Uttarakhand)
                 </span>
               </div>
             </div>
